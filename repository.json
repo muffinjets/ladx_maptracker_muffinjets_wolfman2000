@@ -7,7 +7,13 @@
             "author": "MuffinJets",
             "version": "1.0.4",
             "uid": "ladx_maptracker_muffinjets",
-            "link": "https://github.com/muffinjets/LADXMapTracker/raw/master/ladx_maptracker_muffinjets.zip"
+            "link": "https://github.com/muffinjets/LADXMapTracker/raw/master/ladx_maptracker_muffinjets.zip",
+            "flags": 
+            [
+                "map",
+                "pins",
+                "chathud"
+            ]
         }
     ]
 }
