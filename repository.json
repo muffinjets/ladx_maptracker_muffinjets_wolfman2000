@@ -2,7 +2,7 @@
     "name": "MuffinJets' Link's Awakening Randomizer Package",
     "packages": [
         {
-            "name": "Link's Awakening Randomizer",
+            "name": "LADX Randomizer - Map Tracker",
             "game_name": "Link's Awakening Randomizer",
             "author": "MuffinJets",
             "version": "1.0",
