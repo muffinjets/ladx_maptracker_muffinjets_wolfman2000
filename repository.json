@@ -5,15 +5,27 @@
             "name": "LADX Randomizer - Map Tracker",
             "game_name": "Link's Awakening Randomizer",
             "author": "MuffinJets",
-            "version": "1.0.4",
+            "version": "1.1.0",
             "uid": "ladx_maptracker_muffinjets",
             "link": "https://github.com/muffinjets/LADXMapTracker/raw/master/ladx_maptracker_muffinjets.zip",
-            "flags": 
-            [
-                "map",
-                "pins",
-                "chathud"
-            ]
-        }
-    ]
+            "variants":[
+            {
+                "name": "Map Tracker",
+                "flags":[
+                    "map",
+                    "pins",
+                    "chathud"
+                    ]
+            },
+            {
+                "name": "Map Tracker - Advanced Dungeon Tracking",
+                "flags": [
+                    "map",
+                    "pins",
+                    "chathud"
+                    ]
+            }
+        ]
+    }
+]
 }
