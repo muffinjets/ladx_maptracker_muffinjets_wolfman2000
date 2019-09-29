@@ -25,13 +25,21 @@
                     "chathud"
                     ]
             },
-                {
+            {
+                "name": "Map Tracker - Cave Shuffle",
+                "flags": [
+                    "map",
+                    "pins",
+                    "chathud"
+                    ]
+            },
+            {
                 "name": "Items Only",
                 "flags": [
                     "chathud"
                     ]
             },
-                {
+            {
                 "name": "Items and Keys Only",
                 "flags": [
                     "chathud"
