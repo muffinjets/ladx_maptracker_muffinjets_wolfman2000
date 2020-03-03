@@ -64,13 +64,8 @@
             "game_name": "Gato Roboto",
             "author": "MuffinJets",
             "version": "1.0",
-            "uid": "gato-roboto_tracker_muffinjets",
-            "link": "https://github.com/muffinjets/LADXMapTracker/raw/master/gato-roboto_tracker_muffinjets.zip",
-            "flags": [
-                "map",
-                "pins",
-                "chathud"
-            ]
+            "uid": "gato_roboto_tracker_muffinjets",
+            "link": "https://github.com/muffinjets/LADXMapTracker/raw/master/gato_roboto_tracker_muffinjets.zip"
         }
     ]
 }
