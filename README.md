@@ -2,7 +2,7 @@
 MuffinJets' Map Trackers
 
 ## First things first
-Hi!  You're probably here because you accidentally pressed F1.  If that's the case, then I'm sorry!  If you don't like it, then I recommend speaking with the [EmoTracker Discord Server] (https://emotracker.net/community) about it.
+Hi!  You're probably here because you accidentally pressed F1.  If that's the case, then I'm sorry!  If you don't like it, then I recommend speaking with the [EmoTracker Discord Server](https://emotracker.net/community) about it.
 If you're not here because of that frankly bad design decision, then welcome!
 
 Because I'm a bit of an idiot, and named this repository after a single package that I've made, when in reality I've made 3 as of the writing of this README, you could be here for any number of randomizers.  If you're here for Metroid: Zero Mission or Gato Roboto, then I recommend that you keep scrolling down.  This first part is universal for all of the randomizers I cover, so just sit tight.
