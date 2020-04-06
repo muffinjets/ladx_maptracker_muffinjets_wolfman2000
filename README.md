@@ -62,7 +62,7 @@ Tell 'em scotty sent ya.
 
 - ![Ice Beam Not Required](mzm_maptracker_muffinjets/images/settings/IBNR.png) This setting makes it so that you don't have to pick up the Ice Beam in order to finish your seed.
 
-- ![Plasma Beam Not Required(mzm_maptracker_muffinjets/images/settings/PBNR.png) This setting makes it so that you don't have to collect the Plasma Beam in order to finish your seed.
+- ![Plasma Beam Not Required](mzm_maptracker_muffinjets/images/settings/PBNR.png) This setting makes it so that you don't have to collect the Plasma Beam in order to finish your seed.
 
 - ![Obtain Unknown Items](mzm_maptracker_muffinjets/images/settings/ObtainUnknonItems.png) This setting makes it so that the three "unknown items" that you pick up throughout your seed will be immediately useable instead of having to fight Charlie before activating them.
 
