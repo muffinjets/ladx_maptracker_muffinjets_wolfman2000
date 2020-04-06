@@ -8,6 +8,7 @@
             "version": "1.5.1",
             "uid": "ladx_maptracker_muffinjets",
             "link": "https://github.com/muffinjets/LADXMapTracker/raw/master/ladx_maptracker_muffinjets.zip",
+            "documentation_url": "https://github.com/muffinjets/LADXMapTracker/blob/master/README.md",
             "variants": [
                 {
                     "name": "Map Tracker",
@@ -40,6 +41,7 @@
             "version": "1.0",
             "uid": "mzm_maptracker_muffinjets",
             "link": "https://github.com/muffinjets/LADXMapTracker/raw/master/mzm_maptracker_muffinjets.zip",
+            "documentation_url": "https://github.com/muffinjets/LADXMapTracker/blob/master/README.md",
             "variants":[
                 {
                     "name": "Normal Difficulty",
@@ -66,6 +68,7 @@
             "version": "1.0",
             "uid": "gato_roboto_tracker_muffinjets",
             "link": "https://github.com/muffinjets/LADXMapTracker/raw/master/gato_roboto_tracker_muffinjets.zip",
+            "documentation_url": "https://github.com/muffinjets/LADXMapTracker/blob/master/README.md",
             "flags": [
                 "map",
                 "pins",
