@@ -11,7 +11,7 @@
             "documentation_url": "https://github.com/muffinjets/LADXMapTracker/blob/master/README.md",
             "variants": [
                 {
-                    "name": "Z4Randomizer v0.50+ Map Tracker",
+                    "name": "Z4Randomizer Map Tracker",
                     "flags": [
                         "map",
                         "pins",
@@ -19,7 +19,7 @@
                     ]
                 },
                 {
-                    "name": "Z4Randomizer v0.36 Cave Shuffle Tracker",
+                    "name": "Z4Randomizer Cave Shuffle Tracker",
                     "flags": [
                         "map",
                         "pins",
