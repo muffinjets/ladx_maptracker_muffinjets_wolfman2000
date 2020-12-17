@@ -6,7 +6,9 @@ If you're not here because of that frankly bad design decision, then welcome!
 
 Questions?
 [Link's Awakening Randomizer Discord server](https://discord.gg/2vmyjPh)
+
 [Gato Roboto Randomizer Discord Server](https://discord.me/gatorando)
+
 [My server! (It's not much lol)](discord.gg/r4zf2RM)
 
 
