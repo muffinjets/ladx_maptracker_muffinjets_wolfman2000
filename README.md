@@ -5,6 +5,7 @@ Hi!  You're probably here because you accidentally pressed F1.  If that's the ca
 If you're not here because of that frankly bad design decision, then welcome!
 
 Questions?
+
 [Link's Awakening Randomizer Discord server](https://discord.gg/2vmyjPh)
 
 [Gato Roboto Randomizer Discord Server](https://discord.me/gatorando)
