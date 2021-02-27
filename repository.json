@@ -15,7 +15,8 @@
                     "flags": [
                         "map",
                         "pins",
-                        "chathud"
+                        "chathud",
+                        "autotracking"
                     ]
                 },
                 {
@@ -23,7 +24,8 @@
                     "flags": [
                         "map",
                         "pins",
-                        "chathud"
+                        "chathud",
+                        "autotracking"
                     ]
                 },
                 {
@@ -31,19 +33,22 @@
                     "flags": [
                         "map",
                         "pins",
-                        "chathud"
+                        "chathud",
+                        "autotracking"
                     ]
                 },
                 {
                     "name": "Items Only",
                     "flags": [
-                        "chathud"
+                        "chathud",
+                        "autotracking"
                     ]
                 },
                 {
                     "name": "Items Only - Keysanity Chest Counts",
                     "flags": [
-                        "chathud"
+                        "chathud",
+                        "autotracking"
                     ]
                 }
             ]
