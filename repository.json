@@ -11,30 +11,20 @@
             "documentation_url": "https://github.com/muffinjets/LADXMapTracker/blob/master/README.md",
             "variants": [
                 {
-                    "name": "Z4R Map Tracker",
-                    "flags": [
-                        "map",
-                        "pins",
-                        "chathud",
-                        "autotracker"
-                    ]
-                },
-                {
-                    "name": "Z4R Cave Shuffle Tracker",
-                    "flags": [
-                        "map",
-                        "pins",
-                        "chathud",
-                        "autotracker"
-                    ]
-                },
-                {
                     "name": "LADXR Tracker",
                     "flags": [
                         "map",
                         "pins",
                         "chathud",
                         "autotracker"
+                    ]
+                },
+                {
+                    "name": "Entrance Randomizer Tracker",
+                    "flags": [
+                        "map",
+                        "pins",
+                        "chathud"
                     ]
                 },
                 {
@@ -47,6 +37,15 @@
                 {
                     "name": "Items Only - Keysanity Chest Counts",
                     "flags": [
+                        "chathud",
+                        "autotracker"
+                    ]
+                },
+                {
+                    "name": "Z4R Map Tracker",
+                    "flags": [
+                        "map",
+                        "pins",
                         "chathud",
                         "autotracker"
                     ]
