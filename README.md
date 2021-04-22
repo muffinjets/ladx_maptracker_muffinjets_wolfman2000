@@ -8,6 +8,4 @@ Questions?
 
 [Link's Awakening Randomizers Discord server](https://discord.gg/2vmyjPh)
 
-[Gato Roboto Randomizer Discord server](https://discord.me/gatorando)
-
 [My server!)](discord.gg/r4zf2RM)
