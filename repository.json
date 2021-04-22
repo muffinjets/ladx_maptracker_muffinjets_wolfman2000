@@ -52,40 +52,13 @@
                 }
             ]
         },
-        // {
-        //     "name": "MZMR Map Tracker for EmoTracker",
-        //     "game_name": "Metroid: Zero Mission",
-        //     "author": "MuffinJets",
-        //     "version": "1.0",
-        //     "uid": "mzm_maptracker_muffinjets",
-        //     "link": "https://github.com/muffinjets/LADXMapTracker/raw/master/mzm_maptracker_muffinjets.zip",
-        //     "documentation_url": "https://github.com/muffinjets/LADXMapTracker/blob/master/README.md",
-        //     "variants":[
-        //         {
-        //             "name": "Normal Difficulty",
-        //             "flags": [
-        //                 "map",
-        //                 "pins",
-        //                 "chathud"
-        //             ]
-        //         },
-        //         {
-        //             "name": "Hard Difficulty",
-        //             "flags": [
-        //                 "map",
-        //                 "pins",
-        //                 "chathud"
-        //             ]
-        //         }
-        //     ]
-        // },
         {
             "name": "Gato Roboto Randomizer Tracker",
             "game_name": "Gato Roboto",
             "author": "MuffinJets",
             "version": "1.3.3",
             "uid": "gato_roboto_tracker_muffinjets",
-            "link": "https://github.com/muffinjets/LADXMapTracker/raw/master/gato_roboto_tracker_muffinjets.zip",
+            "link": "https://github.com/muffinjets/GatoRobotoMapTracker/releases/download/1.3.3/gato_roboto_tracker_muffinjets.zip",
             "documentation_url": "https://github.com/muffinjets/LADXMapTracker/blob/master/README.md",
             "flags": [
                 "map",
