@@ -8,4 +8,4 @@ Questions?
 
 [Link's Awakening Randomizers Discord server](https://discord.gg/2vmyjPh)
 
-[My server!)](discord.gg/r4zf2RM)
+[My server!](discord.gg/r4zf2RM)
