@@ -1,0 +1,951 @@
+0.1
+----------------------------------------------------------------------------------------------------------------
+-Testing some shit out
+-Totally not stealing JRJathome's stylish item tracker for now
+-Seriously man I do plan on making it my own, I'm just learning off of your code.
+-Considering changing the Mushroom+Powder icon, considering you only have one or the other at any point
+-groups.json exists in jrjathome's tracker but is never used.  Changed it to represent dungeons, to see what happens
+-adjusted max seashells from 22 to 26 for completionist's sake
+-added picture tracking for all 2 of you that want to track that, though only 11 pictures can be taken due to Ghostie being removed altogether
+-unsure why chest-open.png was outside of the images folder
+-map tracking might have been an intention of jrjathome, as evidenced by the manifest.json and locations.json
+-yasnoozeyalose.jpg
+-removed Manbo on the tracker because it opens zero checks (kept it in the code, however, in case Saver adds other purposes for Manbo)
+-considering making the shovel progressive with boomerang, because what other item do you trade with lol
+-made Shovel, Feather, Boots, Hookshot, and Magic Rod "progressive", as you could theoretically trade those with boomerang
+-added sprites to account for that
+-Spoke with JRJathome himself on Discord, chill guy, 10/10
+-Added consumable Small Keys to the items.json, future-proofing for keysanity
+-Added Nightmare Keys to the items.json, future-proofing for keysanity
+-changed mushroom/powder composite toggle to progressive because you're never gonna have both at the same time
+-spoke with SporyTike, who said he'd been working on an LADX tracker before but had stopped due to time constraints on his end
+-he gave me his project files!  Awesome
+-but then he asked if we can work on the tracker together
+-politelydeclined.jpg
+-After a lot of work I finally have plotted points on the map!
+-In the future, definitely going to add more focus on the logic.lua, as right now it's useless
+-LADX is pretty simple so maybe I won't need it??
+-Shellsanity as a concept scares me
+-Adding settings like Hamsda's OoT tracker scares me but I know I can do it
+-lots of work to go
+-stole the has() function from Hamsda's logic.lua
+-Hamsda is a super nice guy, 10/10 would ask for help again
+-Typed this from my phone using TeamViewer, sending project files back and forth through Google Drive is no longer an option lol
+-Changed max amount of shells from 25 to 22, because JRJathome's reasoning is right, you're never gonna want to get more than 22
+
+
+0.9 (Pink Build)
+----------------------------------------------------------------------------------------------------------------
+-"Simple" Dungeon Tracking
+	Shows number of non-dungeon items (keys, compass, map, stone beak)
+-"Advanced" Dungeon Tracking
+	Shows each check's accessability and name, regardless of how many dungeon items there are
+
+-Considering adding maps for each dungeon
+-Considering adding an "items only" tracker, but JRJathome's is pretty nice as is
+-Definitely going to make new setting symbols at some point
+
+
+1.0
+----------------------------------------------------------------------------------------------------------------
+Removing the Advanced Dungeon Tracking so that this can be released in the first place, will add it back later
+Will definitely add an Items Only Tracker
+Added progressive bombs, arrows, powder capacities
+
+
+1.0.1
+----------------------------------------------------------------------------------------------------------------
+Adjusted logic:
+	Bombs can be used to access Well HP
+	Heart Piece of shame can be collected/grappled to with the hookshot
+
+Added locations:
+	The hibiscus trade just didn't exist prior lol
+
+Added settings:
+	Added Beta Cave and Start Chest settings.  These only reveal one check each, but they weren't hard to implement (and it's not like Sword Shuffle reveals more than one check anyway).
+
+
+1.0.2
+----------------------------------------------------------------------------------------------------------------
+Adjusted Logic:
+	Adjusted Paphl and the Path to Paphl to be accessable with hookshot, feather, and flippers with overworld mods on.
+	Adjusted Richard's Villa cave chest to be accessable with hookshot
+	Adjusted D5 to only be full-clearable with the feather (small key near Round 4)
+
+Added locations:
+	Heart Piece in cave after Lanmola - corrupted before, didn't show, fixed
+
+
+1.0.4
+----------------------------------------------------------------------------------------------------------------
+Adjusted logic:
+	Fixed the forest tunnel first chest, now it requires the sword to break the crystals
+	Adjusted nearly every dungeon to have the proper number of checks
+
+Adjusted locations:
+	Boomerang Moblin now only has one chest.  I know what I want to do with him, but I'm gonna have to figure out how to implement it.  Having 5 hosted items isn't gonna be what's gonna work.
+
+
+1.1.0
+----------------------------------------------------------------------------------------------------------------
+Adjusted Locations:  Bumped the location of the western mountain summit, Kanalet's moat, and Marin at Mabe to make them easier to click on their own.
+		Fixed the spelling of "Have 20 Shels"
+
+Adjusted logic: Entering D2 access rules had a typo for lift1, was formerly "lidt1"
+
+Added Advanced Dungeon Tracking:
+	Use the alternate tabs to see the other dungeons and track the locations of checks in the dungeon!
+
+Adjusted visuals:  Added more detail to the Overworld/Cave Connector modfication settings.  Hopefully they're more clear now.  I can't really think of any good ways to symbolize these changes, so if you have ideas, please let me know, I can be found at MuffinJets#7751 on Discord.
+
+
+1.1.1
+-------------------------------------------------------------------------
+Adjusted Logic: 
+	Advanced D8's entrance logic was fixed.  Previously, the entrance access rules were written as comments so that I could test them.  If there's one thing I've learned about working with VS Code, it's that Comments Aren't Permitted in JSON.
+
+
+1.1.2
+-------------------------------------------------------------------------
+Adjusted Logic:
+	Kanalet Castle - adjusted to need feather with overworld mods off
+	Fixed D2 in advanced tracking - Boss' access rules now work properly
+	The "Remote Cave" south of D8's entrance can now be accessed without feather if you have access to West Tal Tal.
+	Fixed West Horseheads and Raft Minigame check to now need L-2 Bracelets
+
+
+1.1.3
+---------------------------------------------------------------------------------
+Added locations: 
+	Added the chest near Round 3 of the Stalfos fight in D5
+
+
+1.1.4
+---------------------------------------------------------------------------------
+-Removed nuance in the changelog, not that it was there in the first place
+-Added one more key to D2's small keys
+-Added D2's entrance chest
+-Added "can break grass" to the Yoshi Doll check
+-Fixed all the stuff that was wrong with D4
+
+
+1.2.0
+---------------------------------------------------------------------------------
+-Added Items Only and Items with Keys Variants
+
+-Made the symbols for beta cave and start chest uniform, the "no" symbol more thicc
+-Reworked the walrus symbol to look better
+-Adjusted Chest near Keese in the Mysterious Woods tunnel, now needs sword to access
+-Fixed the trigger for Marin at the Beach, now only needs pineapple and shield to access
+-Fixed the Kanalet Castle checks to no longer be broken after you have later than the stick in the trading sequence
+-Reworked Heart Piece Shuffle setting to look better, the small text really didn't fit well
+-Reworked Shellsanity setting to look better, the text didn't look good in comparison
+-Reworked Overworld/Cave Connector Mods setting symbols, again.  Hopefully these are clear enough.
+-Yesterday, I learned that bomb triggering the egg only is beneficial if you don't have the ocarina, so I fixed the logic there, and made the endgame only one check
+
+
+1.2.0.0.0.0.0.0.1
+--------------------------------------------------------------------------------
+-Adjusted the number of small keys D7 had
+
+
+1.2.0.0.0.0.0.0.2
+--------------------------------------------------------------------------------
+-Adjusted version number to signify just how small these past two updates have been
+-Adjusted access rules for the town tool shop to require the ability to break grass to grind rupees
+
+
+1.2.5
+--------------------------------------------------------------------------------
+-begrugingly changed the version numbers back to the original scheme because having that many decimals broke github lol
+
+1.2.6
+-------------------------------------------------------------------------------
+-Adjusted "Chest Near Keese" again
+	Now, the chest requires sword1 and the ability to break grass seperately
+
+1.2.7
+-------------------------------------------------------------------------------
+-Fixed the fix to the fix to the fix to Kanalet Castle
+
+
+1.2.8
+-------------------------------------------------------------------------------
+-Fixed the above fix
+
+
+1.2.9
+-------------------------------------------------------------------------------
+-Fixed the Bay Capacity Upgrade to now ask the player for flippers (but not required, to allow Jesus Jumping over there too)
+-D8's Ceiling Keys now have the correct image for when they're collected
+
+1.2.10
+-------------------------------------------------------------------------------
+-Color Dungeon now requires at least the L-1 Bracelet to enter
+-Gold Leaf checks will now disappear when you have the slime key
+-Fixed a bunch of small grammar errors and Unneccessary Capitalization
+-Added an error message for people who get corrupted downloads
+-Added a secret feature that nobody will notice until I point it out.  If you're reading this, then I'll leave it to you to find out.
+
+1.3.0
+--------------------------------------------------------------------------------
+
+-Added Cave Shuffle, using ideas from windfish.io and Hamsda's Entrance Randomizer variants
+
+-The mushroom/powder showed up twice on the capture layout for some reason.  Replaced one with the ocarina, and rearranged it a little bit to make up for that.
+
+
+1.4.0
+--------------------------------------------------------------------------------
+
+-Fixed Rooster Key Cave's access rules, as well as added ERS as an out-of-logic option
+
+-Adjusted fishing hole to require the ability to kill enemies, to get rupees
+
+-Changed the capacity upgrades to have the Mad Batter image, removed their capturable trait
+
+-Turned Tarin's Gift into a hosted shield, to remove redundancy
+
+-Removed Watery Cave's captureablility, to redunce redundancy
+
+-Removed Manbo's capturability
+
+-Removed Beta Cave's capturability
+
+-Added capturabilty to the Swamp overworld chest
+
+-Added capturability to Remote Cave right chest
+
+-Added capturability to Right of Entrance chest
+
+-Removed capturability to Western Well HP
+
+-Added captureability to Boots Chest in Boots 'n' Bomb cave
+
+-Added Dungeon Notifications on the Advanced Dungeon tracking due to popular request.
+	-In that process, adjusted logic for the front door access rules for the simple dungeon tracking.
+
+-Fixed Swamp Chest/D2 so that they can be obtained/entered with early fire rod or early hookshot.
+
+-Bombable alcove in Central Tal Tal fixed, so that it can be obtained with early fire rod/hookshot + bracelet
+
+-D0's armor check fixed
+
+-Shell Mansion now has the sword as a hosted item, and will show up as checkable as early as 11 shells
+
+-Getting the bra/necklace from bomb triggering the fisherman will no longer show up on the tracker.  Flavor text appropriately adjusted.
+
+-Lanmola's Key turned into a hosted item, will remove itself if player has already found Angler's Key
+
+-Removed capturablility from the "five holes, but sometimes three" check
+
+-Properly fixed the Rooster Key Cave fix fix
+
+-Old Lady Wahoo now requires BowWow to be rescued in order to trade with her.
+
+-Removed most redundant items in capture window for non-cave shuffle variants
+
+-Added many items in the capture window for cave shuffle variant, for pairity with windfish.io
+
+-Adjusted the image for the shovel-boomerang and adjusted the boomerang salesman to have it as a hosted item.
+
+-Prepped the manifest.json for autotracking.
+
+
+1.4.1
+--------------------------------------------------------------------------------
+-Stone Beak chest in D2 now can require the hookshot
+
+-Fixed issue where the color dungeon clear item wouldn't show up on the layout
+
+-Bombable check near Mountain Access now shows up properly
+
+-Fixed Slime Key's vanilla location to now require feather only when doing Villa Skip
+
+-D3 East of Entrance chest now requires boots
+
+-In D3, the East Ledge chest can now be obtained by super-jumping
+
+-D7 and the 5 Chest Game's access requirements have been completely redone
+
+-Rooster Key Cave fixed again, again
+
+
+1.4.3 - The Pre-Cosmetic Overhaul
+-------------------------------------------------------------------------------
+-Many of the pictures are less blurry because they have been manually upscaled.  Special thanks to JRJathome for giving me permission to use them
+
+-Items Only variant slightly reworked so that streamers can use it better.  Will do the same to the broadcast layout of the simple dungeon tracking soon.
+
+-Prepared files for a larger update later on that will implement the settings-popup and possibly the capture-item popup like in the Z1 tracker.
+
+-As if on cue, I had to fix the Rooster Key Cave again.  ffs
+
+
+
+1.4.8 - The Cosmetic Overhaul
+-------------------------------------------------------------------------------
+
+-Merged the "simple" and "advanced" dungeon tracking together, after realiizng that you could use both or them individually with no issue.
+
+-Part of previous change, adjusted how dungeon chests show up in the location dropdown and on the item tracking.
+
+-Rearranged a few of the items on the item grid to remove the redundancy of tracking the Evil Orb and the red/blue mail.  Replaced the spot with Piece of Heart tracking.
+
+-Removed the "Items with Keys" variant because it wasn't used and the item/key grid got reworked anyway.  Keysanity will most likely never come to LADXR, but if it ever does, I will re-implement upon request.
+
+-With the help of Dudude Dude on Discord, I added the ability to add badges to captureable checks.  While somewhat useful in the Standard variant, this will be a godsend for Cave Shuffle, and puts it on-par with windfish.io imho.
+
+-Adjusted the name of many of the Cave Shuffle checks to align with the aforementioned capture badges, but also notably the Mysterious Woods Eastern Cave, as it was actually the Western Cave the entire time.  I'm an Eagle Scout, I should know this shit lol
+
+-I can't set the Pin Locations on Item Capture to disabled by default, go let EmoSaru know if that's a feature that you want.  Tell her specifically that you want pack creators to be able to change that setting, because we currently can't.
+
+-As per previous change, added the "Cool Thx" item as it's shown in the Cave Shuffle variant on bootup.
+
+-Completely reworked the Settings menu.  Gone are the days of not knowing what each setting does.
+
+-Removed Wall-rus check when restructuring settings
+
+-Added the logical requirements of Wall-rus to the Desert checks, they are bound to break, I'm sure
+
+-Removed Sword Shuffle setting, edited the Sword on the Beach check to match this
+
+-Added a gray sprite for the Mad Batter capacity upgrades
+
+-Cleaned up the file names for future reference
+
+-THE NEXT UPDATE WILL BE THE AUTOTRACKING ONE. AUTOTRACKING IS DIFFICULT TO IMPLEMENT FOR THIS GAME BUT IT WILL HAPPEN EVENTUALLY
+
+
+1.4.10 Cosmetic Overhaul Hotfix
+--------------------------------------
+-Adjusted Items Only variant to mirror Broadcast View
+
+1.5.0 The Not AutoTracking update
+---------------------------------------
+-EmoTracker apparently doesn't like it when you have a number as big as 1.4.10, so we're going to 1.5 already.  
+
+1.5.1 Still not the Autotracking Update
+----------------------------------------
+-Adjusted vertical Cave Shuffle Variant to have the correct D7 instrument
+
+1.5.2 The Cosmetic Update where Autotracking Should Be
+----------------------------------------
+-Added optional Key Logic tracking, because having to click on every key is tedious, but possibly required for less familiar players
+
+-Removed the "simple" dungeon tracking from the non cave shuffle variant as it was redundant to click back and forth
+
+-Completely redrawn the settings images to make them look better
+
+-Changed the tracker layout because it was really ugly before
+
+-Changed the broadcast layout to match the changes made to the item grid
+
+-Since you get the shield so early, I made it impossible to disable the shield on the tracker
+
+-Adjusted checks in late D4 so that key logic works correctly
+
+-Adjusted D5 boss to require boss key
+
+-Fixed D8's Blaino to require a method of attacking him.  It was in the code, but it had a typo.
+
+-Fixed Ballad check to require the Sword when not expecting the Walrus
+
+-Fixed D4's Lonely Chests, now requires feather and two keys to access, with optional flippers (for Jesus Jumping)
+
+-Golden Leaves/Slime Key is now a single progressive item slot, to match up how it happens in game
+
+-Filled the empty slot with the tunic color
+
+-Adjusted D3's simple tracking to now require the feather in order to full-clear
+
+-Adjusted the location of the Ledge Chest's entrance in D4 to its proper location
+
+-Adjusted D5's logic to no longer require the first small key, since the locked door isn't there in the randomizer
+
+-In D6, adjusted the Blade Trap Ledge and East Horseheads to now require feather.  The latter required feather before, but didn't due to a typo.
+
+-After long last, I finally added that one chest in D2 that I kept forgetting!  \o/
+
+-Reorganized some of the image files for better organization
+
+-Pushed the Rapids 1 check to the right a little bit so it actually looked like it was on the island
+
+1.5.3  The Fabled Hotfix
+---------------------------------------------
+-Removed vertical layout because it was stupid to set up
+
+-Learning Ballad should now require owning at least one instrument.  That isn't the requirement, but Marin is finnicky and this is the best way of tracking it.
+
+-Made sure that the Graveyard Connector Cave requires hookshot.  Made it out of logic if you have only feather.
+
+1.5.4  Like, really close, I swear
+--------------------------------------------
+
+-Added "Number of Instruments" setting
+
+-Adjusted the location of some checks to look better
+
+-Adjusted Richard's Villa to not need boots
+
+-Adjusted Seashell Mansion to not need boots
+
+-Fixed Slime Key requirements with the different item codes for the gold leaves
+
+-Adjusted D3's Simple Tracking to not require flippers inheriently
+
+-Removed feather from Evil Eagle's requirements because it's not technically required
+
+-Fixed D2 to allow for BowWow as a valid method of entry
+
+
+1.5.5  Today I learned about Shellsanity
+---------------------------------------------
+-Fixed "$kill_wiz" typo in D6's East Horseheads
+
+-Adjusted shell requirements for upcoming Shellsanity setting in 0.50
+
+-Added fire rod to Evil Orb's death requirements
+
+-Adjusted position of various check locations
+
+-Removed redunancy in "Cross-Shape North of Key Cavern" check and "East of Seashell Mansion" check
+
+-Renamed Cave Shuffle Variant
+
+-Cave Shuffle variant's item grid was literally 10 pixels seperated from the side of the screen. Literally unuseable until this update.
+
+-Cave Shuffle variant layout - centered Key row since I moved the tunic further down
+
+-Added a setting to the Cave Shuffle variant to show or hide redunant caves
+
+
+1.5.6  I'm gonna have to stop naming these updates
+-----------------------------------
+-Reduced the Town Tool Shop down to it's first item, as that is what will be randomized and bombs can be found later on.
+
+
+1.5.7
+-----------------------------------
+-Added Ocarina as a requirement to Frog's Song check
+
+-Fixed Remote Cave to align with new West Tal logic function
+
+-Fixed D4's entrance requirement to no longer require Flippers
+
+-Added a few out-of-logic checks:
+
+	-Entering D7 without rooster key with bomb triggers
+	-Magnifying Lens without Hookshot via Zora Bump
+	-Swamp Chest without the ability to break swamp flowers via Flock Clipping
+	-Entering D2 without the ability to break swamp flowers with wall clipping
+	-Chest on the Shore, if it's a heart piece
+	-D6 Lift the Elephant, if the prior chest is a Heart Piece
+	-Fishing Minigame pre-sword, if the start chest is rupees
+	-Town Tool Shop, if the start chest is 200 rupees
+	-Underneath Richard's Villa via Villa Skip
+
+1.5.8
+-----------------------------------------------
+-Gave the powder, bombs, and bow the ability to be right-clicked to individually show Mad Batter upgrades, since they can be obtained without the base item
+
+-Gave the Feather, Boots, Shovel, Hookshot, and Rod boomerang icons, similiar to the Mad Batter icons above.
+
+-Adjusted many cave shuffle images, made the letters a higher resolution and added a color to the dungeons to make them stand out more
+
+-Added new cave shuffle capture images for more specific circumstances.
+
+-Added pictures of the bosses to the instruments in item grids for all layouts.  No logic, yet.
+
+-Added the "Number of Instruments" setting to the Cave Shuffle variant
+
+-Added a hosted powder to D0, as it's a logical source of powder
+
+-Added hosted bombs to Kanalet Castle and split the two interior areas to better suit this change
+
+-Added hosted bombs to D7, left of the entrance
+
+-Added the Staircase out of D4 to the list of redundant caves
+
+1.5.9
+-------------------------
+-*cough*
+
+1.5.10
+-------------------------
+-Fixed D4 Eastern Lonely Chest to require boots and feather without key logic
+
+-Fixed D5 Boss to require feather to access
+
+-Adjusted username in the error console
+
+1.6.0
+-------------------------
+-Added support for Daid's LADXR generator in the form of a variant, renamed other variants respectively.
+
+-Added optimistic skeptiscism for the future of randomized carpet whale shenanigans
+
+
+-Adjusted out-of-logic requirements for Dream Shrine to now allow naked superjumps
+
+-Adjusted Sword on the Beach in both Z4R and LADXR
+
+-Addded "Add Overworld Key Chests" to Z4R
+
+-Adjusted Z4R's fishing minigame to account for all methods of grinding for rupees
+
+-Adjusted Z4R's Town Tool Shop to match new shopsanity setting
+
+-Fixed Conch's Boss Shuffle, now being able to show Angler Fish
+
+
+1.6.1
+----------------------------
+LADXR Changes:
+-Adjusted Boomerang Salesman to be available with only bombs and a method of getting there
+
+-Adjusted the LADXR checks imported from Z4R that relied on Z4R's settings
+
+-Reworked how settings are accessed and saved in the core so that different settings can be used for each variant
+
+-Removed Beta Cave
+
+-Adjusted layout of items to account for D0 key tracking, as well as for the differences in Slime Key/Gold Leaves
+
+-Reworked D5 to account for the key door and Master Stalfos that was reimplimented
+
+Z4R Changes:
+-Renamed variants to account for the version parity with different settings
+
+-Cleaned up heart pieces to account for heart pieces in chests
+
+Changes made to both variants:
+-Adjusted D6's L-2 Bracelet spot to have an out-of-logic requirement without feather
+
+Core Changes:
+Reworked how files are loaded and renamed many files to match this
+
+-Divided broadcast views to account for differences in trackers
+
+
+1.6.3
+------------------------------
+-Fixed D4 to require shield for the checks past the front door
+
+-Fixed overworld dungeon notifications in LADXR, they now ACTUALLY respect key logic
+
+-Made boomerang salesman overlay bigger and more noticable
+
+-Added a ninth small key to D3 in LADXR
+
+-In LADXR, re-added the static mushroom spot
+
+-Adjusted sword on the beach chest to be obtainable with powder in LADXR
+
+-Added BowWow to item grid and adjusted Moblin Cave to account for this in LADXR
+
+-Re-adjusted swamp to account for BowWow
+
+-In D3, made the map chest accessible (out of logic) without keys but with feather
+
+-Changed how settings looked because they were fucking ugly
+
+-Added Swordless mode to Z4R
+
+-Sword on the Beach check now possible with the ability to break grass
+
+-Fixed LADXR D5, again
+
+
+1.6.4
+-----------------------------
+
+-Mountain Access now requires Sword in both Z4R and LADXR
+
+
+1.6.5
+-----------------------------
+-Fixed Armos Knight in LADXR, had a typo that meant that there was no attack requirement
+
+-Fixed Mini-Moldorm ceiling key in D1 so that it can be obtained with hookshot
+
+-Fixed instances of Shy Guys in D2 to not inheriently require the sword
+
+-Fixed a typo, "Surounded by Blocks" in D2 turned to "Surrounded by Blocks"
+
+-Swordless Z4R in D5 had a major typo, fixed
+
+-Swordless typo extended to entrance to D8, fixed
+
+
+1.6.6
+-----------------------------
+
+-Re-added Mad Batter to LADXR
+
+-Added Owl Statue setting to LADXR
+	-Overworld
+	-Dungeons
+	-Both
+	-Neither
+
+-Readjusted certain color dungeon checks to be able to be done without sword
+
+-D3's overworld notification now requires feather or flippers
+
+-D4's overworld notification now can require sword
+
+
+1.6.7
+---------------------
+Items Only Layout:
+	-Fixed.  Good thing nobody uses it, or else it would have been (more) embarrassing
+
+Z4R: 
+	-Cave Shuffle Broadcast View fixed.  See above.
+	-First Orb Enemy Chest in D0 can now be done with bombs
+
+LADXR:
+	-Tunic in the item grid in the broadcast view, previously didn't due to a typo
+	-Remote Cave access rules now account for out-of-logic access with hookshot or boots
+
+Both Logic sets:
+	-Updated Dream Shrine to fit with actual logic
+	-Fixed Color Dungeon checks showing up too early, previously didn't hard-require power bracelet due to a typo
+	-Color puzzles in Color Dungeon now can require shield to bump
+	-Remote Cave access rules now account for out-of-logic access with hookshot or boots
+	-Updated Rooster Key Cave.  Kill me. 
+
+
+1.6.8
+--------------------------
+
+-Added the mirrored overworld setting from Z4R
+
+
+1.6.9
+---------------------------
+Both variants:
+	-Fixed bomberman check in Kanalet castle to show up correctly with the right attack requirements
+	
+	-Fixed D2's key logic to require all 5 small keys to logically get to the boss
+
+
+Z4R:
+	-Fixed numerous checks that didn't show up on the mirrored overworld map
+
+	-Fixed D0's color puzzles to work with the shield
+
+	-Fixed D0's Giant Zol fight to not inheriently require the sword
+
+	-Fixed D3's northern-most rooms to not inherently require the sword
+
+
+1.6.10
+---------------------------
+LADXR:
+	-Adjusted mushroom and powder to align with how they are now decoupled.  Left-click to toggle the mushroom, right-click to toggle the powder.  Logic is in place for both, but yellow checks with the mushroom have not been looked into yet.
+
+
+1.6.11
+---------------------------
+Both Logic sets - 
+
+	-Fixed D2's Surrounded By Blocks check to now be accessible with rod
+
+	-Armos Knight no longer requires shield
+
+	-Fixed Graveyard Connector Cave to require bombs, hookshot, and feather to collect in-logic 
+	
+	-Fixed Remote Cave Left Chest to not require boots illogically, you can't boots-jump to that chest
+	
+	-Completely re-wrote D4's logic from the ground up because it was shit
+	
+	-Rapids Ride is now accessible with only power bracelet + flippers via the route near the shrines
+	
+	-Added Manbo to the item grids to make way for the song randomization
+
+
+LADXR -
+
+	-Simplified Dungeon Owl Statues
+	
+	-Added Good Boy mode to LADXR
+
+
+Z4R Cave Shuffle - 
+
+	-Added Mirrored Overworld
+
+	-Moved Mamu's Cave to it's proper location
+
+
+Items Only Variant - 
+	-Fixed display of the powder
+
+
+1.6.12
+----------------------
+
+-By request, added even more to the Egg requirements to LADXR
+
+1.7.0
+----------------------
+-Added Shells back to LADXR because of 20-shell reward being randomized
+
+-Added BowWow to the function $can_attack when Good Boy mode is on
+
+-Fixed Z4R's dungeon notifications Swordless setting check
+
+-Removed the function "$can_leave_mabe".  I used it as a skeleton key for a lot of things that didn't need it, and it caused a lot of problems that I didn't expect.
+
+-Swamp Chest logic fixed
+
+-Graveyard Connector Cave logic fixed
+
+-Fixed D2 Nightmare key chest, three times
+
+-Fixed D0 First Color Puzzle in LADXR
+
+-Under the Rock in Z4R CS Mirror location fixed
+
+-Remote Cave Right Side Z4R CS Mirror location fixed
+
+-Color Dungeon Z4R CS Mirror location fixed
+
+-Adjusted Dungeon notifications to align with the instrument at the end only instead of the complex requirements they had
+
+-Added little images next to some of the setting images because they're cute
+
+-Replaced color dungeon finish icon with a great fairy, now correctly clears on overworld when finished
+
+-Created color assist version, release pending
+
+-Autotracking coming SoonTM
+
+
+
+1.7.3
+-------------------------------
+
+LADXR: 
+	- Fixed mountain range now not inheriently requiring boots in Glitched Logic
+	- Fixed D2 hard-requiring feather for it's checks when you have bracelet and/or hookshot
+	- D2's Owl Statues didn't have key logic for some reason, now they do
+	- Cleaned up D6 and D8 Owl Statue requirements, they were repetitive, redundant and messy
+	- Introduced optional alternately colored maps
+	- Dungeon Shuffle:
+		When enabled, the overworld representations of the dungeons will dissappear. The logic for each dungeon 
+		in their respective map tabs will ignore the front door's logic.
+Z4R:
+	-Added Dungeon Shuffle, see above
+
+Z4R Caves:
+	- EmoTracker's core standardized image sizes for capture badges, cleaned up a few images to match this
+
+
+1.7.4
+------------------------------
+ - Removed the Pico map, as I actually had forgotten to ask the artist their permission to use it
+
+
+1.7.5
+------------------------------
+ - Re-added the Pico map
+ - Blaino now requires hookshot logically
+
+1.7.6
+------------------------------
+LADXR:
+ - D7 Conveyor Horseheads and Evil Eagle requires only 1 small key logically
+ - D6 Pot Chest requires 3 small keys logically
+
+
+1.7.7
+------------------------------
+LADXR: 
+ - D4 Boss Key typo fixed
+ - Removed Yoshi Doll and Trendy Game since trade boomerang is never in logic
+ - Removed Lens requirement on Boomerang Salesman because of that
+
+1.7.8
+-------------------------------
+LADXR:
+ - D2 entrance adjusted to allow for early powder + hookshot
+ - Cross-shape shell above D3 fixed to now require shovel+lift1+(feather|flippers) to access
+ - Slime Eel adjusted to now require sword (thanks to Rogue of Heart#0968 from the Oracles server)
+
+1.7.9
+--------------------------------
+LADXR:
+ - Re-added the fishing minigame
+
+1.7.10
+--------------------------------
+LADXR: 
+ - Renamed D1 ceiling key next to the front door
+ - D4 overworld icon now expects feather to full-clear
+
+1.7.11
+--------------------------------
+ - Removed lift1 requirements from Graveyard Connector Cave
+ - Added lift1 requirements to Evil Eagle in D7
+
+
+1.7.12
+--------------------------------
+ - Added boomerang requirements to swamp chest and heart piece of shame
+
+
+1.7.13
+--------------------------------
+ - Stealthily added chest variants for GDQ Race, will most likely remove the feature when the race passes
+ - Fixed Map Chest in D5 to no longer require hookshot
+
+1.7.14
+--------------------------------
+ Z4R:
+ - Adjusted Mr. Write's house to only show as accessible with feather or out of logic with hookshot or boots.
+
+ LADXR:
+ - Fixed super minor graphical error in relation to the upcoming Hotfix race, thanks astro
+
+1.8.0
+-------------------------------
+ LADXR:
+ - Condensed "Number of Instruments Required" setting into "Egg Goal"
+ - Added 20 Shells as an alternate Egg Goal
+ - Decoupled instruments from their vanilla locations
+ - Removed overworld dungeon notifications because I hated them in the first place and only originally added them out of obligation.  If you don't know where the dungeons are, play vanilla
+
+1.8.1
+-------------------------------
+ LADXR:
+ - Adjusted Boo Buddies room in D2 to logically require 5 small keys but be accessible with 2
+ - Added Open Egg Goal, had forgotten to add it before
+ - Seashell Mansion item now appears in Seashell Hunt mode, requires zero shells to access
+ - I didn't remove the overworld notification from D0 before by mistake, now removed
+
+1.8.2
+-------------------------------
+ LADXR:
+ - Added bracelet route to Tail Key chest
+ - D2 Stalfos Ceiling Key adjusted to no longer expect fire rod as a valid attack
+
+1.8.3
+-------------------------------
+ LADXR:
+ - Adjusted D4's front door to now consider flipper route
+ - Three-of-a-Kind chests in D7 now can expect weapons other than sword
+ - Reworked dungeon key item grid, should now be easier to edit from now on
+
+ Z4R:
+ - Because Z4R doesn't shuffle small keys, and dungeon room shuffle changes that on a fundamental level anyway, removed small/boss key from Z4R's item grid
+ - Shortnened variant name to be more in line with LADXR's name
+
+ Z4R Cave Shuffle:
+ - Adjusted chest counts to be accurate to Z4R specifically instead of being too general
+ - Shortnened variant name to be more in line with LADXR's name
+
+ Items Only:
+ - Adjusted chest counts to be accurate to non-keysanity
+
+Created "Items Only - Keysanity Chest Counts" variant
+
+
+1.8.4
+-----------------------------
+ LADXR:
+- Changed default settings loadout to typical race settings. Forgot to do this in the previous update
+
+1.8.5
+----------------------------
+ LADXR:
+ - Made dungeon Owl Statue checks actually check to make sure you have their respective stone beaks, I had forgotten to do that too lol
+
+1.8.6
+----------------------------
+ LADXR:
+- West Tal Tal checks now require sword inherently, this was a carry-over from Z4R
+- Kanalet Castle Bird check now can be accessed with powder to break the bush
+- Added powder as a valid attack method
+- Added settings for the mushroom/witch item and boomerang cave
+   - These settings are somewhat redundant but are required for autotracking to work due to the expanded inventory patch
+ Z4R:
+- Removed overworld dungeon notifications from non-cave shuffle variants for better parity with LADXR
+
+1.8.7
+----------------------------
+ LADXR:
+- D2 Shy Guy Ceiling Key no longer logically requires feather
+- Top-right chest in D6 now hard-requires 2 small keys at minimum
+- Fixed typo in West Tal Tal's previous fix, now actually requires sword
+  - By extension, fixed the "top" route for the Remote Cave
+- Blaino now requires sword to beat
+- Fixed typo in the D4 Flippers chest, the route that you can take when you have flippers now only logically requires 3 small keys instead of 4, which would have been what you needed for the path through the Cue Ball.
+- Added Casual Logic
+
+1.9.0
+---------------------------
+ADDED AUTOTRACKING
+Let's fuckin goooooooooo
+If there are any issues, message wolfman2000, they're the bomb
+
+1.9.1
+---------------------------
+ LADXR:
+- Fixed Egg to now not require Ballad or Ocarina in a seashell hunt seed.
+- D8 Guarded by Sparks chest now can require hookshot instead of feather. Only really useful in Dungeon Shuffle.
+- Fixed the Cue Ball miniboss in D8 to now require sword as their only means of attack.
+- D4 East of Entrance Chest now doesn't require a sword inheriently
+
+
+1.9.2
+---------------------------
+ LADXR:
+- Removed static bombs and powder drops from tracker, the bombs aren't there anymore and the powder wasn't worth fixing right now
+- Adjusted Zora's Flippers check in D4 to not require boots in hard logic
+- Zol Chest in D3 doesn't require an attack item now
+- North of Entrance in D3 does require an attack item
+
+1.9.3
+---------------------------
+LADXR: 
+- Temporarily detached autotracking for certain checks until they can be looked at more closely
+	- Boomerang Salesman
+    - After Round 1 (D5)
+    - Shell in tree east of town
+    - Boots 'n' Bomb Cave Heart Piece
+    - Grim Creeper (D7)
+- Fixed all autotracking images to be more clear as to when they're enabled or disabled
+- Fixed D8's left side checks, the hinox expected powder for some godforsaken reason
+- Reworked Kanalet Castle checks, cleaned redundancies
+- Changed the color of the checks for dungeons, to mix things up a little.  Purely a cosmetic change
+
+
+1.9.5
+--------------------------
+LADXR:
+- Fixed Kanalet Castle again
+- D8 East of Pot Room can be done with feather or lift1, individually
+
+1.9.6
+-------------------------
+LADXR:
+- Fixed "Five Holes, but sometimes three." check
+
+1.9.7
+--------------------------
+lol
+
+1.9.8
+--------------------------
+LADXR:
+- Tarin Powder route + Fire Rod wasn't considered for Swamp Chest
+
+2.0.0
+--------------------------
+Rewrote LADXR logic based on source code
+Revamped Entrance Randomizer variant
+Moved changelog to github page
