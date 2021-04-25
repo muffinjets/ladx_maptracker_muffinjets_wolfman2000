@@ -5,9 +5,9 @@
             "name": "LADX Randomizer - Map and Item Tracker",
             "game_name": "Link's Awakening Randomizer",
             "author": "MuffinJets, wolfman2000",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "uid": "ladx_maptracker_muffinjets_wolfman2000",
-            "link": "https://github.com/muffinjets/LADXMapTracker/releases/download/2.0.2/ladx_maptracker_muffinjets_wolfman2000.zip",
+            "link": "https://github.com/muffinjets/LADXMapTracker/releases/download/2.0.3/ladx_maptracker_muffinjets_wolfman2000.zip",
             "documentation_url": "https://github.com/muffinjets/LADXMapTracker/blob/master/README.md",
             "variants": [
                 {
