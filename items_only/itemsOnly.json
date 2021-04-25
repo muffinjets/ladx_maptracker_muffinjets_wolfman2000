@@ -1,0 +1,42 @@
+{
+    "item_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "5,8",
+        "item_size": 45,
+        "rows": [
+          ["shield", "sword", "mushroom", "powdercapacity", "shovelsalesman", "bombscapacity", "bowcapacity"],
+          ["feathersalesman", "bracelet", "bootssalesman", "flippers", "hookshotsalesman", "rodsalesman", "bothclothes"],
+          ["ocarina", "marincheck", "manbocheck", "frogcheck", "chomp", "boomerangsalesman", "shells"],
+          ["tailkey", "anglerkey", "facekey", "eaglekey", "slime", "oneleaf"],
+
+          ["cello", "D1chests", "conch", "D2chests", "bell", "D3chests"],
+          ["harp", "D4chests", "marimba", "D5chests", "triangle", "D6chests"],
+          ["organ", "D7chests", "drum", "D8chests", "colorfinish", "D0chests"]
+
+
+          // ["shield", "sword", "mushroompowder", "shovel"],
+          // ["bombs", "bow", "feather", "lift1"],
+          // ["boots", "flippers", "hookshot", "rod"],
+          // ["ocarina", "ballad", "manbo", "soul"],
+          // ["yoshi","armor", "oneleaf", "slime"],
+          // ["tail","angler","face","eagle"],
+          // ["cello","D1chests","conch","D2chests"],
+          // ["bell","D3chests","harp","D4chests"],
+          // ["marimba","D5chests","triangle","D6chests"],
+          // ["organ","D7chests","drum","D8chests"]
+        ]
+    },
+    "tracker_default": {
+        "type": "array",
+        "width": 400,
+        "margin": "1,1,1,1",
+        "background": "#212121",
+        "content": [
+          {
+            "type": "layout",
+            "key": "item_grid"
+          }
+        ]
+      }
+}

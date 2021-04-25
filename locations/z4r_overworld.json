@@ -1,0 +1,2685 @@
+﻿[
+    {
+        "name": "Koholint Island",
+        "chest_unopened_img": "images/chest.png",
+        "chest_opened_img": "images/chest-open.png",
+        "color": "#00CC00",
+        "children": [
+            {
+                "name": "Mabe Village",
+                "children": [
+                    {
+                        "name": "Town Tool Shop",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 558,
+                                "y": 1263
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2034,
+                                "y": 1263
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Buy/Steal Item from First Slot",
+                                "access_rules": [
+                                    "$can_break_grass",
+                                    "$can_attack"
+                                ],
+                                "item_count": 2,
+                                "capture_item": true,
+                                "clear_as_group": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tarin's House",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 405,
+                                "y": 1359
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2187,
+                                "y": 1359
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tarin's Gift",
+                                "capture_item": false,
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Old Lady Yahoo",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 280, 
+                                "y": 1495
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 2184,
+                                "y": 1623
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2312, 
+                                "y": 1495
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 408,
+                                "y": 1623
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "YAHOO!",
+                                "hosted_item": "hook",
+                                "access_rules": ["broom, bowwow"],
+                                "visibility_rules": ["broom"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fishing Minigame",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 267,
+                                "y": 1094
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2325,
+                                "y": 1094
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Alcove Directly Underneath Link",
+                                "chest_unopened_img": "images/heartPiece.png",
+                                "chest_opened_img": "images/heartPieceGrey.png",
+                                "capture_item": false,
+                                "item_count": 1,
+                                //"hosted_item": "poh",
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"],
+                                "access_rules": [
+                                    "$can_attack",
+                                    "$can_break_grass"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Western Well",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 84,
+                                "y": 1362
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2508,
+                                "y": 1362
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$can_break_grass",
+                                    "bombs"
+                                ],
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Trendy Game",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 568,
+                                "y": 1485
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2024,
+                                "y": 1485
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Center Item",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "sword1",
+                                    "rod",
+                                    "powder",
+                                    "lift1"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dream Shrine",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 520,
+                                "y": 1085
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2072,
+                                "y": 1085
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Left Chest",
+                                "capture_item": true,
+                                "item_count": 1,
+                                "access_rules": [
+                                    "lift1, sword1, boots",
+                                    "lift1, sword1, feather, [boots]",
+                                    "lift1, shield, feather, [boots]"
+                                ]
+                            },
+                            {
+                                "name": "Right Chest",
+                                "capture_item": true,
+                                "item_count": 1,
+                                "access_rules": [
+                                    "lift1, sword1",
+                                    "lift1, shield, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shell in Grass",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 568,
+                                "y": 1355
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2024,
+                                "y": 1355
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "access_rules": ["$can_break_grass"],
+                                "visibility_rules": ["setting_shellsanity_vanilla"]
+                            },
+                            {
+                                "item_count": 1,
+                                "access_rules": ["$can_break_grass"],
+                                "visibility_rules": ["setting_shellsanity_on"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quadruplet's House",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 440,
+                                "y": 1098
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2152,
+                                "y": 1098
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Give Yoshi Doll to Mother with Child",
+                                "access_rules": ["yoshi"],
+                                "hosted_item": "ribbon",
+                                "visibility_rules": ["yoshi"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Totally Normal and Stable Doghouse",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 258,
+                                "y": 1345
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2334,
+                                "y": 1345
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Give Ribbon to CiaoCiao",
+                                "access_rules": ["ribbon"],
+                                "hosted_item": "food",
+                                "visibility_rules": ["ribbon"]
+                            },
+                            {
+                                "name": "Dig Up Bottom-Right Corner for Shell",
+                                "access_rules": ["shovel"],
+                                "visibility_rules": ["setting_shellsanity_vanilla"],
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Shell in Bottom-Right Corner",
+                                "access_rules": [""],
+                                "visibility_rules": ["setting_shellsanity_on"],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Weathercock",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 412,
+                                "y": 1242
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2180,
+                                "y": 1242
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Awaken the Dead Rooster",
+                                "access_rules": [
+                                    "lift2, ocarina, soul"
+                                ],
+                                "hosted_item": "rooster"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Toronbo Shores",
+                "children": [
+                    {
+                        "name": "Sword on the Beach",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 407,
+                                "y": 2010
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2185,
+                                "y": 2010
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "shield",
+                                    "$can_attack",
+                                    "powder",
+                                    "$can_break_grass"
+                                ]
+
+                            }
+                        ]
+                    },
+                    {
+                        "name": "West of Ghost House",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 930, 
+                                "y": 1852
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1662, 
+                                "y": 1852
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Lift up the Rocks",
+                                "capture_item": false,
+                                "item_count": 1,
+                                "access_rules": [
+                                    "lift1"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Marin at the Beach",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 896,
+                                "y": 2022
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1696,
+                                "y": 2022
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "<3",
+                                "hosted_item": "marinfollow",
+                                "access_rules": ["pineapple, shield"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Boomerang Salesman",
+                        "access_rules": [
+                            "lens, bombs"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 664,
+                                "y": 1945
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 1928,
+                                "y": 1945
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Trade for Boomerang",
+                                "hosted_item": "boomerangShovel"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sale the Crocodile",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 551,
+                                "y": 1835
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2041,
+                                "y": 1835
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Give Sale the Dog Food",
+                                "hosted_item": "bananas",
+                                "access_rules": ["food"],
+                                "visibility_rules": ["food"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tree Near D1",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 383,
+                                "y": 1743
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2209,
+                                "y": 1743
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dash into the Tree for this Shell",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "access_rules": ["boots"],
+                                "visibility_rules": ["setting_shellsanity_vanilla"]
+                            },
+                            {
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": ["setting_shellsanity_on"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "House by the Bay",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1047,
+                                "y": 1978
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1545,
+                                "y": 1978
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bottom-Right Pot",
+                                "visibility_rules": ["setting_shellsanity_vanilla"],
+                                "access_rules": [
+                                    "$can_break_grass, lift1",
+                                    "shield, lift1"
+                                ],
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "item_count": 1
+                            },
+                            {
+                                "visibility_rules": ["setting_shellsanity_on"],
+                                "access_rules": [
+                                    "$can_break_grass, lift1",
+                                    "shield, lift1"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Mysterious Woods",
+                "children": [
+                    {
+                        "name": "Right of Entrance",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 231,
+                                "y": 986
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2361,
+                                "y": 986
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": ["bracelet"],
+                                "item_count": 1,
+                                "capture_item": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mysterious Woods Tunnel",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 439, 
+                                "y": 825
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 135,
+                                "y": 680
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2153, 
+                                "y": 825
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2457,
+                                "y": 680
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest Near Keese",
+                                "access_rules": [
+                                    "setting_Swordless_off, $can_break_grass, sword1",
+                                    "setting_Swordless, bombs"
+
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Lift the Skulls",
+                                "access_rules": [
+                                    "bracelet",
+                                    "[bracelet], $can_break_grass, feather",
+                                    "[bracelet], bombs"
+                                ],
+                                "item_count": 1,
+                                "capture_item": true,
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "North of Racoon",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 231, 
+                                "y": 570
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2361, 
+                                "y": 570
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$can_break_grass,[powder],bombs",
+                                    "$can_break_grass,[feather],bombs",
+                                    "$can_break_grass,powder",
+                                    "$can_break_grass,feather"
+                                ],
+                                "capture_item": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hookshot Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 375,
+                                "y": 565
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2217,
+                                "y": 565
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$can_break_grass,lift1,[hookshot],feather",
+                                    "$can_break_grass,lift1,hookshot"
+                                ],
+                                "capture_item": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Forest Capacity Upgrade",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 440,
+                                "y": 680
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2152,
+                                "y": 680
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Upgrade a Capacity",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$can_break_grass,lift1,powder"
+                                ],
+                                "chest_opened_img": "images/madbatterd.png",
+                                "chest_unopened_img": "images/madbatter.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Goponga Swamp",
+                "children": [
+                    {
+                        "name": "Mr. Write",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 118,
+                                "y": 426
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2474,
+                                "y": 426
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Give him the Totally Legitimate Letter",
+                                "hosted_item": "broom",
+                                "access_rules": [
+                                    "$can_break_grass, feather, letter",
+                                    "$can_break_grass, boots, [feather], letter",
+                                    "$can_break_grass, hookshot, [feather], letter"
+                                ],
+                                "visibility_rules": ["letter"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Remote Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 135,
+                                "y": 297
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2457,
+                                "y": 297
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Left Chest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$can_break_grass, feather",
+                                    "$can_break_grass, boots, [feather]",
+                                    "$can_break_grass, hookshot, [feather]"
+                                ],
+                                "capture_item": true
+                            },
+                            {
+                                "name": "Right Chest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$can_break_grass, feather, lift1",
+                                    "$can_break_grass, boots, [feather], lift1",
+                                    "$can_break_grass, hookshot, [feather], lift1"
+                                ],
+                                "capture_item": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Swamp Chest",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 663,
+                                "y": 409
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1929,
+                                "y": 409
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Swamp Chest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "lift1, [$can_break_swamp_flowers]",
+                                    "feather, $can_break_grass, [$can_break_swamp_flowers]"
+                                ],
+                                "capture_item": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mobiln Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 904,
+                                "y": 458
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1688,
+                                "y": 458
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Save BowWow",
+                                "hosted_item": "chomp",
+                                "access_rules": [
+                                    "setting_SwordlessOff, lift1, cello, sword",
+                                    "setting_SwordlessOff, feather, cello, sword",
+
+                                    "lift1, cello, $swordless_damage",
+                                    "feather, cello, $swordless_damage"
+
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Koholint Prairie",
+                "children": [
+                    {
+                        "name": "Surrounded by Holes",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 721,
+                                "y": 590
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1871,
+                                "y": 590
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Heart Piece of Shame",
+                                "access_rules": [
+                                    "$can_break_grass,feather",
+                                    "$can_break_grass,hookshot"
+                                ],
+                                "item_count": 1,
+                                "capture_item": true,
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Witch's Hut",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 890, 
+                                "y": 822
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1702, 
+                                "y": 822
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Trade Mushroom for Powder",
+                                "hosted_item": "powder",
+                                "access_rules": [
+                                    "$can_break_grass",
+                                    "lift1"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shell in Zombie Field",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 743,
+                                "y": 951
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1849,
+                                "y": 951
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dig Under Bush",
+                                "access_rules": ["shovel,$can_break_grass,lift1"],
+                                "visibility_rules": ["setting_shellsanity_vanilla"],
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "item_count": 1
+                            },
+                            {
+                                "access_rules": [
+                                    "$can_break_grass, lift1",
+                                    "feather"
+                                ],
+                                "item_count": 1,
+                                "visibility_rules": ["setting_shellsanity_on"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Graveyard Connector Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap", 
+                                "x": 855,
+                                "y": 950
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 1064,
+                                "y": 950
+                            },
+                            {
+                                "map": "mirror", 
+                                "x": 1737,
+                                "y": 950
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1528,
+                                "y": 950
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Across the Pits",
+                                "access_rules": [
+                                    "[hookshot], feather, lift1",
+                                    "hookshot, lift1"
+                                ],
+                                "item_count": 1,
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"],
+                                "capture_item": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Boots 'n' Bomb Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 985,
+                                "y": 1080
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1607,
+                                "y": 1080
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "North Screen, Bomb Right Wall",
+                                "access_rules": ["boots,bomb,$can_break_grass,lift1"],
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Boots Chest",
+                                "access_rules": ["boots,bomb,$can_break_grass,lift1"],
+                                "item_count": 1,
+                                "capture_item": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "East of Mabe Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 791,
+                                "y": 1111
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1801,
+                                "y": 1111
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": ["$can_break_grass,lift1"],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Beehive",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1200, 
+                                "y": 1075
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1392, 
+                                "y": 1075
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Give Tarin the Stick",
+                                "access_rules": [
+                                    "stick,$can_break_grass,lift1"
+                                ],
+                                "hosted_item": "beehive",
+                                "visibility_rules": ["stick"]
+                                
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tree Between Phone House and Town Warp",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 752,
+                                "y": 1327
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1840,
+                                "y": 1327
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bump into it",
+                                "access_rules": ["boots,$can_break_grass,lift1"],
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "item_count": 1,
+                                "visibility_rules": ["setting_shellsanity_vanilla"]
+                            },
+                            {
+                                "access_rules": [
+                                    "$can_break_grass, lift1"
+                                ],
+                                "visibility_rules": ["setting_shellsanity_on"],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Signpost Maze",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 775, 
+                                "y": 1705
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 775, 
+                                "y": 1705
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "300 Rupees for the Worst Song",
+                                "access_rules": ["$can_break_grass,lift1,boots,[feather],hookshot, ocarina"],
+                                "hosted_item": "frog"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cross-Shape North of Key Cavern",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 895,
+                                "y": 1372
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1697,
+                                "y": 1372
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dig in the Middle of the Cross",
+                                "visibility_rules": ["setting_shellsanity_vanilla"],
+                                "access_rules": [
+                                    "shovel, lift1, feather",
+                                    "shovel, lift1, flippers"
+                                ],
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "item_count": 1
+                            },
+                            {
+                                "access_rules": [
+                                    "lift1, feather",
+                                    "lift1, flippers"
+                                ],
+                                "visibility_rules": ["setting_shellsanity_on"],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Watery Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2357,
+                                "y": 284
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 235,
+                                "y": 284
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Keep diving close to the entrance, you'll find it",
+                                "access_rules": ["lift1, flippers"],
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"],
+                                "chest_unopened_img": "images/heartPiece.png",
+                                "chest_opened_img": "images/heartPieceGrey.png",
+                                //"hosted_item": "poh",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Manbo's Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1724,
+                                "y": 300
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 868,
+                                "y": 300
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Get the Best Song for Free",
+                                "access_rules": ["lift1, flippers, ocarina"],
+                                "hosted_item": "mambo"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Island with Bush",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1064,
+                                "y": 1352
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1528,
+                                "y": 1352
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Shell under the Bush",
+                                "access_rules": [
+                                    "$can_break_grass, [flippers], feather, lift1",
+                                    "$can_break_grass, flippers, lift1"
+                                ],
+                                "visibility_rules": ["setting_shellsanity_vanilla"],
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "item_count": 1
+                            },
+                            {
+                                "access_rules": [
+                                    "[flippers], feather, lift1",
+                                    "flippers, lift1"
+                                ],
+                                "visibility_rules": ["setting_shellsanity_on"],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Seashell Mansion",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1709,
+                                "y": 1085
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 883,
+                                "y": 1085
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Have Exactly 5 Shells",
+                                "access_rules": ["lift1, $exactly_five_shells"],
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "visibility_rules": ["setting_shellsanity_vanilla", "setting_shellsanity_on"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Have Exactly 10 Shells",
+                                "access_rules": ["lift1, $exactly_ten_shells"],
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "visibility_rules": ["setting_shellsanity_vanilla", "setting_shellsanity_on"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "11-22 Shells",
+                                "access_rules": [
+                                    "lift1, shells:11, [shells:22]"
+                                ],
+                                "chest_unopened_img": "images/sword_2_d.png",
+                                "chest_opened_img": "images/sword_2.png",
+                                "hosted_item": "sword2"
+                                
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Underneath Richard's Villa",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1031,
+                                "y": 1739
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1561,
+                                "y": 1739
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "In the Cave",
+                                "access_rules": [
+                                    "lift1,feather,fiveleaf",
+                                    "lift1,feather,slime",
+                                    "lift1,hookshot,fiveleaf",
+                                    "lift1,hookshot,slime",
+                                    "lift1, $can_break_grass, feather, [fiveleaf]",
+                                    "lift1, $can_break_grass, feather, [slime]"
+                                ],
+                                "capture_item": true,
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pothole Maze",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1085,
+                                "y": 1600
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1507,
+                                "y": 1600
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dig in front of Owl Statue",
+                                "access_rules": [
+                                    "shovel, $can_break_grass, lift1, fiveleaf",
+                                    "shovel, $can_break_grass, lift1, feather, [fiveleaf]"
+                                ],
+                                "hosted_item": "slime"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Donut Plains",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1530,
+                                "y": 1488
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1062,
+                                "y": 1488
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Rock Shell",
+                                "access_rules": ["lift1"],
+                                "item_count": 1,
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "visibility_rules": ["setting_shellsanity_vanilla"]
+                            },
+                            {
+                                "access_rules": ["lift1"],
+                                "item_count": 1,
+                                "visibility_rules": ["setting_shellsanity_on"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "East of Seashell Mansion",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1832,
+                                "y": 1095
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 760,
+                                "y": 1095
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Shell in the Top-Right Bush",
+                                "access_rules": ["lift1"],
+                                "visibility_rules": ["setting_shellsanity_vanilla"],
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Next to the Mansion",
+                                "access_rules": ["lift1"],
+                                "visibility_rules": ["setting_shellsanity_on"],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Beta Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1386,
+                                "y": 410
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1206,
+                                "y": 410
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Revenge of the Shopkeepers",
+                                "access_rules": [
+                                    "flippers,lift1"
+                                ],
+                                "item_count": 1,
+                                "visibility_rules": ["setting_betacave_on"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shell on the Ledge",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1350,
+                                "y": 1370
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 1416,
+                                "y": 1516
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 1333,
+                                "y": 1629
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1242,
+                                "y": 1370
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1176,
+                                "y": 1516
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1259,
+                                "y": 1629
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bomb the Left Alcove, Dig Around the Owl",
+                                "access_rules": [
+                                    "lift1, bombs, shovel"
+                                ],
+                                "visibility_rules": ["setting_shellsanity_vanilla"],
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Bomb the Left Alcove in the Cave",
+                                "access_rules": [
+                                    "lift1, bombs"
+                                ],
+                                "visibility_rules": ["setting_shellsanity_on"],
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Kanalet Castle",
+                "children": [
+                    {
+                        "name": "Give the Bananas to the Monkey",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1850,
+                                "y": 981
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 742,
+                                "y": 981
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bohnan",
+                                "access_rules": [
+                                    "lift1, bananas"
+                                ],
+                                "visibility_rules": ["bananas"],
+                                "hosted_item": "stick"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Leaves in the Castle",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1525,
+                                "y": 820
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1067,
+                                "y": 820
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Kill Zols and Darknuts",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "setting_overworldmods_on, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, stick, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, honey, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, pineapple, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, flower, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, letter, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, broom, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, hook, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, scale, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, lens, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, flippers, lift1, $can_attack"
+                                ],
+                                "hosted_item": "oneleaf",
+                                "visibility_rules": ["$not_slime_key"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Leaves in the Castle",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1565,
+                                "y": 820
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1027,
+                                "y": 820
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bomb the Left Wall Darknut",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "setting_overworldmods_on, lift1, bombs, $can_attack",
+                                    "setting_overworldmods_off, feather, stick, lift1, bombs, $can_attack",
+                                    "setting_overworldmods_off, feather, honey, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, pineapple, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, flower, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, letter, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, broom, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, hook, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, scale, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, lens, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, flippers, lift1, bombs, $can_attack"
+                                ],
+                                "hosted_item": "oneleaf",
+                                "visibility_rules": ["$not_slime_key"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "The Bomber's Leaf",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1687,
+                                "y": 712
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 905,
+                                "y": 712
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "BomberMan Meets Whack-a-Mole",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "setting_overworldmods_on, lift1, rod",
+                                    "setting_overworldmods_on, lift1, sword1",
+                                    "setting_overworldmods_off, feather, stick, lift1, sword",
+                                    "setting_overworldmods_off, feather, stick, lift1, rod",
+                                    "setting_overworldmods_off, feather, honey, lift1, sword",
+                                    "setting_overworldmods_off, feather, honey, lift1, rod",
+                                    "setting_overworldmods_off, feather, pineapple, lift1, sword",
+                                    "setting_overworldmods_off, feather, pineapple, lift1, rod",
+                                    "setting_overworldmods_off, feather, flower, lift1, sword",
+                                    "setting_overworldmods_off, feather, flower, lift1, rod",
+                                    "setting_overworldmods_off, feather, letter, lift1, sword",
+                                    "setting_overworldmods_off, feather, letter, lift1, rod",
+                                    "setting_overworldmods_off, feather, broom, lift1, sword",
+                                    "setting_overworldmods_off, feather, broom, lift1, rod",
+                                    "setting_overworldmods_off, feather, hook, lift1, sword",
+                                    "setting_overworldmods_off, feather, hook, lift1, rod",
+                                    "setting_overworldmods_off, feather, scale, lift1, sword",
+                                    "setting_overworldmods_off, feather, scale, lift1, rod",
+                                    "setting_overworldmods_off, feather, lens, lift1, sword",
+                                    "setting_overworldmods_off, feather, lens, lift1, rod",
+                                    "setting_overworldmods_off, feather, flippers, lift1, sword",
+                                    "setting_overworldmods_off, feather, flippers, lift1, rod"
+                                ],
+                                "hosted_item": "oneleaf",
+                                "visibility_rules": ["$not_slime_key"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "The Crow's Leaf",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1350,
+                                "y": 661
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1242,
+                                "y": 661
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Throw a Rock at the Tree to Start the Crow",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "setting_overworldmods_on, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, stick, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, honey, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, pineapple, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, flower, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, letter, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, broom, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, hook, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, scale, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, lens, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, feather, flippers, lift1, $can_attack"
+                                ],
+                                "hosted_item": "oneleaf",
+                                "visibility_rules": ["$not_slime_key"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ball & Chain Knight's Bomb",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1575,
+                                "y": 675
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1017,
+                                "y": 675
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chain and Ball Torture",
+                                "access_rules": [
+                                    "setting_overworldmods_on, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, stick, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, honey, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, pineapple, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, flower, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, letter, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, broom, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, hook, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, scale, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, lens, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, flippers, lift1, $can_attack"
+                                ],
+                                "hosted_item": "bombs",
+                                "visibility_rules": ["$not_slime_key"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ball & Chain Knight's Leaf",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1545,
+                                "y": 705
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1047,
+                                "y": 705
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chain and Ball Torture",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "setting_overworldmods_on, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, stick, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, honey, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, pineapple, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, flower, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, letter, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, broom, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, hook, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, scale, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, lens, lift1, $can_attack",
+                                    "setting_overworldmods_off, feather, flippers, lift1, $can_attack"
+                                ],
+                                "hosted_item": "oneleaf",
+                                "visibility_rules": ["$not_slime_key"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Heart Piece in the Moat",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1378,
+                                "y": 968
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1214,
+                                "y": 968
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dive North of Second Hole from the Left",
+                                "access_rules": [
+                                    "flippers,$can_break_grass,lift1"
+                                ],
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"],
+                                //"hosted_item": "poh",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Left of Drawbridge",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1320,
+                                "y": 999
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1272,
+                                "y": 999
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Five Holes, but sometimes Three",
+                                "access_rules": [
+                                    "feather, [boots], $can_break_grass, lift1"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Martha's Bay",
+                "children": [
+                    {
+                        "name": "Small Island with Bush",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1369,
+                                "y": 2022
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1223,
+                                "y": 2022
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bush of Destiny",
+                                "access_rules": [
+                                    "[feather], [flippers], boots, lift1",
+                                    "flippers, lift1"
+                                ],
+                                "visibility_rules": ["setting_shellsanity_vanilla"],
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "item_count": 1
+                            },
+                            {
+                                "access_rules": [
+                                    "[feather], [flippers], lift1",
+                                    "flippers, lift1"
+                                ],
+                                "visibility_rules": ["setting_shellsanity_on"],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bay Capacity Upgrade",
+                        "map_locations":[
+                            {
+                                "map": "worldmap",
+                                "x": 1578,
+                                "y": 2023
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 1044,
+                                "y": 1877
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1014,
+                                "y": 2023
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1548,
+                                "y": 1877
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Upgrade a Capacity",
+                                "access_rules": [
+                                    "lift1, feather, flippers, powder, sword",
+                                    "lift1, feather, flippers, powder, rod",
+                                    "lift1, feather, flippers, powder, boomerang"
+                                ],
+                                "chest_opened_img": "images/madbatterd.png",
+                                "chest_unopened_img": "images/madbatter.png",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Give the Mermaid her clothing back",
+                        "map_locations":[
+                            {
+                                "map": "worldmap",
+                                "x": 1547,
+                                "y": 1664
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1045,
+                                "y": 1664
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Pervert",
+                                "hosted_item": "scale",
+                                "access_rules": ["flippers, lift1, bra"],
+                                "visibility_rules": ["bra"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lone Bush Shell",
+                        "map_locations":[
+                            {
+                                "map": "worldmap",
+                                "x": 1498,
+                                "y": 1924
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1094,
+                                "y": 1924
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Shell in the Bush",
+                                "visibility_rules": ["setting_shellsanity_vanilla"],
+                                "access_rules": [
+                                    "lift1"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png"
+                            },
+                            {
+                                "visibility_rules": ["setting_shellsanity_on"],
+                                "access_rules": [
+                                    "$can_break_grass, [boots], feather",
+                                    "lift1"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Get the Magnifying Lens",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1563,
+                                "y": 1860
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1029,
+                                "y": 1860
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Press A on the Statue to put the scale in, then push",
+                                "access_rules": [
+                                    "flippers, boots, [feather], hookshot, scale",
+                                    "lift1, hookshot, scale",
+                                    "lift1, feather, boots, sword1, shield, [hookshot], scale"
+                                ],
+                                "hosted_item": "lens",
+                                "visibility_rules": ["scale"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Give the Hook for the Bra/Necklace",
+                        "map_locations": [
+                            {
+                                "map":"worldmap",
+                                "x": 1724,
+                                "y": 1862
+                            },
+                            {
+                                "map":"mirror",
+                                "x": 868,
+                                "y": 1862
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Hook a Big One",
+                                "hosted_item": "bra",
+                                "access_rules": [
+                                    "hook, flippers, lift1"
+                                ],
+                                "visibility_rules": ["hook"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Peninsula Shell",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1677,
+                                "y": 1747
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 915,
+                                "y": 1747
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dig near the Owl Statue",
+                                "visibility_rules": ["setting_shellsanity_vanilla"],
+                                "access_rules": [
+                                    "shovel, lift1, hookshot",
+                                    "shovel, lift1, flippers",
+                                    "shovel, lift1, boots"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png"
+                            },
+                            {
+                                "visibility_rules": ["setting_shellsanity_on"],
+                                "access_rules": [
+                                    "lift1, hookshot",
+                                    "lift1, flippers", 
+                                    "lift1, boots"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Animal Village",
+                "access_rules": [
+                    "lift1, hookshot",
+                    "lift1, flippers",
+                    "lift1, boots"
+                ],
+                "children": [
+                    {
+                        "name": "Bomb Arrow Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2242,
+                                "y": 1585
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 350,
+                                "y": 1585
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1,
+                                "access_rules": ["[hookshot], bombs, feather"],
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"],
+                                "capture_item": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Marin",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 355,
+                                "y": 1269
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 2031,
+                                "y": 1736
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2237,
+                                "y": 1269
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 561,
+                                "y": 1736
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Learn the Ballad of the Wind Fish",
+                                "hosted_item": "marin",
+                                "access_rules": [
+                                    "$one_instrument, setting_walrus_off, ocarina",
+                                    "$one_instrument, setting_walrus_on, pineapple, marinfollow, ocarina"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "This Bear Can Cook",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2195,
+                                "y": 1751
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 397,
+                                "y": 1751
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Give the Bear the Honey",
+                                "access_rules": ["beehive"],
+                                "hosted_item": "pineapple",
+                                "visibility_rules": ["beehive"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "You're in Goat Mode now",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2147,
+                                "y": 1637
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 445,
+                                "y": 1637
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Give her the FLower",
+                                "hosted_item": "letter",
+                                "visibility_rules": ["flower"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Rapids Ride",
+                "children": [
+                    {
+                        "name": "Rapids 1",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2021,
+                                "y": 682
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 571,
+                                "y": 682
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "First Chest",
+                                "access_rules": [
+                                    "hookshot, lift1, $can_break_grass",
+                                    "[hookshot], boots, feather, sword1, lift1, $can_break_grass"
+                                ],
+                                "capture_item": true,
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rapids 2",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2184,
+                                "y": 667
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 408,
+                                "y": 667
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Second Chest",
+                                "access_rules": [
+                                    "hookshot, lift1, $can_break_grass",
+                                    "[hookshot], boots, feather, sword1, lift1, $can_break_grass"
+                                ],
+                                "capture_item": true,
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Southern Shrine",
+                "access_rules": [
+                    "lift1, boots",
+                    "lift1, hookshot",
+                    "lift1, flippers"
+                ],
+                "children": [
+                    {
+                        "name": "Shell Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2340,
+                                "y": 1388
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 252,
+                                "y": 1388
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Under a Certain Armos",
+                                "capture_item": false,
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Armos Knight",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2032,
+                                "y": 1356
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 560,
+                                "y": 1356
+                            }
+                        ], 
+                        "sections": [
+                            {
+                                "name": "The Knight's Key",
+                                "access_rules": [
+                                    "shield, sword1",
+                                    "shield, rod",
+                                    "bow"
+                                ],
+                                "hosted_item": "face"
+                            },
+                            {
+                                "name": "The Sad Truth",
+                                "item_count": 1,
+                                "visibility_rules": ["setting_AddOverworldKeyChests"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Yarna Desert",
+                "access_rules": [
+                    "setting_walrus_off, $cross_river",
+                    "setting_walrus_on, $cross_river, marinfollow, pineapple",
+                    "setting_walrus_on, $cross_river, [marinfollow], [pineapple], bombs"
+                ],
+                "children": [
+                    {
+                        "name": "Pre-Lanmola Fight",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2323,
+                                "y": 1795
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 269,
+                                "y": 1795
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1,
+                                "visibility_rules": ["setting_AddOverworldKeyChests"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lanmola",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2348,
+                                "y": 1625
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 244,
+                                "y": 1625
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Lanmola",
+                                "access_rules": ["$can_attack"],
+                                "hosted_item": "angler"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cave Under Lanmola",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2518,
+                                "y": 1572
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 74,
+                                "y": 1572
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "In the West Room, Bomb the North Wall",
+                                "access_rules": ["bombs"],
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desert Shell",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2519,
+                                "y": 2023
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 73,
+                                "y": 2023
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Under the Lower Rock",
+                                "access_rules": ["lift1"],
+                                "visibility_rules": ["setting_shellsanity_vanilla"],
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "item_count": 1
+                            },
+                            {
+                                "access_rules": ["lift1"],
+                                "visibility_rules": ["setting_shellsanity_on"],
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Central Tal Tal Heights",
+                "access_rules": [
+                    "setting_Swordless_off, lift1, sword1",
+                    "setting_Swordless, lift1, bombs"
+                ],
+                "children": [
+                    {
+                        "name": "Mountain Access",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1190,
+                                "y": 175
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 1368,
+                                "y": 158
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1402,
+                                "y": 175
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1224,
+                                "y": 158
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Interior",
+                                "item_count": 1,
+                                "access_rules": ["hookshot"],
+                                "capture_item": true
+                            },
+                            {
+                                "name": "Exterior",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Path to Paphl",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1595,
+                                "y": 190
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 997,
+                                "y": 190
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "boots",
+                                    "angler, setting_overworldmods_on",
+                                    "hookshot, feather, flippers, setting_overworldmods_on"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Paphl",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1530,
+                                "y": 170
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1062,
+                                "y": 170
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "How did he even get up here?",
+                                "visibility_rules": ["pineapple"],
+                                "access_rules": [
+                                    "pineapple, boots",
+                                    "pineapple, angler, flippers, setting_overworldmods_on",
+                                    "pineapple, hookshot, feather, flippers, setting_overworldmods_on"
+                                ],
+                                "hosted_item": "flower"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rooster Key Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1741,
+                                "y": 106
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 851,
+                                "y": 106
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Just Be Glad These Rocks Are Here",
+                                "access_rules": [
+                                    "lift1, sword, boots, flippers, [feather], hookshot, [rooster]",
+                                    "lift1, sword, boots, flippers, [feather], shovel, [rooster]",
+                                    "lift1, sword, boots, [flippers], feather, hookshot",
+                                    "lift1, sword, boots, [flippers], feather, shovel, [rooster]",
+                                    "lift1, sword, boots, [flippers], feather, hookshot",
+                                    "lift1, feather, [sword], [flippers], [rooster], hookshot",
+
+                                    "lift1, setting_Swordless, bombs, boots, flippers, [feather], hookshot, [rooster]",
+                                    "lift1, setting_Swordless, bombs, boots, flippers, [feather], shovel, [rooster]",
+                                    "lift1, setting_Swordless, bombs, boots, [flippers], feather, hookshot",
+                                    "lift1, setting_Swordless, bombs, boots, [flippers], feather, shovel, [rooster]",
+                                    "lift1, setting_Swordless, bombs, boots, [flippers], feather, hookshot",
+                                    "lift1, feather, [setting_Swordless, bombs], [flippers], [rooster], hookshot",
+
+                                    "lift1, sword, boots, flippers, [feather], hookshot, [rooster]",
+                                    "lift1, sword, boots, flippers, [feather], shovel, [rooster]",
+                                    "lift1, sword, boots, [flippers], feather, hookshot",
+                                    "lift1, sword, boots, [flippers], feather, shovel, [rooster]",
+                                    "lift1, sword, boots, [flippers], feather, hookshot",
+                                    "lift1, feather, [sword], [flippers], [rooster], hookshot",
+
+                                    "lift1, setting_overworldmods_on, hookshot, boots, flippers, [feather], hookshot, [rooster]",
+                                    "lift1, setting_overworldmods_on, hookshot, boots, flippers, [feather], shovel, [rooster]",
+                                    "lift1, setting_overworldmods_on, hookshot, boots, [flippers], feather, hookshot",
+                                    "lift1, setting_overworldmods_on, hookshot, boots, [flippers], feather, shovel, [rooster]",
+                                    "lift1, setting_overworldmods_on, hookshot, boots, [flippers], feather, hookshot",
+                                    "lift1, feather, [setting_overworldmods_on, hookshot], [flippers], [rooster], hookshot",
+
+                                    "lift1, setting_overworldmods_on, feather, boots, flippers, hookshot, [rooster]",
+                                    "lift1, setting_overworldmods_on, [hookshot], boots, feather, boots, flippers, shovel, [rooster]",
+                                    "lift1, setting_overworldmods_on, boots, feather, boots, [flippers], hookshot",
+                                    "lift1, setting_overworldmods_on, [hookshot], boots, [flippers], feather, shovel, [rooster]",
+                                    "lift1, setting_overworldmods_on, boots, [flippers], feather, hookshot",
+                                    "lift1, feather, [setting_overworldmods_on, boots, feather], [flippers], [rooster], hookshot",
+
+                                    "lift1, setting_overworldmods_on, boots, feather, boots, flippers, [feather], hookshot, [rooster]",
+                                    "lift1, setting_overworldmods_on, [hookshot], boots, feather, flippers, shovel, [rooster]",
+                                    "lift1, setting_overworldmods_on, [hookshot], boots, [flippers], feather, hookshot",
+                                    "lift1, setting_overworldmods_on, [hookshot], boots, [flippers], feather, shovel, [rooster]",
+                                    "lift1, setting_overworldmods_on, [hookshot], boots, [flippers], feather, hookshot",
+                                    "lift1, feather, [setting_overworldmods_on, [hookshot], boots, feather], [flippers], [rooster], hookshot"
+                                ],
+                                "item_count": 1,
+                                "capture_item": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "North-east Bridge",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2081,
+                                "y": 42
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 511,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Shell under the Top-Right Rock",
+                                "access_rules": [
+                                    "setting_overworldmods_on, hookshot, feather",
+                                    "setting_overworldmods_on, angler, flippers, feather",
+                                    "setting_overworldmods_on, angler, [flippers], feather",
+                                    "setting_overworldmods_off, boots, flippers, feather",
+                                    "setting_overworldmods_off, boots, [flippers], feather"
+                                ],
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "item_count": 1,
+                                "visibility_rules": ["setting_shellsanity_vanilla"]
+                            },
+                            {
+                                "access_rules": [
+                                    "setting_overworldmods_on, hookshot, feather",
+                                    "setting_overworldmods_on, angler, flippers, feather",
+                                    "setting_overworldmods_on, angler, [flippers], feather",
+                                    "setting_overworldmods_off, boots, flippers, feather",
+                                    "setting_overworldmods_off, boots, [flippers], feather"
+                                ],
+                                "visibility_rules": ["setting_shellsanity_on"],
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Eastern Tal Tal Heights",
+                "access_rules": [
+                    "$can_break_grass, lift1, setting_overworldmods_on, hookshot, flippers",
+                    "$can_break_grass, lift1, setting_overworldmods_on, hookshot, feather, [flippers]",
+                    "$can_break_grass, lift1, setting_overworldmods_on, flippers, angler",
+                    "$can_break_grass, lift1, setting_overworldmods_on, feather, [flippers], angler",
+                    "$can_break_grass, lift1, boots, flippers",
+                    "$can_break_grass, lift1, boots, feather, [flippers]",
+                    "shield, lift1, feather, boots, [flippers], setting_overworldmods_on, angler",
+                    "shield, lift1, feather, boots, [flippers]",
+                    "shield, lift1, feather, boots, [flippers], setting_overworldmods_on, hookshot"
+                ],
+                "children": [
+                    {
+                        "name": "5 Chest Game",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2131,
+                                "y": 173
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 461,
+                                "y": 173
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bomb the Dry Spot. You only have to open one.",
+                                "access_rules": ["bombs"],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Chest Game",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2195,
+                                "y": 158
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 397,
+                                "y": 158
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest on Ledge",
+                                "access_rules": ["bombs"],
+                                "item_count": 1,
+                                "capture_item": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Next to Mountain Access",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1190,
+                        "y": 74
+                    },
+                    {
+                        "map": "worldmap",
+                        "x": 947,
+                        "y": 190
+                    },
+                    {
+                        "map": "mirror",
+                        "x": 1402,
+                        "y": 74
+                    },
+                    {
+                        "map": "mirror",
+                        "x": 1645,
+                        "y": 190
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Bomb the Alcove on the South Wall",
+                        "access_rules": [
+                            "setting_overworldmods_on, sword1, lift1, bombs",
+                            "setting_overworldmods_on, rod, lift1, bombs",
+                            "setting_overworldmods_on, sword1, feather, boots, flippers, bombs",
+                            "setting_overworldmods_on, rod, feather, boots, flippers, bombs",
+                            "lift1, boots, flippers, bombs, $can_break_grass"
+
+                        ],
+                        "visibility_rules": ["setting_heartPiece_shuffle_on"],
+                        "capture_item": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Western Tal Tal Heights",
+                "access_rules": [
+                    "lift1, setting_overworldmods_on, hookshot",
+                    "lift1, setting_overworldmods_off, flippers, hookshot, boots",
+                    "lift1, setting_overworldmods_off, [flippers], feather, hookshot, boots"
+                ],
+                "children": [
+                    {
+                        "name": "West Tal Tal - Top of Mountain",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 736,
+                                "y": 55
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 1856,
+                                "y": 55
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Summit",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mountain Capacity Upgrade",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 753,
+                                "y": 107
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2199,
+                                "y": 107
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Upgrade a Capacity",
+                                "access_rules": ["powder"],
+                                "chest_opened_img": "images/madbatterd.png",
+                                "chest_unopened_img": "images/madbatter.png",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "The Wind Fish's Egg",
+                "children": [
+                    {
+                        "name": "Wake the Wind Fish",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "size": 100,
+                                "x": 1060,
+                                "y": 60
+                            },
+                            {
+                                "map": "mirror",
+                                "size": 100,
+                                "x": 1530,
+                                "y": 60
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$open_egg, $final_boss_fight, lift1, [ocarina], [ballad], bombs",
+                                    "$open_egg, $final_boss_fight, lift1, ocarina, ballad"
+                                ],
+                                "hosted_item": "linkface"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

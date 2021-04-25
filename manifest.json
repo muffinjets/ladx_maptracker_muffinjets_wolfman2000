@@ -1,0 +1,27 @@
+{
+	"name": "LADX Randomizers",
+	"game_name": "Link's Awakening Randomizer",
+	"package_version": "2.0.3",
+	"package_uid": "ladx_maptracker_muffinjets_wolfman2000",
+	"author": "MuffinJets, wolfman2000",
+	"platform": "gameboy",
+	
+	"variants": 
+	{
+		"ladxr_base": {
+			"display_name": "LADXR Map Tracker"
+		},
+		"cave_shuffle": {
+			"display_name": "Entrance Randomizer Tracker"
+		},
+		"items_only": {
+			"display_name": "Items Only"
+		},
+		"keys_only": {
+			"display_name": "Items Only - Keysanity Chest Counts"
+		},
+		"z4r_base": {
+			"display_name": "Z4R Map Tracker (Old)"
+		}
+	}
+}

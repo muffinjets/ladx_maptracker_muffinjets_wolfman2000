@@ -1,0 +1,66 @@
+[
+    {
+      "name": "worldmap",
+      "img": "images/maps/worldmap.png",
+      "location_size": 45
+    },
+    {
+      "name": "mirror",
+      "img": "images/maps/mirrorworldmap.png",
+      "location_size": 50
+    },
+    {
+      "name": "D1",
+      "location_size": 25,
+      "location_border_thickness": 3,
+      "img": "images/maps/MapTailCave.png"
+    },
+    {
+      "name": "D2",
+      "location_size": 25,
+      "location_border_thickness": 3,
+      "img": "images/maps/MapBottleGrotto.png"
+    },
+    {
+      "name": "D3",
+      "location_size": 25,
+      "location_border_thickness": 3,
+      "img": "images/maps/MapKeyCavern.png"
+    },
+    {
+      "name": "D4",
+      "location_size": 25,
+      "location_border_thickness": 3,
+      "img": "images/maps/MapAnglersTunnel.png"
+    },
+    {
+      "name": "D5",
+      "location_size": 25,
+      "location_border_thickness": 3,
+      "img": "images/maps/MapCatfishMaw.png"
+    },
+    {
+      "name": "D6",
+      "location_size": 25,
+      "location_border_thickness": 3,
+      "img": "images/maps/MapFaceShrine.png"
+    },
+    {
+      "name": "D7",
+      "location_size": 25,
+      "location_border_thickness": 3,
+      "img": "images/maps/MapEaglesTower.png"
+    },
+    {
+      "name": "D8",
+      "location_size": 25,
+      "location_border_thickness": 3,
+      "img": "images/maps/MapTurtleRock.png"
+    },
+    {
+      "name": "D0",
+      "location_size": 25,
+      "location_border_thickness": 3,
+      "img": "images/maps/MapColorDungeon.png"
+    }
+  ]

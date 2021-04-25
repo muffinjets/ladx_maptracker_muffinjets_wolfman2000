@@ -1,0 +1,474 @@
+{
+    "item_grid": {
+        "type": "itemgrid",
+        "h_alignment": "stretch",
+        "item_margin": "4,4",
+        "rows": [
+            ["shield", "sword", "powderbatter", "shovelboomerang", "bombsbatter", "bowbatter"],
+            ["featherboomerang", "bracelet", "bootsboomerang", "flippers", "hookshotboomerang", "rodboomerang"],
+            ["ocarina", "marin", "frog", "shell", "yoshi", "poh"],
+            ["tailkey", "anglerkey", "facekey", "eaglekey", "oneleaf", "armor"],
+            ["", "drum", "cello", ""],
+            ["organ","", "", "conch"],
+            ["triangle", "", "", "bell"],
+            ["", "marimba", "harp", ""]
+        ]
+    
+    },
+    "settings_grid": {
+        "type": "array",
+        "margin": "5",
+        "content": [
+            {
+                "type": "group",
+                "header": "Settings",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "setting_overworldmods_on"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 30, 0, 0",
+                        "item": "setting_cavemods_on"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 60, 0, 0",
+                        "item": "setting_DungeonShuffle_off"
+                    },
+                    {
+                        "type": "item",
+                        "margin":"0, 90, 0, 0",
+                        "item": "setting_numInst8"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 120, 0, 0",
+                        "item": "setting_heartPiece_shuffle_on"
+                    },
+                    {
+                        "type": "item",
+                        "margin":"0, 150, 0, 0",
+                        "item": "setting_walrus_off"
+                    },
+                    {
+                        "type": "item",
+                        "margin":"0, 180, 0, 0",
+                        "item": "setting_AddOverworldKeyChests"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 210, 0, 0",
+                        "item": "setting_betacave_on"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 240, 0, 0",
+                        "item": "setting_shellsanity_off"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 270, 0, 0",
+                        "item": "hideKeyLogic"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 300, 0, 0",
+                        "item": "setting_Swordless_off"
+                    }
+                ]
+            }
+        ]
+    },
+    "tracker_default": {
+      "type": "container",
+      "background": "#877373",
+      "content": {
+          "type": "dock",
+          "dropshadow": true,
+          "content": [
+              {
+                  "type": "dock",
+                  "dock": "right",
+                  "v_alignment": "stretch",
+                  "margin": "0,0,0,0",
+                  "content": [
+                    {
+                        "type": "group",
+                        "header": "Items",
+                        "dock": "top",
+                        "header_content": {
+                            "type": "button_popup",
+                            "style": "settings",
+                            "popup_background": "#502121",
+                            "layout": "settings_grid"
+                        },
+                        "content": [
+                            {
+                                "type": "layout",
+                                "key": "item_grid"
+                            }
+                            // //DRUM AND CELLO
+                            // {
+                            //     "type": "array",
+                            //     "orientation": "horizontal",
+                            //     "h_alignment": "center",
+                            //     "margin": "0, 0, 0, 0",
+                            //     "content": [
+                            //         {
+                            //             "type": "item",
+                            //             "item": "drum",
+                            //             "margin": "10, 0, 10, 0",
+                            //             "height": 36,
+                            //             "width": 36
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "cello",
+                            //             "margin": "10, 0, 10, 0",
+                            //             "height": 36,
+                            //             "width": 36
+                            //         }
+                            //     ]
+                            // },
+                            // //D8 and D1 KEYS
+                            // {
+                            //     "type": "array",
+                            //     "orientation": "horizontal",
+                            //     "h_alignment": "center",
+                            //     "margin": "0, 65, 0, 0",
+                            //     "content": [
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D8SK",
+                            //             "margin": "10, 0, 0, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D8BK",
+                            //             "margin": "10, 0, 15, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D1SK",
+                            //             "margin": "10, 0, 0, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D1BK",
+                            //             "margin": "10, 0, 10, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         }
+                            //     ]
+                            // },
+                            // //ORGAN AND CONCH
+                            // {
+                            //     "type": "array",
+                            //     "orientation": "horizontal",
+                            //     "h_alignment": "center",
+                            //     "margin": "0, 130, 0, 0",
+                            //     "content": [
+                            //         {
+                            //             "type": "item",
+                            //             "item": "organ",
+                            //             "margin": "0, 0, 65, 0",
+                            //             "height": 36,
+                            //             "width": 36
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "conch",
+                            //             "margin": "65, 0, 0, 0",
+                            //             "height": 36,
+                            //             "width": 36
+                            //         }
+                            //     ]
+                            // },
+                            // //D7 AND D2 KEYS
+                            // {
+                            //     "type": "array",
+                            //     "orientation": "horizontal",
+                            //     "h_alignment": "center",
+                            //     "margin": "0, 135, 0, 0",
+                            //     "content": [
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D7SK",
+                            //             "margin": "10, 0, 0, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D7BK",
+                            //             "margin": "10, 0, 30, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D2SK",
+                            //             "margin": "10, 0, 0, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D2BK",
+                            //             "margin": "10, 0, 10, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         }
+                            //     ]
+                            // },
+                            // //TRIANGLE AND BELL
+                            // {
+                            //     "type": "array",
+                            //     "orientation": "horizontal",
+                            //     "h_alignment": "center",
+                            //     "margin": "0, 230, 0, 0",
+                            //     "content": [
+                            //         {
+                            //             "type": "item",
+                            //             "item":  "triangle",
+                            //             "margin": "0, 0, 65, 0",
+                            //             "height": 36,
+                            //             "width": 36
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "bell",
+                            //             "margin": "65, 0, 0, 0",
+                            //             "height": 36,
+                            //             "width": 36
+                            //         }
+                            //     ]
+                            // },
+                            // //D6 AND D3 KEYS
+                            // {
+                            //     "type": "array",
+                            //     "orientation": "horizontal",
+                            //     "h_alignment": "center",
+                            //     "margin": "0, 225, 0, 0",
+                            //     "content": [
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D6SK",
+                            //             "margin": "10, 0, 0, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D6BK",
+                            //             "margin": "10, 0, 30, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "z4r_D3SK",
+                            //             "margin": "10, 0, 0, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D3BK",
+                            //             "margin": "10, 0, 10, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         }
+                            //     ]
+                            // },
+                            // //MARIMBA AND HARP
+                            // {
+                            //     "type": "array",
+                            //     "orientation": "horizontal",
+                            //     "h_alignment": "center",
+                            //     "margin": "0, 310, 0, 0",
+                            //     "content": [
+                            //         {
+                            //             "type": "item",
+                            //             "item":  "marimba",
+                            //             "margin": "0, 0, 10, 0",
+                            //             "height": 36,
+                            //             "width": 36
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "harp",
+                            //             "margin": "10, 0, 0, 0",
+                            //             "height": 36,
+                            //             "width": 36
+                            //         }
+                            //     ]
+                            // },
+                            // //D5 and D4 KEYS
+                            // {
+                            //     "type": "array",
+                            //     "orientation": "horizontal",
+                            //     "h_alignment": "center",
+                            //     "margin": "0, 375, 0, 0",
+                            //     "content": [
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D5SK",
+                            //             "margin": "10, 0, 0, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D5BK",
+                            //             "margin": "10, 0, 15, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D4SK",
+                            //             "margin": "10, 0, 0, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         },
+                            //         {
+                            //             "type": "item",
+                            //             "item": "D4BK",
+                            //             "margin": "10, 0, 10, 0",
+                            //             "height": 21,
+                            //             "width": 12
+                            //         }
+                            //     ]
+                            // }
+                        ]
+                    },
+
+                      {
+                          "type": "group",
+                          "header": "Pinned Locations",
+                          "dock": "left",
+                          "content": {
+                              "type": "recentpins",
+                              "style": "wrap",
+                              "h_alignment": "stretch",
+                              "v_alignment": "stretch",
+                              "orientation": "vertical",
+                              "compact": true
+                          }
+                      }
+                  ]
+                },
+                {
+                    "type": "dock",
+                    "v_alignment":"stretch",
+                    "margin": "0,0,0,0",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "dock": "top",
+                            "tabs": [
+                                {
+                                    "title": "Overworld",
+                                    "icon": "images/Egg.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["worldmap"]
+                                    }
+                                },
+                                {
+                                    "title": "Mirrored",
+                                    "icon": "images/InvertEgg.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["mirror"]
+                                    }
+                                },
+                                {
+                                    "title": "D1",
+                                    "icon": "images/cello.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D1"]
+                                    }
+                                },
+                                {
+                                    "title": "D2",
+                                    "icon": "images/conch.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D2"]
+                                    }
+                                },
+                                {
+                                    "title": "D3",
+                                    "icon": "images/bell.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D3"]
+                                    }
+                                },
+                                {
+                                    "title": "D4",
+                                    "icon": "images/harp.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D4"]
+                                    }
+                                },
+                                {
+                                    "title": "D5",
+                                    "icon": "images/marimba.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D5"]
+                                    }
+                                },
+                                {
+                                    "title": "D6",
+                                    "icon": "images/triangle.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D6"]
+                                    }
+                                },
+                                {
+                                    "title": "D7",
+                                    "icon": "images/organ.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D7"]
+                                    }
+                                },
+                                {
+                                    "title": "D8",
+                                    "icon": "images/drum.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D8"]
+                                    }
+                                },
+                                {
+                                    "title": "D0",
+                                    "icon": "images/redblue_mail.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D0"]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,3195 @@
+[
+    {
+        "name": "Dungeons",
+        "chest_unopened_img": "images/chest.png",
+        "chest_opened_img": "images/chest-open.png",
+        "color": "#00CC00",
+        "children": [
+            {
+                "name": "Level 0 - Color Dungeon",
+                "access_rules": [
+                    "[$can_break_grass], [powder], [feather], lift1, [sword1], [bombs]",
+                    "lift1, powder"
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "size": 75,
+                        "x": 1255,
+                        "y": 940
+                    },
+                    {
+                        "map": "mirror",
+                        "size": 75,
+                        "x": 1337,
+                        "y": 940
+                    }
+                ],
+                // "sections": [
+                //     {
+                //         "name": "Only one non-dungeon item chest.",
+                //         "item_count": 1,
+                //         "visibility_rules": ["setting_DungeonShuffle_off"]
+                //     }
+                // ]
+            },
+            {
+                "name": "Level 1 - Tail Cave",
+                "access_rules": [
+                    "tail, [shield], [$can_attack], [bombs], [feather]"
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "size": 75,
+                        "x": 590,
+                        "y": 1715
+                    },
+                    {
+                        "map": "mirror",
+                        "size": 75,
+                        "x": 2002,
+                        "y": 1715
+                    }
+                ],
+                "sections": [
+                    /*{
+                        "name": "Chests",
+                        "hosted_item":"D1chests"
+                    },
+                    {
+                        "name": "Moldorm",
+                        
+                        "item_count": 1,
+                        "chest_opened_img": "images/heartContainerd.png",
+                        "chest_unopened_img": "images/heartContainer.png"
+                    },*/
+                    // {
+                        
+                    //     "name": "Full Moon Cello",
+                    //     "shortname": "Cello",
+                    //     "hosted_item": "cello",
+                    //     "visibility_rules": ["setting_DungeonShuffle_off"]
+                    // }
+                ]
+            },
+            {
+                "name": "Level 2 - Bottle Grotto",
+                "access_rules": [
+                    "[feather], [$can_attack], lift1, $can_break_swamp_flowers",
+                    "[feather], [$can_attack], lift1, setting_overworldmods_on",
+                    "[lift1], [feather], $can_break_grass, $can_break_swamp_flowers",
+                    "[lift1], feather, $can_break_grass, [$can_break_swamp_flowers]"
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "size": 75,
+                        "x": 690,
+                        "y": 286
+                    },
+                    {
+                        "map": "mirror",
+                        "size": 75,
+                        "x": 1902,
+                        "y": 286
+                    }
+                ],
+                "sections": [
+                    /*{
+                        "name": "Chests",
+                        "hosted_item":"D2chests"
+                    },
+                    {
+                        "name": "Mad Genie",
+                        
+                        "item_count": 1,
+                        "chest_opened_img": "images/heartContainerd.png",
+                        "chest_unopened_img": "images/heartContainer.png"
+                    },*/
+                    // {
+                        
+                    //     "name": "Conch Horn",
+                    //     "shortname": "Horn",
+                    //     "hosted_item": "conch",
+                    //     "visibility_rules": ["setting_DungeonShuffle_off"]
+                    // }
+                ]
+            },
+            {
+                "name": "Level 3 - Key Cavern",
+                "access_rules": [
+                    "[boots], [feather], slime, lift1, [$can_attack]"
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "size": 75,
+                        "x": 920,
+                        "y": 1460
+                    },
+                    {
+                        "map": "mirror",
+                        "size": 75,
+                        "x": 1672,
+                        "y": 1460
+                    }
+                ],
+                "sections": [
+                    /*{
+                        "name": "Chests",
+                        "hosted_item":"D3chests"
+                    },
+                    {
+                        "name": "Slime Eyes",
+                        
+                        "item_count": 1,
+                        "chest_opened_img": "images/heartContainerd.png",
+                        "chest_unopened_img": "images/heartContainer.png"
+                    },*/
+                    // {
+                        
+                    //     "name": "Sea Lily's Bell",
+                    //     "shortname": "Bell",
+                    //     "hosted_item": "bell",
+                    //     "visibility_rules": ["setting_DungeonShuffle_off"]
+                    // }
+                ]
+            },
+            {
+                "name": "Level 4 - Angler's Tunnel",
+                "access_rules": [
+                    "[boots], [feather], [$can_attack], angler, lift1, flippers",
+                    "[flippers], angler, boots, feather, $can_attack"
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "size": 75,
+                        "x": 1845,
+                        "y": 285
+                    },
+                    {
+                        "map": "mirror",
+                        "size": 75,
+                        "x": 747,
+                        "y": 285
+                    }
+                ],
+                "sections": [
+                    /*{
+                        "name": "Chests",
+                        "hosted_item":"D4chests"
+                    },
+                    {
+                        "name": "Angler Fish",
+                        
+                        "item_count": 1,
+                        "chest_opened_img": "images/heartContainerd.png",
+                        "chest_unopened_img": "images/heartContainer.png"
+                    },*/
+                    // {
+                        
+                    //     "name": "Surf Harp",
+                    //     "shortname": "Harp",
+                    //     "hosted_item": "harp",
+                    //     "visibility_rules": ["setting_DungeonShuffle_off"]
+                    // }
+                ]
+            },
+            {
+                "name": "Level 5 - Catfish's Maw",
+                "access_rules": [
+                    "[hookshot], [feather], flippers, lift1",
+                    "[hookshot], [feather], flippers, boots"
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "size": 75,
+                        "x": 1540,
+                        "y": 1749
+                    },
+                    {
+                        "map": "mirror",
+                        "size": 75,
+                        "x": 1052,
+                        "y": 1749
+                    }
+                ],
+                "sections": [
+                    /*{
+                        "name": "Chests",
+                        "hosted_item":"D5chests"
+                    },
+                    {
+                        "name": "Slime Eel",
+                        
+                        "item_count": 1,
+                        "chest_opened_img": "images/heartContainerd.png",
+                        "chest_unopened_img": "images/heartContainer.png"
+                    },*/
+                    // {
+                        
+                    //     "name": "Wind Marimba",
+                    //     "hosted_item": "marimba",
+                    //     "visibility_rules": ["setting_DungeonShuffle_off"]
+                    // }
+                ]
+            },
+            {
+                "name": "Level 6 - Face Shrine",
+                "access_rules": [
+                    "[lift2],[feather], hookshot, face, flippers, lift1"
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "size": 75,
+                        "x": 2000,
+                        "y": 1095
+                    },
+                    {
+                        "map": "mirror",
+                        "size": 75,
+                        "x": 592,
+                        "y": 1095
+                    }
+                ],
+                "sections": [
+                    /*{
+                        "name": "Chests",
+                        "hosted_item":"D6chests"
+                    },
+                    {
+                        "name": "Facade",
+                        
+                        "item_count": 1,
+                        "chest_opened_img": "images/heartContainerd.png",
+                        "chest_unopened_img": "images/heartContainer.png"
+                    },
+                    {
+                        "name": "Pop out at the Raft Minigame",
+                        "short_name": "Outside",
+                        "item_count": 1
+                    },*/
+                    // {
+                        
+                    //     "name": "Coral Triangle",
+                    //     "hosted_item": "triangle",
+                    //     "visibility_rules": ["setting_DungeonShuffle_off"]
+                    // }
+                ]
+            },
+            {
+                "name": "Level 7 - Eagle's Tower",
+                "access_rules": [
+                    "$east_tal, eagle, hookshot, feather",
+                    "$east_tal, [eagle], bombs, hookshot, feather"
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "size": 75,
+                        "x": 2355,
+                        "y": 40
+                    },
+                    {
+                        "map": "mirror",
+                        "size": 75,
+                        "x": 237,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    // {
+                    //     "name": "Chests",
+                    //     "hosted_item":"D7chests"
+                    // },
+                    // {
+                    //     "name": "Evil Eagle",
+                        
+                    //     "item_count": 1,
+                    //     "chest_opened_img": "images/heartContainerd.png",
+                    //     "chest_unopened_img": "images/heartContainer.png"
+                    // },
+                    // {
+                        
+                    //     "name": "Organ of Evening Calm",
+                    //     "hosted_item": "organ",
+                    //     "visibility_rules": ["setting_DungeonShuffle_off"]
+                    // }
+                ]
+            },
+            {
+                "name": "Level 8 - Turtle Rock",
+                "access_rules": [
+                    "[feather],[bombs],[bow],[rod], setting_overworldmods_on, $west_tal, shield2, ocarina, soul",
+                    "[feather],[bombs],[bow],[rod], setting_overworldmods_off, $west_tal, shield2, ocarina, soul",
+                    "[feather],[bombs],[bow],[rod], setting_overworldmods_on, $west_tal, [ocarina],[soul], bombs, mirror",
+                    "[feather],[bombs],[bow],[rod], setting_overworldmods_off, $west_tal, [ocarina],[soul], bombs, mirror",
+                    "[feather],[bombs],[bow],[rod], setting_overworldmods_on, $west_tal, [shield2], boots, ocarina, soul",
+                    "[feather],[bombs],[bow],[rod], setting_overworldmods_off, $west_tal, [shield2], boots, ocarina, soul",
+                    "[feather],[bombs],[bow],[rod], setting_overworldmods_on, $west_tal, [shield2], [ocarina], [soul], bombs",
+                    "[feather],[bombs],[bow],[rod], setting_overworldmods_off, $west_tal, [shield2], [ocarina],[soul], bombs"
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "size": 75,
+                        "x": 88,
+                        "y": 149
+                    },
+                    {
+                        "map": "mirror",
+                        "size": 75,
+                        "x": 2504,
+                        "y": 149
+                    }
+                ],
+                "sections": [
+                    // {
+                    //     "name": "Chests",
+                    //     "hosted_item":"D8chests"
+                    // },
+                    // {
+                    //     "name": "Hot Head",
+                    // 
+                    //     "item_count": 1,
+                    //     "chest_opened_img": "images/heartContainerd.png",
+                    //     "chest_unopened_img": "images/heartContainer.png"
+                    // },
+                    // {
+                    //     "visibility_rules": ["setting_dungeontracking_simple, setting_heartPiece_shuffle_on"],
+                    //     "item_count": 1,
+                    //     "name": "Outside, On the Summit",
+                    //     "short_name": "Outside"
+                    // },
+                    // {
+                        
+                    //     "name": "Thunder Drum",
+                    //     "hosted_item": "drum",
+                    //     "visibility_rules": ["setting_DungeonShuffle_off"]
+                    // }
+                ]
+            },
+            {
+                "name": "D0",
+                "access_rules": [
+                    "lift1",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        
+                        "name": "Powder under the Pot",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 184,
+                                "y": 409 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "lift1"
+                                ],
+                                "hosted_item": "powder"
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "First Color Puzzle",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 456,
+                                "y": 426 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "shield",
+                                    "$can_attack"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bomb the Color Puzzle South Wall",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 444,
+                                "y": 551 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "bombs"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "There be bombs in this room",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 536,
+                                "y": 488
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "lift1"
+                                ],
+                                "hosted_item": "bombs"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Red-Green Orb Enemy Chest",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 775,
+                                "y": 425 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$can_attack"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "South-East One-Way Loop Chest",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 519,
+                                "y": 603 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$can_attack"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Red-Blue-Yellow 2x2 Color Puzzle",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 727,
+                                "y": 182 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$can_attack",
+                                    "shield"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Giant Zol",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 711,
+                                "y": 26 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "powder"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kill all the Zols in the Pot Room",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 455,
+                                "y": 170 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "lift1, $can_attack"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Red-Blue-Green-Green Orb Enemy Room",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 551,
+                                "y": 184 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "lift1, $can_attack"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Evil Orb",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 79,
+                                "y": 49 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "sword1",
+                                    "bow",
+                                    "hookshot",
+                                    "rod"
+                                ],
+                                "hosted_item": "color"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Red/Blue Mail",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 239,
+                                "y": 75
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": ["color"],
+                                "hosted_item": "armor2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D1",
+                "access_rules": [
+                    "tail",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        "name": "Mini-Moldorm Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 359,
+                                "y": 698 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "sword1",
+                                    "shield",
+                                    "hookshot"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 216,
+                                "y": 698 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Button",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 615,
+                                "y": 555 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map Chest",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 774,
+                                "y": 555 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": ["$can_attack"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chest Guarded by Spark",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 550,
+                                "y": 426 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kill Mini-Moldorm",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 455,
+                                "y": 426 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": ["$can_attack"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bombable Wall",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 231,
+                                "y": 440 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bombs"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Roc's Feather",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 71,
+                                "y": 299 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D1SK:3], D1SK:1, shield",
+                                    "hideKeyLogic, shield"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Nightmare's Key",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 551,
+                                "y": 293 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "On the Ledge",
+                                "item_count": 1,
+                                "capture_item": true,
+                                "access_rules": [
+                                    "[D1SK:3], D1SK:1, feather",
+                                    "hideKeyLogic, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Three-of-a-Kind",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 935,
+                                "y": 299 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D1SK:3], D1SK:1, $can_attack",
+                                    "hideKeyLogic, $can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Moldorm",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 1039,
+                                "y": 192
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "setting_Swordless_off, [D1SK:3], D1SK:1, D1BK, feather, sword1",
+                                    "setting_Swordless_off, hideKeyLogic, feather, sword1",
+
+                                    "$swordless_moldorm, [D1SK:3], D1SK:1, D1BK, feather",
+                                    "$swordless_moldorm, hideKeyLogic, setting_Swordless, feather"
+                                ],
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Full Moon Cello",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 1037,
+                                "y": 41
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "setting_Swordless_off, [D1SK:3], D1SK:1, D1BK, feather, sword1",
+                                    "setting_Swordless_off, hideKeyLogic, feather, sword1",
+
+                                    "$swordless_moldorm, [D1SK:3], D1SK:1, D1BK, feather",
+                                    "$swordless_moldorm, hideKeyLogic, setting_Swordless, feather"
+                                ],
+                                "hosted_item": "cello"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D2",
+                "access_rules": [
+                    "$can_break_grass, $can_break_swamp_flowers, setting_overworldmods_off",
+                    "$can_break_grass, setting_overworldmods_on",
+                    "lift1, $can_break_swamp_flowers, setting_overworldmods_off",
+                    "lift1, setting_overworldmods_on",
+                    "setting_DungeonShuffle_on"
+                    
+                ],
+                "children": [
+                    {
+                        "name": "Intro Chest",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 184,
+                                "y": 811
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Surrounded by Pots",
+                                "item_count": 1,
+                                "capture_item": true,
+                                "access_rules": [
+                                    "lift1"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Across the Gap",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 70,
+                                "y": 551
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Across the Gap",
+                                "item_count": 1,
+                                "capture_item": true,
+                                "access_rules": [
+                                    "[D2SK:3], D2SK:1, feather",
+                                    "[D2SK:3], D2SK:1, hookshot",
+                                    "hideKeyLogic, feather",
+                                    "hideKeyLogic, hookshot"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stalfos Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 358,
+                                "y": 695
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": ["$can_attack"],
+                                "chest_unopened_img": "images/smallKeyD.png",
+                                "chest_opened_img": "images/smallKey.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shy Guy/Compass Chest",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 455,
+                                "y": 810
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D2SK:3], D2SK:1, $can_attack",
+                                    "hideKeyLogic, $can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Surrounded by Blocks",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 536,
+                                "y": 841
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$can_attack, rod",
+                                    "$can_attack, sword1",
+                                    "$can_attack, bow",
+                                    "$can_attack, bombs"
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shy Guy Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 679,
+                                "y": 696
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$can_attack, [feather]"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Button Across the Gaps",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 773,
+                                "y": 812
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[feather], boots",
+                                    "feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map Chest",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 198,
+                                "y": 170
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "feather, [D2SK:3], D2SK:1",
+                                    "hideKeyLogic, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "The Forgotten Chest",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 279,
+                                "y": 43
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "feather, [D2SK:3], D2SK:1",
+                                    "hideKeyLogic, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ghost Room",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 136,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D2SK:4], D2SK:2, powder, feather, $can_attack",
+                                    "[D2SK:4], D2SK:2, feather, rod",
+                                    "hideKeyLogic, powder, feather, $can_attack",
+                                    "hideKeyLogic, feather, rod"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Surrounded by Blocks Again",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 439,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D2SK:3], D2SK:1, lift1, feather",
+                                    "hideKeyLogic, lift1, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pols Voice, Keese, then Hooded Stalfos",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 775,
+                                "y": 168
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D2SK:3], D2SK:1, lift1, feather",
+                                    "hideKeyLogic, lift1, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mad Genie",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 878,
+                                "y": 321
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png",
+                                "access_rules": [
+                                    "[D2SK:5], D2SK:2, D2BK, lift1, $can_attack, feather",
+                                    "hideKeyLogic, lift1, $can_attack, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Conch Horn",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 720,
+                                "y": 296
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "conch",
+                                "access_rules": [
+                                    "[D2SK:5], D2SK:2, D2BK, lift1, $can_attack, feather",
+                                    "hideKeyLogic, lift1, $can_attack, feather"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D3",
+                "access_rules": [
+                    "slime, feather",
+                    "slime, flippers",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        "name": "East of Entrance",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 456,
+                                "y": 939
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Past the Crystals",
+                                "capture_item": true,
+                                "access_rules": ["boots"],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "North of Entrance",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 297,
+                                "y": 826
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Zol Chest",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 281,
+                                "y": 684
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": ["$can_attack"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map Chest",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 409,
+                                "y": 699
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D3SK:4], D3SK:1",
+                                    "hideKeyLogic"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kill the Stalfos and the Small Zol",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 297,
+                                "y": 555
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": ["boots, $can_attack"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stone Beak Chest",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 213,
+                                "y": 443
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D3SK:4], D3SK:1",
+                                    "hideKeyLogic"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "West Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 680,
+                                "y": 434
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D3SK:4], D3SK:1, $can_attack",
+                                    "hideKeyLogic, $can_attack"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "South Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 839,
+                                "y": 567
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D3SK:4], D3SK:1, $can_attack",
+                                    "hideKeyLogic, $can_attack"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kill Zols",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 362,
+                                "y": 440
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D3SK:4], D3SK:1, $can_attack",
+                                    "hideKeyLogic, $can_attack"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pairodd Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 39,
+                                "y": 314
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D3SK:4], D3SK:1, $can_attack",
+                                    "hideKeyLogic, $can_attack"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "West Ledge",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 137,
+                                "y": 170
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D3SK:4], D3SK:1, $can_attack",
+                                    "hideKeyLogic, $can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dodongo Snakes",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 391,
+                                "y": 172
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Feed them Bombs",
+                                "capture_item": true,
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D3SK:4], D3SK:1, bombs",
+                                    "hideKeyLogic, bombs"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "East Ledge",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 613,
+                                "y": 158
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "East Ledge",
+                                "capture_item": true,
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D3SK:4], D3SK:1, boots, feather, bombs",
+                                    "[D3SK:4], D3SK:1, [boots], feather, bombs",
+                                    "hideKeyLogic, boots, feather, bombs",
+                                    "hideKeyLogic, [boots], feather, bombs"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Green Bombites",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 391,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D3SK:4], D3SK:1, $can_attack",
+                                    "hideKeyLogic, $can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Red Bombites Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 200,
+                                "y": 57
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D3SK:4], D3SK:1, bombs, $can_attack",
+                                    "hideKeyLogic, bombs, $can_attack"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Conveyor Keese Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 838,
+                                "y": 950
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "[D3SK:8], D3SK:3, boots, feather, $can_attack",
+                                    "hideKeyLogic, boots, feather, $can_attack"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Slime Eye",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 881,
+                                "y": 827
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "setting_Swordless_off, [D3SK:8], D3SK:3, D3BK, boots, feather, $can_attack",
+                                    "setting_Swordless_off, hideKeyLogic, boots, feather, $can_attack",
+
+                                    "$swordless_damage, [D3SK:8], D3SK:3, D3BK, boots, feather",
+                                    "$swordless_damage, hideKeyLogic, boots, feather"
+                                ],
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sea Lily's Bell",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 879,
+                                "y": 681
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "bell",
+                                "access_rules": [
+                                    "setting_Swordless_off, [D3SK:8], D3SK:3, D3BK, boots, feather, $can_attack",
+                                    "setting_Swordless_off, hideKeyLogic, boots, feather, $can_attack",
+
+                                    "$swordless_damage, [D3SK:8], D3SK:3, D3BK, boots, feather",
+                                    "$swordless_damage, hideKeyLogic, boots, feather"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D4",
+                "access_rules": [
+                    "angler, lift1, flippers, shield, $can_attack",
+                    "angler, lift1, boots, shield, $can_attack",
+                    "angler, boots, feather, flippers, shield, $can_attack",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        "name": "East, then South of Entrance",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 551,
+                                "y": 841
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Kill the Tektites to leave",
+                                "access_rules": [
+                                    "setting_Swordless_off, sword1",
+                                    "setting_Swordless, bombs"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "East of Entrance",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 582,
+                                "y": 713
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stone Beak Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 711,
+                                "y": 679
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 665,
+                                "y": 346
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "First Watery Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 919,
+                                "y": 438
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "boots, feather, bomb"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Second Watery Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 888,
+                                "y": 168
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "flippers, boots, feather",
+                                    "boots, feather, bomb"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Eastern Lonely Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 678,
+                                "y": 567
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Missing its partner.",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "D4SK:2, feather, boots, flippers",
+                                    "[D4SK:2], [flippers], boots, feather",
+                                    "hideKeyLogic, feather, boots, flippers",
+                                    "hideKeyLogic, [flippers], boots, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Western Lonely Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 423,
+                                "y": 443
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Missing its partner.",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "D4SK:3, boots, feather, [flippers]",
+                                    "[D4SK:3], D4SK:1, flippers, boots, feather",
+                                    "hideKeyLogic, boots, feather, [flippers]",
+                                    "hideKeyLogic, flippers, boots, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Small Key in the Hole",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 520,
+                                "y": 312
+                            },
+                            {
+                                "map": "D4",
+                                "x": 759,
+                                "y": 295
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "D4SK:3, boots, feather, $can_attack, flippers",
+                                    "hideKeyLogic, boots, feather, $can_attack, flippers"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png",
+                                "capture_item": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "South of the Sparkly Tiles",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 358,
+                                "y": 298
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "setting_Swordless_off, boots, feather, sword1, D4SK:4",
+                                    "setting_Swordless_off, boots, feather, flippers, D4SK:3",
+                                    "setting_Swordless_off, hideKeyLogic, boots, feather, sword1",
+                                    "setting_Swordless_off, hideKeyLogic, boots, feather, flippers",
+
+
+                                    "boots, feather, $swordless_projectile_damage, D4SK:4",
+                                    "hideKeyLogic, boots, feather, $swordless_projectile_damage"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Zora's Flippers",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 391,
+                                "y": 41
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "setting_Swordless_off, boots, feather, sword1, D4SK:4",
+                                    "setting_Swordless_off, boots, feather, flippers, D4SK:3",
+                                    "setting_Swordless_off, hideKeyLogic, boots, feather, sword1",
+                                    "setting_Swordless_off, hideKeyLogic, boots, feather, flippers",
+
+
+                                    "boots, feather, $swordless_projectile_damage, D4SK:4",
+                                    "hideKeyLogic, boots, feather, $swordless_projectile_damage"
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Guarded by Hooded Stalfos",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 263,
+                                "y": 440
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "setting_Swordless_off, boots, feather, sword1, D4SK:4",
+                                    "setting_Swordless_off, boots, feather, flippers, D4SK:3",
+                                    "setting_Swordless_off, hideKeyLogic, boots, feather, sword1",
+                                    "setting_Swordless_off, hideKeyLogic, boots, feather, flippers",
+
+
+                                    "boots, feather, $swordless_projectile_damage, D4SK:4",
+                                    "hideKeyLogic, boots, feather, $swordless_projectile_damage"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ledge Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 200,
+                                "y": 664
+                            },
+                            {
+                                "map": "D4",
+                                "x": 296,
+                                "y": 278
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "setting_Swordless_off, boots, feather, sword1, D4SK:3",
+                                    "setting_Swordless_off, boots, feather, sword1, [flippers], D4SK:5",
+                                    "setting_Swordless_off, hideKeyLogic, boots, feather, sword1",
+                                    "setting_Swordless_off, hideKeyLogic, boots, feather, sword1, [flippers]",
+
+
+                                    "boots, feather, $swordless_projectile_damage, D4SK:3",
+                                    "boots, feather, $swordless_projectile_damage, [flippers], D4SK:5",
+                                    "hideKeyLogic, boots, feather, $swordless_projectile_damage",
+                                    "hideKeyLogic, boots, feather, $swordless_projectile_damage, [flippers]"
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Angler Fish",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 73,
+                                "y": 327
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "boots, feather, sword1, flippers, D4SK:3, D4BK",
+                                    "boots, feather, sword1, flippers, hideKeyLogic"
+                                ],
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Surf Harp",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 81,
+                                "y": 169
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "boots, feather, sword1, flippers, D4SK:3, D4BK",
+                                    "boots, feather, sword1, flippers, hideKeyLogic"
+                                ],
+                                "hosted_item": "harp"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D5",
+                "access_rules": [
+                    "flippers, lift1",
+                    "flippers, boots",
+                    "setting_DungeonShuffle_on"
+
+                ],
+                "children": [
+                    {
+                        "name": "First Chest",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 920,
+                                "y": 920
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Hookshottable Chest",
+                                "capture_item": true,
+                                "access_rules": [
+                                    "hookshot"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 599,
+                                "y": 936
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ceiling Key Near Round 4",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 199,
+                                "y": 58
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "feather, sword1"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stone Beak",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 456,
+                                "y": 809
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hookshot Over the Gaps",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 215,
+                                "y": 684
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "capture_item": true,
+                                "item_count": 1,
+                                "access_rules": [
+                                    "hookshot"
+                                    
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Master Stalfos",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 839,
+                                "y": 551
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "After Round 1",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "setting_Swordless_off, sword1, bombs",
+                                    "setting_Swordless, bombs",
+                                    "setting_Swordless, rod"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hookshot Chest 1",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 920,
+                                "y": 284
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "capture_item": true,
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$master_stalfos_1, hookshot, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hookshot Chest 2",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 936,
+                                "y": 153
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "capture_item": true,
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$master_stalfos_1, hookshot, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hookshot Chest 3",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 1096,
+                                "y": 314
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "capture_item": true,
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$master_stalfos_1, hookshot, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Round 3",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 551,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$master_stalfos_1, feather, lift1, $can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Nightmare's Key",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 728,
+                                "y": 326
+                            },
+                            {
+                                "map": "D5",
+                                "x": 520,
+                                "y": 166
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Swim here",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$master_stalfos_1, flippers, hookshot",
+                                    "$master_stalfos_1, flippers, [hookshot], boots, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Slime Eel",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 400,
+                                "y": 192
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "setting_Swordless_off, $master_stalfos_1, D5SK:2, D5BK, feather, hookshot, sword1",
+                                    "setting_Swordless_off, $master_stalfos_1, [D5SK:2], D5SK:1, D5BK, feather, hookshot, sword1",
+                                    "setting_Swordless_off, $master_stalfos_1, hideKeyLogic, feather, hookshot, sword1",
+
+                                    
+                                    "$swordless_projectile_damage, $master_stalfos_1, D5SK:2, D5BK, feather, hookshot",
+                                    "$swordless_projectile_damage, $master_stalfos_1, [D5SK:2], D5SK:1, D5BK, feather, hookshot",
+                                    "$swordless_projectile_damage, $master_stalfos_1, hideKeyLogic, feather, hookshot"
+                                ],
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wind Marimba",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 400,
+                                "y": 38
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "marimba",
+                                "access_rules": [
+                                    "setting_Swordless_off, $master_stalfos_1, D5SK:2, D5BK, feather, hookshot, sword1",
+                                    "setting_Swordless_off, $master_stalfos_1, [D5SK:2], D5SK:1, D5BK, feather, hookshot, sword1",
+                                    "setting_Swordless_off, $master_stalfos_1, hideKeyLogic, feather, hookshot, sword1",
+
+                                    
+                                    "$swordless_projectile_damage, $master_stalfos_1, D5SK:2, D5BK, feather, hookshot",
+                                    "$swordless_projectile_damage, $master_stalfos_1, [D5SK:2], D5SK:1, D5BK, feather, hookshot",
+                                    "$swordless_projectile_damage, $master_stalfos_1, hideKeyLogic, feather, hookshot"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D6",
+                "access_rules": [
+                    "[hookshot], feather, face, flippers, lift1",
+                    "feather, face, flippers, lift1",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        "name": "Kill the Wizzrobes",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 440,
+                                "y": 698
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$kill_wizz"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lift the Elephant",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 439,
+                                "y": 555
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "capture_item": true,
+                                "access_rules": [
+                                    "$kill_wizz, lift2",
+                                    "setting_heartPiece_shuffle_on, $kill_wizz, [lift2]"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map Chest",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 135,
+                                "y": 426
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "sword1, lift1, $kill_wizz",
+                                    "bombs, lift1, $kill_wizz"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stone Beak",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 216,
+                                "y": 283
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "sword1, lift1, $kill_wizz",
+                                    "bombs, lift1, $kill_wizz"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 215,
+                                "y": 202
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "sword1, lift1, $kill_wizz",
+                                    "bombs, lift1, $kill_wizz"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "West Horsehead",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 120,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "sword1, lift2, $kill_wizz",
+                                    "bombs, lif12, $kill_wizz"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "D6 Raft Minigame Island",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 119,
+                                "y": 10
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 2001,
+                                "y": 840
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 591,
+                                "y": 840
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "capture_item": true,
+                                "access_rules": [
+                                    "sword1, lift2, $kill_wizz",
+                                    "bombs, lift2, $kill_wizz"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "L-2 Power Bracelet",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 184,
+                                "y": 666
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$can_attack, bombs, $kill_wizz, feather",
+                                    "$can_attack, bombs, $kill_wizz, [feather], boots"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "North Ledge Crystal Blocks Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 520,
+                                "y": 183
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$kill_wizz, lift1"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Blade Trap Ledge",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 1096,
+                                "y": 730
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "lift2, feather"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Moist Chest",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 1064,
+                                "y": 283
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "lift2, $kill_wizz"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tile Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 519,
+                                "y": 437
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D6SK:1, bombs, lift2, feather",
+                                    "hideKeyLogic, bombs, lift2, feather"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "East Horsehead",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 1159,
+                                "y": 39
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D6SK:1, bombs, lift2, feather, $kill_wizz",
+                                    "D6SK:1, bombs, lift2, feather, ocarina, ballad",
+                                    "hideKeyLogic, bombs, lift2, feather, $kill_wizz",
+                                    "hideKeyLogic, bombs, lift2, feather, ocarina, ballad"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot Chest",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 1015,
+                                "y": 168
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[D6SK:2], D6SK:1, bombs, lift2, feather, hookshot",
+                                    "hideKeyLogic, bombs, lift2, feather, hookshot"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Facade",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 719,
+                                "y": 318
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[D6SK:2], D6SK:1, D6BK, bombs, lift2, feather, $kill_wizz",
+                                    "hideKeyLogic, bombs, lift2, feather, $kill_wizz"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coral Triangle",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 719,
+                                "y": 169
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[D6SK:2], D6SK:1, D6BK, bombs, lift2, feather, $kill_wizz",
+                                    "hideKeyLogic, bombs, lift2, feather, $kill_wizz"
+                                ],
+                                "hosted_item": "triangle"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D7",
+                "access_rules": [
+                    "$east_tal, eagle, hookshot, feather",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        "name": "Bombs Under the Pots",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 96,
+                                "y": 945
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": ["lift1"],
+                                "hosted_item": "bombs"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Like Like Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 520,
+                                "y": 951
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": ["$can_attack"],
+                                "item_count": 1,
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Horseheads",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 455,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1, lift1",
+                                    "hideKeyLogic, lift1"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stone Beak",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 88,
+                                "y": 809
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1",
+                                    "hideKeyLogic"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mirror Shield",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 536,
+                                "y": 299
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1",
+                                    "hideKeyLogic"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Top-Left Corner",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 22,
+                                "y": 534
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1",
+                                    "hideKeyLogic"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Top-Right Corner",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 616,
+                                "y": 534
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1",
+                                    "hideKeyLogic"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hookshottable Chest",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 296,
+                                "y": 426
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Kill the Three-of-a-Kind first",
+                                "access_rules": [
+                                    "D7SK:1, sword1, hookshot, bombs",
+                                    "hideKeyLogic, sword1, hookshot, bombs"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hinox Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 38,
+                                "y": 439
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1, $can_attack",
+                                    "hideKeyLogic, $can_attack"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grim Creeper",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 1255,
+                                "y": 169
+                            },
+                            {
+                                "map": "D7",
+                                "x": 1255,
+                                "y": 681
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1, lift1, $can_attack",
+                                    "hideKeyLogic, lift1, $can_attack"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Three-of-a-Kind",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 296,
+                                "y": 43
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1, feather, sword1",
+                                    "hideKeyLogic, feather, sword1"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Conveyor Horseheads",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 1095,
+                                "y": 41
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[D7SK:3], D7SK:2, lift1, D7BK",
+                                    "hideKeyLogic, lift1"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Evil Eagle",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 984,
+                                "y": 265
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7BK, [D7SK:3], D7SK:2, mirror, sword1",
+                                    "D7BK, [D7SK:3], D7SK:2, rod",
+                                    "hideKeyLogic, mirror, sword1",
+                                    "hideKeyLogic, rod"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Organ of Evening Calm",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 1039,
+                                "y": 167
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7BK, [D7SK:3], D7SK:2, mirror, feather, sword1",
+                                    "D7BK, [D7SK:3], D7SK:2, rod",
+                                    "hideKeyLogic, mirror, feather, sword1",
+                                    "hideKeyLogic, rod"
+                                ],
+                                "hosted_item": "organ"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D8",
+                "access_rules": [
+                    // "setting_overworldmods_on, $west_tal, shield2, $wake_turtle_rock",
+                    // "setting_overworldmods_off, $west_tal, shield2, $wake_turtle_rock",
+                    // "setting_overworldmods_on, $west_tal, [$wake_turtle_rock], bombs, mirror",
+                    // "setting_overworldmods_off, $west_tal, [$wake_turtle_rock], bombs, mirror",
+                    // "setting_overworldmods_on, $west_tal, [shield2], boots, $wake_turtle_rock",
+                    // "setting_overworldmods_off, $west_tal, [shield2], boots, $wake_turtle_rock",
+                    // "setting_overworldmods_on, $west_tal, [shield2], [ocarina], [soul], [sword1], bombs",
+                    // "setting_overworldmods_off, $west_tal, [shield2], [ocarina], [soul], [sword1], bombs",
+
+                    "$west_tal, shield2, $wake_turtle_rock",
+                    "$west_tal, [$wake_turtle_rock], bombs, mirror",
+                    "$west_tal, [shield2], boots, $wake_turtle_rock",
+                    "$west_tal, [shield2], [$wake_turtle_rock], bombs",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        "name": "West Directional Block",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 295,
+                                "y": 682
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Fill the Room",
+                                "access_rules": [
+                                    "$kill_vire, $can_attack"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Light Torches",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 296,
+                                "y": 554
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "$kill_vire, $can_attack, rod"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Guarded by Sparks",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 264,
+                                "y": 809
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "$kill_vire, $can_attack, feather"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vire Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 39,
+                                "y": 693
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "$kill_vire, $can_attack"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "South of Rolling Bones",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 71,
+                                "y": 954
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "$can_attack, $kill_vire"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "East of Pot Room",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 872,
+                                "y": 841
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "$kill_vire, lift1"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Southwestern Directional Block Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 1000,
+                                "y": 821
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Fill the Room",
+                                "access_rules": [
+                                    "$kill_vire, $can_attack, feather, lift1",
+                                    "$kill_vire, $can_attack, boots, feather, [lift1]"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Guarded by Ropes",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 1256,
+                                "y": 937
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "$kill_vire, $can_attack, feather, lift1",
+                                    "$kill_vire, $can_attack, boots, feather, [lift1]"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map Chest",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 536,
+                                "y": 682
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "feather"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shoot the Eye Statue Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 360,
+                                "y": 440
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Shoot the Statue with your Bow",
+                                "access_rules": [
+                                    "bow, [D8SK:2], D8SK:1, feather",
+                                    "bow, rod, feather",
+                                    "hideKeyLogic, bow, feather"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "West of Eye Statue",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 265,
+                                "y": 440
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "[D8SK:2], D8SK:1, feather",
+                                    "rod, feather",
+                                    "hideKeyLogic, feather"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chest on Ledge",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 456,
+                                "y": 282
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "[D8SK:2], D8SK:1, feather, hookshot",
+                                    "rod, feather, hookshot",
+                                    "hideKeyLogic, feather, hookshot"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Northwest of Dodongo Snakes",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 696,
+                                "y": 154
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "[D8SK:2], D8SK:1, feather, hookshot",
+                                    "rod, feather, hookshot",
+                                    "hideKeyLogic, feather, hookshot"    
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dodongo Snakes",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 936,
+                                "y": 298
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "[D8SK:2], D8SK:1, feather, bombs",
+                                    "rod, feather, bombs",
+                                    "hideKeyLogic, feather, bombs"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Gibdo Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 1000,
+                                "y": 309
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "[D8SK:2], D8SK:1, feather, $can_attack",
+                                    "rod, feather, $can_attack",
+                                    "hideKeyLogic, feather, $can_attack"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "D8 - Mountain Summit",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 407,
+                                "y": 264
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 79,
+                                "y": 41
+                            },
+                            {
+                                "map": "mirror",
+                                "x": 2513,
+                                "y": 41
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"],
+                                "name": "",
+                                "access_rules": [
+                                    "[D8SK:2], D8SK:1, feather",
+                                    "rod, feather",
+                                    "hideKeyLogic, feather"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/heartPieceGrey.png",
+                                "chest_unopened_img": "images/heartPiece.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "North of Cue Ball Directional Block",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 136,
+                                "y": 169
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Fill the Room",
+                                "access_rules": [
+                                    "[D8SK:3], D8SK:2, feather",
+                                    "D8SK:1, rod, feather",
+                                    "D8SK:1, [rod], sword1, feather",
+                                    "hideKeyLogic, feather",
+                                    "hideKeyLogic, rod, feather",
+                                    "hideKeyLogic, [rod], sword1, feather"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Blaino",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 1176,
+                                "y": 154
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "setting_Swordless_off, rod, bombs, $can_attack, D8SK:1, [D8SK:3]",
+                                    "setting_Swordless_off, [bombs], $can_attack, D8SK:3, [D8SK:7]",
+                                    "setting_Swordless_off, hideKeyLogic, rod, bombs, $can_attack",
+                                    "setting_Swordless_off, hideKeyLogic, [bombs], $can_attack",
+
+
+                                    "$swordless_projectile_damage, rod, bombs, $can_attack, D8SK:1, [D8SK:3]",
+                                    "$swordless_projectile_damage, [bombs], $can_attack, D8SK:3, [D8SK:7]",
+                                    "$swordless_projectile_damage, hideKeyLogic, rod, bombs, $can_attack",
+                                    "$swordless_projectile_damage, hideKeyLogic, [bombs], $can_attack"
+                                ],
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hot Head",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 560,
+                                "y": 181
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "D8BK, rod, feather",
+                                    "hideKeyLogic, rod, feather"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Thunder Drum",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 560,
+                                "y": 40
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [
+                                    "D8BK, rod, feather",
+                                    "hideKeyLogic, rod, feather"
+                                ],
+                                "hosted_item": "drum"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+﻿{
+  "tracker_broadcast": {
+    "type": "array",
+    "margin": "5,5,5,5",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "5,8",
+        "rows": [
+
+          ["shield", "sword", "powderbatter", "shovelboomerang"],
+          ["bombbatter", "bowbatter", "featherboomerang", "lift1"],
+          ["bootsboomerang", "flippers", "hookshotboomerang", "rodboomerang"],
+          ["ocarina", "balladcheck", "manbocheck", "soulcheck"],
+          ["yoshi","armor", "poh", "oneleaf"],
+          ["tail","angler","face","eagle"],
+          
+          ["","drum","cello",""],
+          ["organ","","","conch"],
+          // ["linkface"],
+          ["triangle","","","bell"],
+          ["","marimba","harp",""]
+        ]
+      }
+    ]
+  }
+}

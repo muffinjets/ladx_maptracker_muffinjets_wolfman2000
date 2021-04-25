@@ -1,0 +1,23 @@
+﻿{
+  "tracker_broadcast": {
+    "type": "array",
+    "margin": "5,5,5,5",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "5,8",
+        "rows": [
+          ["shield", "sword", "mushroom", "powdercapacity", "shovelsalesman", "bombscapacity", "bowcapacity"],
+          ["feathersalesman", "bracelet", "bootssalesman", "flippers", "hookshotsalesman", "rodsalesman", "bothclothes"],
+          ["ocarina", "marincheck", "manbocheck", "frogcheck", "chomp", "boomerangsalesman", "shells"],
+          ["tailkey", "anglerkey", "facekey", "eaglekey", "slime", "oneleaf"],
+
+          ["cello", "D1chests", "conch", "D2chests", "bell", "D3chests"],
+          ["harp", "D4chests", "marimba", "D5chests", "triangle", "D6chests"],
+          ["organ", "D7chests", "drum", "D8chests", "colorfinish", "D0chests"]
+        ]
+      }
+    ]
+  }
+}

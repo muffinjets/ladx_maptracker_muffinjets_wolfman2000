@@ -1,0 +1,758 @@
+[
+    {
+		"name": "Shows the locations of all the unchanged shell locations.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/DontShowShells.png",
+				"codes": "setting_shellsanity_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/HiddenShellsAsChests.png",
+				"codes": "setting_shellsanity_on",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/VanillaShellTracking.png",  
+				"codes": "setting_shellsanity_vanilla",
+				"inherit_codes": false
+			}
+		]
+	},
+	// {
+	// 	"name": "Turn this setting on if you've turned on 'Shuffle heart pieces' in the randomizer settings.",
+	// 	"type": "progressive",
+	// 	"allow_disabled": false,
+	// 	"loop": true,
+	// 	"initial_stage_idx": 0,
+	// 	"stages": [
+	// 		{
+	// 			"img": "images/settings/HeartPieceTextOn.png",
+	// 			"codes": "setting_heartPiece_shuffle_on",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/settings/HeartPieceTextOff.png",
+	// 			"codes": "setting_heartPiece_shuffle_off",
+	// 			"inherit_codes": false
+	// 		}
+	// 	]
+	// },
+	{
+		"name": "Turn this setting on if you've turned on 'Randomize Heart Pieces' in the randomizer settings.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"initial_stage_idx": 1,
+		"stages": [
+			{
+				"img": "images/settings/HeartPieceTextOn.png",
+				"codes": "setting_heartPiece_shuffle_on",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/HeartPieceTextOff.png",
+				"codes": "setting_heartPiece_shuffle_off",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "If enabled, the Walrus will not block the way to the Yarna Desert.",
+		"type": "progressive",
+		"initial_stage_idx": 1,
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/WalrusNotRequired.png",
+				"codes": "setting_walrus_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/WalrusRequired.png",
+				"codes": "setting_walrus_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Certain screens on the overworld get changed to allow for easier exploration. 'Add overworld modifications' in randomizer settings.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"initial_stage_idx": 1,
+		"stages": [
+			{
+				"img": "images/settings/OverworldModText.png",
+				"inherit_codes": false,
+				"codes": "setting_overworldmods_on"
+			},
+			{
+				"img": "images/settings/OverworldModTextOff.png",
+				"inherit_codes": false,
+				"codes": "setting_overworldmods_off"
+			}
+		]
+	},
+	{
+		"name": "Certain screens in tunnels and caves get changed to allow for easier exploration. 'Remove some cave obstacles' in randomizer settings.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"initial_stage_idx": 1,
+		"stages": [
+			{
+				"img": "images/settings/CaveModsText.png",
+				"inherit_codes": false,
+				"codes": "setting_cavemods_on, setting_connectormods_on"
+			},
+			{
+				"img": "images/settings/CaveModsTextOff.png",
+				"inherit_codes": false,
+				"codes": "setting_cavemods_off, setting_connectormods_off"
+			}
+		]
+	},
+	{
+		"name": "This setting adds back in a single cave north of Kanalet Castle that was removed in development. 'Add new cave above castle' in randomizer settings.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 1,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/BetaCaveTextOn.png",
+				"inherit_codes": false,
+				"codes": "setting_betacave_on"
+			},
+			{
+				"img": "images/settings/BetaCaveTextOff.png",
+				"inherit_codes": false,
+				"codes": "setting_betacave_off"
+			}
+		]
+	},
+	{
+		"name": "This is the amount of instruments required to open the egg.  Applicable only for version 0.50 of the randomizer.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/numInst8.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst8"
+			},
+			{
+				"img": "images/settings/numInst7.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst7"
+			},
+			{
+				"img": "images/settings/numInst6.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst6"
+			},
+			{
+				"img": "images/settings/numInst5.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst5"
+			},
+			{
+				"img": "images/settings/numInst4.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst4"
+			},
+			{
+				"img": "images/settings/numInst3.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst3"
+			},
+			{
+				"img": "images/settings/numInst2.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst2"
+			},
+			{
+				"img": "images/settings/numInst1.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst1"
+			},
+			{
+				"img": "images/settings/numInst0.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst0"
+			}
+		]
+	},
+	{
+		"name": "This setting will show caves that are either useless or redundant to keeping track.  Turn this setting on if you are the type to keep track of everything, even if not needed.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/HideRedundantCaves.png",
+				"codes": "setting_hideRedundantCaves",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/ShowRedundantCaves.png",
+				"codes": "setting_showRedundantCaves",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "This setting will show the chests that are next to the static dungeon key locations.",
+		"type": "progressive",
+		"initial_stage_idx": 1,
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/AddOverworldKeyChests.png",
+				"codes": "setting_AddOverworldKeyChests",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/AddOverworldKeyChestsOff.png",
+				"codes": "setting_AddOverworldKeyChestsOff",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "This setting will adjust logic to account for the 'Swordless' flag.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/SwordlessModeOff.png",
+				"codes": "setting_Swordless_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/SwordlessMode.png",
+				"codes": "setting_Swordless",
+				"inherit_codes": false
+			}
+		]
+	},
+    {
+		"name": "This tracker setting allows you to show which chests in dungeons are available with the number of keys that you have.  This doesn't apply to the Color Dungeon.",
+		"type": "progressive",
+		"initial_stage_idx": 1,
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/showKeyLogic.png",
+				"inherit_codes": false,
+				"codes": "showKeyLogic"
+            },
+            {
+				"img": "images/settings/hideKeyLogic.png",
+				"inherit_codes": false,
+				"codes": "hideKeyLogic"
+			}
+		]
+	},
+	{
+		"name": "This setting disables logic checks for the entrances to dungeons so that they can be tracked individually.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/DungeonShuffleOff.png",
+				"inherit_codes": false,
+				"codes": "setting_DungeonShuffle_off"
+			},
+			{
+				"img": "images/settings/DungeonShuffle.png",
+				"inherit_codes": false,
+				"codes": "setting_DungeonShuffle_on"
+			}
+		]
+	},
+	
+    //Z4R Specific Items
+
+
+	{
+		"name": "Full Moon Cello + Boss Shuffle",
+		"type": "progressive_toggle",
+		"captureable": false,
+		"stages": [
+			{
+				"img": "images/1_cello.png",
+				"codes": "cello"
+			},
+			{
+				"img": "images/bossshuffle/D1Moldorm.png",
+				"codes": "cello"
+			},
+			{
+				"img": "images/bossshuffle/D1MadGenie.png",
+				"codes": "cello"
+			},
+			{
+				"img": "images/bossshuffle/D1SlimeEye.png",
+				"codes": "cello"
+			},
+			{
+				"img": "images/bossshuffle/D1AnglerFish.png",
+				"codes": "cello"
+			},
+			{
+				"img": "images/bossshuffle/D1SlimeEel.png",
+				"codes": "cello"
+			},
+			{
+				"img": "images/bossshuffle/D1Facade.png",
+				"codes": "cello"
+			},
+			{
+				"img": "images/bossshuffle/D1EvilEagle.png",
+				"codes": "cello"
+			},
+			{
+				"img": "images/bossshuffle/D1HotHead.png",
+				"codes": "cello"
+			}
+		]
+	},
+	{
+		"name": "Conch Horn + Boss Shuffle",
+		"type": "progressive_toggle",
+		"captureable": false,
+		"stages": [
+			{
+				"img": "images/2_conch.png",
+				"codes": "conch"
+			},
+			{
+				"img": "images/bossshuffle/D2Moldorm.png",
+				"codes": "conch"
+			},
+			{
+				"img": "images/bossshuffle/D2MadGenie.png",
+				"codes": "conch"
+			},
+			{
+				"img": "images/bossshuffle/D2SlimeEye.png",
+				"codes": "conch"
+			},
+			{
+				"img": "images/bossshuffle/D2AnglerFish.png",
+				"codes": "conch"
+			},
+			{
+				"img": "images/bossshuffle/D2SlimeEel.png",
+				"codes": "conch"
+			},
+			{
+				"img": "images/bossshuffle/D2Facade.png",
+				"codes": "conch"
+			},
+			{
+				"img": "images/bossshuffle/D2EvilEagle.png",
+				"codes": "conch"
+			},
+			{
+				"img": "images/bossshuffle/D2HotHead.png",
+				"codes": "conch"
+			}
+		]
+	},
+	{
+		"name": "Sea Lily's Bell + Boss Shuffle",
+		"type": "progressive_toggle",
+		"captureable": false,
+		"stages": [
+			{
+				"img": "images/3_bell.png",
+				"codes": "bell"
+			},
+			{
+				"img": "images/bossshuffle/D3Moldorm.png",
+				"codes": "bell"
+			},
+			{
+				"img": "images/bossshuffle/D3MadGenie.png",
+				"codes": "bell"
+			},
+			{
+				"img": "images/bossshuffle/D3SlimeEye.png",
+				"codes": "bell"
+			},
+			{
+				"img": "images/bossshuffle/D3AnglerFish.png",
+				"codes": "bell"
+			},
+			{
+				"img": "images/bossshuffle/D3SlimeEel.png",
+				"codes": "bell"
+			},
+			{
+				"img": "images/bossshuffle/D3Facade.png",
+				"codes": "bell"
+			},
+			{
+				"img": "images/bossshuffle/D3EvilEagle.png",
+				"codes": "bell"
+			},
+			{
+				"img": "images/bossshuffle/D3HotHead.png",
+				"codes": "bell"
+			}
+		]
+	},
+	{
+		"name": "Surf Harp + Boss Shuffle",
+		"type": "progressive_toggle",
+		"captureable": false,
+		"stages": [
+			{
+				"img": "images/4_harp.png",
+				"codes": "harp"
+			},
+			{
+				"img": "images/bossshuffle/D4Moldorm.png",
+				"codes": "harp"
+			},
+			{
+				"img": "images/bossshuffle/D4MadGenie.png",
+				"codes": "harp"
+			},
+			{
+				"img": "images/bossshuffle/D4SlimeEye.png",
+				"codes": "harp"
+			},
+			{
+				"img": "images/bossshuffle/D4AnglerFish.png",
+				"codes": "harp"
+			},
+			{
+				"img": "images/bossshuffle/D4SlimeEel.png",
+				"codes": "harp"
+			},
+			{
+				"img": "images/bossshuffle/D4Facade.png",
+				"codes": "harp"
+			},
+			{
+				"img": "images/bossshuffle/D4EvilEagle.png",
+				"codes": "harp"
+			},
+			{
+				"img": "images/bossshuffle/D4HotHead.png",
+				"codes": "harp"
+			}
+		]
+	},
+	{
+		"name": "Wind Marimba + Boss Shuffle",
+		"type": "progressive_toggle",
+		"captureable": false,
+		"stages": [
+			{
+				"img": "images/5_marimba.png",
+				"codes": "marimba"
+			},
+			{
+				"img": "images/bossshuffle/D5Moldorm.png",
+				"codes": "marimba"
+			},
+			{
+				"img": "images/bossshuffle/D5MadGenie.png",
+				"codes": "marimba"
+			},
+			{
+				"img": "images/bossshuffle/D5SlimeEye.png",
+				"codes": "marimba"
+			},
+			{
+				"img": "images/bossshuffle/D5AnglerFish.png",
+				"codes": "marimba"
+			},
+			{
+				"img": "images/bossshuffle/D5SlimeEel.png",
+				"codes": "marimba"
+			},
+			{
+				"img": "images/bossshuffle/D5Facade.png",
+				"codes": "marimba"
+			},
+			{
+				"img": "images/bossshuffle/D5EvilEagle.png",
+				"codes": "marimba"
+			},
+			{
+				"img": "images/bossshuffle/D5HotHead.png",
+				"codes": "marimba"
+			}
+		]
+	},
+	{
+		"name": "Coral Triangle + Boss Shuffle",
+		"type": "progressive_toggle",
+		"captureable": false,
+		"stages": [
+			{
+				"img": "images/6_triangle.png",
+				"codes": "triangle"
+			},
+			{
+				"img": "images/bossshuffle/D6Moldorm.png",
+				"codes": "triangle"
+			},
+			{
+				"img": "images/bossshuffle/D6MadGenie.png",
+				"codes": "triangle"
+			},
+			{
+				"img": "images/bossshuffle/D6SlimeEye.png",
+				"codes": "triangle"
+			},
+			{
+				"img": "images/bossshuffle/D6AnglerFish.png",
+				"codes": "triangle"
+			},
+			{
+				"img": "images/bossshuffle/D6SlimeEel.png",
+				"codes": "triangle"
+			},
+			{
+				"img": "images/bossshuffle/D6Facade.png",
+				"codes": "triangle"
+			},
+			{
+				"img": "images/bossshuffle/D6EvilEagle.png",
+				"codes": "triangle"
+			},
+			{
+				"img": "images/bossshuffle/D6HotHead.png",
+				"codes": "triangle"
+			}
+		]
+	},
+	{
+		"name": "Organ of Evening Calm + Boss Shuffle",
+		"type": "progressive_toggle",
+		"captureable": false,
+		"stages": [
+			{
+				"img": "images/7_organ.png",
+				"codes": "organ"
+			},
+			{
+				"img": "images/bossshuffle/D7Moldorm.png",
+				"codes": "organ"
+			},
+			{
+				"img": "images/bossshuffle/D7MadGenie.png",
+				"codes": "organ"
+			},
+			{
+				"img": "images/bossshuffle/D7SlimeEye.png",
+				"codes": "organ"
+			},
+			{
+				"img": "images/bossshuffle/D7AnglerFish.png",
+				"codes": "organ"
+			},
+			{
+				"img": "images/bossshuffle/D7SlimeEel.png",
+				"codes": "organ"
+			},
+			{
+				"img": "images/bossshuffle/D7Facade.png",
+				"codes": "organ"
+			},
+			{
+				"img": "images/bossshuffle/D7EvilEagle.png",
+				"codes": "organ"
+			},
+			{
+				"img": "images/bossshuffle/D7HotHead.png",
+				"codes": "organ"
+			}
+		]
+	},
+	{
+		"name": "Thunder Drum + Boss Shuffle",
+		"type": "progressive_toggle",
+		"captureable": false,
+		"stages": [
+			{
+				"img": "images/8_drum.png",
+				"codes": "drum"
+			},
+			{
+				"img": "images/bossshuffle/D8Moldorm.png",
+				"codes": "drum"
+			},
+			{
+				"img": "images/bossshuffle/D8MadGenie.png",
+				"codes": "drum"
+			},
+			{
+				"img": "images/bossshuffle/D8SlimeEye.png",
+				"codes": "drum"
+			},
+			{
+				"img": "images/bossshuffle/D8AnglerFish.png",
+				"codes": "drum"
+			},
+			{
+				"img": "images/bossshuffle/D8SlimeEel.png",
+				"codes": "drum"
+			},
+			{
+				"img": "images/bossshuffle/D8Facade.png",
+				"codes": "drum"
+			},
+			{
+				"img": "images/bossshuffle/D8EvilEagle.png",
+				"codes": "drum"
+			},
+			{
+				"img": "images/bossshuffle/D8HotHead.png",
+				"codes": "drum"
+			}
+		]
+    },
+	{
+		"name": "Mushroom/Powder",
+		"type": "progressive",
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/mushroom.png",
+				"codes": "mushroom,shroom"
+			},
+			{
+				"img": "images/powder.png",
+				"codes": "powder"
+			}
+		]
+	},
+	{
+		"name": "Golden Leaves and Slime Key",
+		"type": "progressive",
+		"allow_disabled": true,
+		"loop": false,
+		"stages": [
+			{
+				"img": "images/leaf.png",
+				"codes": "oneleaf",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/leaf2.png",
+				"codes": "twoleaf",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/leaf3.png",
+				"codes": "threeleaf",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/leaf4.png",
+				"codes": "fourleaf",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/leaf5.png",
+				"codes": "fiveleaf",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/slime_key.png",
+				"codes": "slime, slimekey",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Shovel traded for Boomerang",
+		"type": "toggle_badged",
+		"base_item": "shovel",
+		"img": "images/overlay_boomerang.png",
+		"codes": "shovelboomerang"
+	},
+	{
+		"name": "Feather traded for Boomerang",
+		"type": "toggle_badged",
+		"base_item": "feather",
+		"img": "images/overlay_boomerang.png",
+		"codes": "featherboomerang"
+	},
+	{
+		"name": "Boots traded for Boomerang",
+		"type": "toggle_badged",
+		"base_item": "boots",
+		"img": "images/overlay_boomerang.png",
+		"codes": "bootsboomerang"
+	},
+	{
+		"name": "Hookshot traded for Boomerang",
+		"type": "toggle_badged",
+		"base_item": "hookshot",
+		"img": "images/overlay_boomerang.png",
+		"codes": "hookshotboomerang"
+	},
+	{
+		"name": "Magic Rod traded for Boomerang",
+		"type": "toggle_badged",
+		"base_item": "rod",
+		"img": "images/overlay_boomerang.png",
+		"codes": "rodboomerang"
+	},
+	{
+		"name": "D3 Keys",
+		"type": "consumable",
+		"img": "images/smallKey.png",
+		"codes": "z4r_D3SK",
+		"max_quantity": 8
+	},
+	{
+		"name": "Seashells",
+		"type": "consumable",
+		"img": "images/shell.png",
+		"codes": "shells, shell",
+		"max_quantity": 22
+	},
+	{
+		"name": "Bow w/ Mad Batter",
+		"type": "toggle_badged",
+		"base_item": "bow",
+		"img": "images/overlay_madbatter.png",
+		"codes": "bowbatter"
+	},
+	{
+		"name": "Mushroom/Powder w/ Mad Batter",
+		"type": "toggle_badged",
+		"base_item": "powder",
+		"img": "images/overlay_madbatter.png",
+		"codes": "powderbatter"
+	},
+	{
+		"name": "Bombs w/ Mad Batter",
+		"type": "toggle_badged",
+		"base_item": "bombs",
+		"img": "images/overlay_madbatter.png",
+		"codes": "bombbatter, bombsbatter"
+	}
+]

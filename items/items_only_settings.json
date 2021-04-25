@@ -1,0 +1,137 @@
+[
+    {
+		"name": "Golden Leaves",
+		"type": "progressive",
+		"allow_disabled": true,
+		"loop": false,
+		"stages": [
+			{
+				"img": "images/leaf.png",
+				"codes": "oneleaf",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/leaf2.png",
+				"codes": "twoleaf",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/leaf3.png",
+				"codes": "threeleaf",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/leaf4.png",
+				"codes": "fourleaf",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/leaf5.png",
+				"codes": "fiveleaf",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "Slime Key",
+		"type": "toggle",
+		"img": "images/slime_key.png",
+		"codes": "slime, slimekey"
+	},
+    {
+		"name": "Full Moon Cello",
+		"type": "toggle",
+		"img": "images/1_cello.png",
+		"codes": "cello,tc"
+    },
+    {
+		"name": "Conch Horn",
+		"type": "toggle",
+		"img": "images/2_conch.png",
+		"codes": "conch,bg"
+	}, 
+	{
+		"name": "Sea Lily's Bell",
+		"type": "toggle",
+		"img": "images/3_bell.png",
+		"codes": "bell,kc"
+	}, 
+	{
+		"name": "Surf Harp",
+		"type": "toggle",
+		"img": "images/4_harp.png",
+		"codes": "harp,at"
+	}, 
+	{
+		"name": "Wind Marimba",
+		"type": "toggle",
+		"img": "images/5_marimba.png",
+		"codes": "marimba,cm"
+	}, 
+	{
+		"name": "Coral Triangle",
+		"type": "toggle",
+		"img": "images/6_triangle.png",
+		"codes": "triangle,fs"
+	},
+	{
+		"name": "Organ of Evening Calm",
+		"type": "toggle",
+		"img": "images/7_organ.png",
+		"codes": "organ,et"
+	}, 
+	{
+		"name": "Thunder Drum",
+		"type": "toggle",
+		"img": "images/8_drum.png",
+		"codes": "drum,tr"
+    },
+	{
+		"name": "Shells",
+		"type": "consumable",
+		"img": "images/shell.png",
+		"codes": "shells,shell",
+		"max_quantity": 20
+	},
+	{
+		"name": "Mushroom",
+		"type": "toggle",
+		"img": "images/mushroompowderd.png",
+		"codes": "mushroom, shroom"
+	},
+	{
+		"name": "Magic Powder",
+		"type": "toggle",
+		"img": "images/mushroomdpowder.png",
+		"codes": "powder"
+	},
+	{
+		"name": "Mushroom and Powder",
+		"type": "composite_toggle",
+		"codes": "mushroompowder",
+		"item_left": "mushroom",
+		"item_right": "powder",
+		"images": [
+			{
+				"left": false,
+				"right": false,
+				"img": "images/mushroomdpowderd.png"
+			},
+			{
+				"left": true,
+				"right": false,
+				"img": "images/mushroompowderd.png"
+			},
+			{
+				"left": false,
+				"right": true,
+				"img": "images/mushroomdpowder.png"
+			},
+			{
+				"left": true,
+				"right": true,
+				"img": "images/mushroompowder.png"
+			}
+		]
+	}
+]

@@ -1,0 +1,531 @@
+{
+    "item_grid": {
+        "type": "itemgrid",
+        "h_alignment": "stretch",
+        "item_margin": "4",
+        "rows": [
+            ["shield", "sword", "mushroom", "powdercapacity", "shovelsalesman", "bombscapacity", "bowcapacity"],
+            ["feathersalesman", "bracelet", "bootssalesman", "flippers", "hookshotsalesman", "rodsalesman", "bothclothes"],
+            ["ocarina", "marincheck", "manbocheck", "frogcheck", "chomp", "boomerangsalesman", "shells"],
+            ["tailkey", "anglerkey", "facekey", "eaglekey", "slime", "oneleaf"]
+        ]
+    },
+    "settings_grid": {
+        "type": "array",
+        "margin": "5",
+        "content": [
+            {
+                "type": "group",
+                "header": "Entrance Rando Settings",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "setting_ER_simple"
+                    },
+                    {
+                        "type": "item",
+                        "item": "setting_DungeonShuffle_on",
+                        "margin":"0, 30, 0, 0"
+                    },
+                    {
+                        "type": "item",
+                        "item": "setting_hideRedundantCaves",
+                        "margin": "0, 60, 0, 0"
+                    },
+                    {
+                        "type": "item",
+                        "item": "setting_heartPiece_shuffle_on",
+                        "margin": "0, 90, 0, 0"
+                    },
+                    {
+                        "type": "item",
+                        "item": "ladxr_setting_shellsanity_on",
+                        "margin": "0, 120, 0, 0"
+                    },
+                    {
+                        "type": "item",
+                        "item": "setting_ItemsOnOwlStatues_off",
+                        "margin": "0, 150, 0, 0"
+                    },
+                    {
+                        "type": "item",
+                        "item": "setting_RandomizeWitch_off",
+                        "margin":"0, 180, 0, 0"
+                    },
+                    {
+                        "type": "item",
+                        "item": "setting_BoomerangSalesman_Normal",
+                        "margin":"0, 210, 0, 0"
+                    },
+                    {
+                        "type": "item",
+                        "item": "hideKeyLogic",
+                        "margin": "0, 240, 0, 0"
+                    },
+                    {
+                        "type": "item",
+                        "item": "setting_GoodBoy_off",
+                        "margin": "0, 270, 0, 0"
+                    },
+                    {
+                        "type": "item",
+                        "item": "setting_NormalLogic",
+                        "margin": "0, 300, 0, 0"
+                    },
+                    {
+                        "type": "item",
+                        "item": "setting_numinst8",
+                        "margin": "0, 330, 0, 0"
+                    }
+                ]
+            }
+        ]
+    },
+    "tracker_default": {
+      "type": "container",
+      "background": "#877373",
+      "content": {
+          "type": "dock",
+          "dropshadow": true,
+          "content": [
+              {
+                  "type": "dock",
+                  "dock": "right",
+                  "v_alignment": "stretch",
+                  "margin": "0,0,0,0",
+                  "content": [
+                    {
+                        "type": "group",
+                        "header": "Items",
+                        "dock": "top",
+                        "header_content": {
+                            "type": "button_popup",
+                            "style": "settings",
+                            "popup_background": "#502121",
+                            "layout": "settings_grid"
+                        },
+                        "content": [
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "h_alignment": "center",
+                                "margin": "0,0,0,0",
+                                "content": [
+                                    {
+                                        "type": "layout",
+                                        "key": "item_grid"
+                                    },
+                                    {
+                                        "type": "canvas",
+                                        "h_alignment": "center",
+                                        "v_alignment": "top",
+                                        "height": 300,
+                                        "width": 300,
+                                        "content": [
+                                            {
+                                                "type": "item",
+                                                "item": "drum",
+                                                "height": 36,
+                                                "width": 36,
+                                                "canvas_top": 10,
+                                                "canvas_left": 95
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D8beak",
+                                                "height": 24,
+                                                "width": 24,
+                                                "canvas_top": 50,
+                                                "canvas_left": 80
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D8SK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 50,
+                                                "canvas_left": 105
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D8BK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 50,
+                                                "canvas_left": 125
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "cello",
+                                                "height": 36,
+                                                "width": 36,
+                                                "canvas_top": 10,
+                                                "canvas_left": 170
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D1beak",
+                                                "height": 24,
+                                                "width": 24,
+                                                "canvas_top": 50,
+                                                "canvas_left": 155
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D1SK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 50,
+                                                "canvas_left": 180
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D1BK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 50,
+                                                "canvas_left": 200
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "colorfinish",
+                                                "height": 36,
+                                                "width": 36,
+                                                "canvas_top": 10,
+                                                "canvas_left": 250
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D0beak",
+                                                "height": 24,
+                                                "width": 24,
+                                                "canvas_top": 50,
+                                                "canvas_left": 235
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D0SK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 50,
+                                                "canvas_left": 260
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D0BK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 50,
+                                                "canvas_left": 280
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "organ",
+                                                "height": 36,
+                                                "width": 36,
+                                                "canvas_top": 75,
+                                                "canvas_left": 45
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D7beak",
+                                                "height": 24,
+                                                "width": 24,
+                                                "canvas_top": 115,
+                                                "canvas_left": 30
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D7SK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 115,
+                                                "canvas_left": 55
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D7BK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 115,
+                                                "canvas_left": 75
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "conch",
+                                                "height": 36,
+                                                "width": 36,
+                                                "canvas_top": 75,
+                                                "canvas_left": 210
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D2beak",
+                                                "height": 24,
+                                                "width": 24,
+                                                "canvas_top": 115,
+                                                "canvas_left": 195
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D2SK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 115,
+                                                "canvas_left": 220
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D2BK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 115,
+                                                "canvas_left": 240
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "triangle",
+                                                "height": 36,
+                                                "width": 36,
+                                                "canvas_top": 150,
+                                                "canvas_left": 45
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D6beak",
+                                                "height": 24,
+                                                "width": 24,
+                                                "canvas_top": 190,
+                                                "canvas_left": 30
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D6SK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 190,
+                                                "canvas_left": 55
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D6BK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 190,
+                                                "canvas_left": 75
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "bell",
+                                                "height": 36,
+                                                "width": 36,
+                                                "canvas_top": 150,
+                                                "canvas_left": 210
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D3beak",
+                                                "height": 24,
+                                                "width": 24,
+                                                "canvas_top": 190,
+                                                "canvas_left": 195
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "ladxr_D3SK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 190,
+                                                "canvas_left": 220
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D3BK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 190,
+                                                "canvas_left": 240
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "marimba",
+                                                "height": 36,
+                                                "width": 36,
+                                                "canvas_top": 210,
+                                                "canvas_left": 95
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D5beak",
+                                                "height": 24,
+                                                "width": 24,
+                                                "canvas_top": 248,
+                                                "canvas_left": 80
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D5SK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 248,
+                                                "canvas_left": 105
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D5BK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 248,
+                                                "canvas_left": 125
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "harp",
+                                                "height": 36,
+                                                "width": 36,
+                                                "canvas_top": 210,
+                                                "canvas_left": 170
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D4beak",
+                                                "height": 24,
+                                                "width": 24,
+                                                "canvas_top": 248,
+                                                "canvas_left": 155
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D4SK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 248,
+                                                "canvas_left": 180
+                                            },
+                                            {
+                                                "type": "item",
+                                                "item": "D4BK",
+                                                "height": 21,
+                                                "width": 12,
+                                                "canvas_top": 248,
+                                                "canvas_left": 200
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+
+                      {
+                          "type": "group",
+                          "header": "Pinned Locations",
+                          "dock": "left",
+                          "content": {
+                              "type": "recentpins",
+                              "style": "wrap",
+                              "h_alignment": "stretch",
+                              "v_alignment": "stretch",
+                              "orientation": "vertical",
+                              "compact": true
+                          }
+                      }
+                  ]
+                },
+                {
+                    "type": "dock",
+                    "v_alignment":"stretch",
+                    "margin": "0,0,0,0",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "dock": "top",
+                            "tabs": [
+                                {
+                                    "title": "Overworld",
+                                    "icon": "images/Egg.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["worldmap"]
+                                    }
+                                },
+                                {
+                                    "title": "D1",
+                                    "icon": "images/cello.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D1"]
+                                    }
+                                },
+                                {
+                                    "title": "D2",
+                                    "icon": "images/conch.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D2"]
+                                    }
+                                },
+                                {
+                                    "title": "D3",
+                                    "icon": "images/bell.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D3"]
+                                    }
+                                },
+                                {
+                                    "title": "D4",
+                                    "icon": "images/harp.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D4"]
+                                    }
+                                },
+                                {
+                                    "title": "D5",
+                                    "icon": "images/marimba.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D5"]
+                                    }
+                                },
+                                {
+                                    "title": "D6",
+                                    "icon": "images/triangle.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D6"]
+                                    }
+                                },
+                                {
+                                    "title": "D7",
+                                    "icon": "images/organ.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D7"]
+                                    }
+                                },
+                                {
+                                    "title": "D8",
+                                    "icon": "images/drum.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D8"]
+                                    }
+                                },
+                                {
+                                    "title": "D0",
+                                    "icon": "images/redblue_mail.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["D0"]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

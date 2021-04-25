@@ -1,0 +1,446 @@
+[
+	{
+		"name": "A",
+		"type": "toggle",
+		"img": "images/csa.png",
+		"codes": "csa"
+	},
+	{
+		"name": "B",
+		"type": "toggle",
+		"img": "images/csb.png",
+		"codes": "csb"
+	},
+	{
+		"name": "C",
+		"type": "toggle",
+		"img": "images/csc.png",
+		"codes": "csc"
+	},
+	{
+		"name": "D",
+		"type": "toggle",
+		"img": "images/csd.png",
+		"codes": "csd"
+	},
+	{
+		"name": "E",
+		"type": "toggle",
+		"img": "images/cse.png",
+		"codes": "cse"
+	},
+	{
+		"name": "F",
+		"type": "toggle",
+		"img": "images/csf.png",
+		"codes": "csf"
+	},
+	{
+		"name": "G",
+		"type": "toggle",
+		"img": "images/csg.png",
+		"codes": "csg"
+	},
+	{
+		"name": "H",
+		"type": "toggle",
+		"img": "images/csh.png",
+		"codes": "csh"
+	},
+	{
+		"name": "I",
+		"type": "toggle",
+		"img": "images/csi.png",
+		"codes": "csi"
+	},
+	{
+		"name": "J",
+		"type": "toggle",
+		"img": "images/csj.png",
+		"codes": "csj"
+	},
+	{
+		"name": "K",
+		"type": "toggle",
+		"img": "images/csk.png",
+		"codes": "csk"
+	},
+	{
+		"name": "L",
+		"type": "toggle",
+		"img": "images/csl.png",
+		"codes": "csl"
+	},
+	{
+		"name": "M",
+		"type": "toggle",
+		"img": "images/csm.png",
+		"codes": "csm"
+	},
+	{
+		"name": "N",
+		"type": "toggle",
+		"img": "images/csn.png",
+		"codes": "csn"
+	},
+	{
+		"name": "O",
+		"type": "toggle",
+		"img": "images/cso.png",
+		"codes": "cso"
+	},
+	{
+		"name": "P",
+		"type": "toggle",
+		"img": "images/csp.png",
+		"codes": "csp"
+	},
+	{
+		"name": "Q",
+		"type": "toggle",
+		"img": "images/csq.png",
+		"codes": "csq"
+	},
+	{
+		"name": "R",
+		"type": "toggle",
+		"img": "images/csr.png",
+		"codes": "csr"
+	},
+	{
+		"name": "S",
+		"type": "toggle",
+		"img": "images/css.png",
+		"codes": "css"
+	},
+	{
+		"name": "T",
+		"type": "toggle",
+		"img": "images/cst.png",
+		"codes": "cst"
+	},
+	{
+		"name": "U",
+		"type": "toggle",
+		"img": "images/csu.png",
+		"codes": "csu"
+	},
+	{
+		"name": "V",
+		"type": "toggle",
+		"img": "images/csv.png",
+		"codes": "csv"
+	},
+	{
+		"name": "W",
+		"type": "toggle",
+		"img": "images/csw.png",
+		"codes": "csw"
+	},
+	{
+		"name": "X",
+		"type": "toggle",
+		"img": "images/csx.png",
+		"codes": "csx"
+	},
+	{
+		"name": "Y",
+		"type": "toggle",
+		"img": "images/csy.png",
+		"codes": "csy"
+	},
+	{
+		"name": "Z",
+		"type": "toggle",
+		"img": "images/csz.png",
+		"codes": "csz"
+	},
+	{
+		"name": "Tail Cave",
+		"type": "toggle",
+		"img": "images/csd1.png",
+		"codes": "csd1"
+	},
+	{
+		"name": "Bottle Grotto",
+		"type": "toggle",
+		"img": "images/csd2.png",
+		"codes": "csd2"
+	},
+	{
+		"name": "Key Cavern",
+		"type": "toggle",
+		"img": "images/csd3.png",
+		"codes": "csd3"
+	},
+	{
+		"name": "Angler's Tunnel",
+		"type": "toggle",
+		"img": "images/csd4.png",
+		"codes": "csd4"
+	},
+	{
+		"name": "Catfish's Maw",
+		"type": "toggle",
+		"img": "images/csd5.png",
+		"codes": "csd5"
+	},
+	{
+		"name": "Face Shrine",
+		"type": "toggle",
+		"img": "images/csd6.png",
+		"codes": "csd6"
+	},
+	{
+		"name": "Eagle's Tower",
+		"type": "toggle",
+		"img": "images/csd7.png",
+		"codes": "csd7"
+	},
+	{
+		"name": "Turtle Rock",
+		"type": "toggle",
+		"img": "images/csd8.png",
+		"codes": "csd8"
+	},
+	{
+		"name": "One-Way",
+		"type": "toggle",
+		"img": "images/csoneway.png",
+		"codes": "csoneway"
+	},
+	{
+		"name": "Generic Important",
+		"type": "toggle",
+		"img": "images/cstriangle.png",
+		"codes": "cstriangle"
+	},
+	{
+		"name": "Town Tool Shop",
+		"type": "toggle",
+		"img": "images/csshop.png",
+		"codes": "csshop"
+	},
+	{
+		"name": "Trendy Game",
+		"type": "toggle",
+		"img": "images/yoshi.png",
+		"codes": "cstrendy"
+	},
+	{
+		"name": "Color Dungeon",
+		"type": "toggle",
+		"img": "images/csd0.png",
+		"codes": "csd0"
+	},
+	{
+		"name": "Dream Shrine",
+		"type": "toggle",
+		"img": "images/csbed.png",
+		"codes": "csbed"
+	},
+	{
+		"name": "Richard's Villa",
+		"type": "toggle",
+		"img": "images/csrichard.png",
+		"codes": "csrichard"
+	},
+	{
+		"name": "Crazy Tracy",
+		"type": "toggle",
+		"img": "images/cstracy.png",
+		"codes": "cstracy"
+	},
+	{
+		"name": "Witch's Hut",
+		"type": "toggle",
+		"img": "images/cssyrup.png",
+		"codes": "cssyrup"
+	},
+	{
+		"name": "Manbo's Cave",
+		"type": "toggle",
+		"img": "images/manbo.png",
+		"codes": "csmanbo"
+	},
+	{
+		"name": "Mamu's Cave",
+		"type": "toggle",
+		"img": "images/csfrog.png",
+		"codes": "csfrog"
+	},
+	{
+		"name": "Quadruplet's House",
+		"type": "toggle",
+		"img": "images/csmama.png",
+		"codes": "csmama"
+	},
+	{
+		"name": "Papahl's Connector",
+		"type": "toggle",
+		"img": "images/cspapa.png",
+		"codes": "cspapa"
+	},
+	{
+		"name": "Boomerang Salesman",
+		"type": "toggle",
+		"img": "images/csboomerang.png",
+		"codes": "csboomerang"
+	},
+	{
+		"name": "Mad Batter",
+		"type": "toggle",
+		"img": "images/csmadbatter.png",
+		"codes": "csbatter"
+	},
+	{
+		"name": "CiaoCiao",
+		"type": "toggle",
+		"img": "images/csciao.png",
+		"codes": "csciao"
+	},
+	{
+		"name": "Moblin Cave",
+		"type": "toggle",
+		"img": "images/csmoblin.png",
+		"codes": "csmoblin"
+	},
+	{
+		"name": "This location requires a sword.",
+		"type": "toggle",
+		"img": "images/sword_1.png",
+		"codes": "cssword"
+	},
+	{
+		"name": "This location requires bombs.",
+		"type": "toggle",
+		"img": "images/bomb.png",
+		"codes": "csbomb"
+	},
+	{
+		"name": "This location requires the feather.",
+		"type": "toggle",
+		"img": "images/feather.png",
+		"codes": "csfeather"
+	},
+	{
+		"name": "This location requires the Power Bracelet.",
+		"type": "toggle",
+		"img": "images/bracelet_1.png",
+		"codes": "cslift"
+	},
+	{
+		"name": "This location requires the Pegasus Boots.",
+		"type": "toggle",
+		"img": "images/boots.png",
+		"codes": "csboots"
+	},
+	{
+		"name": "This location requires the Flippers.",
+		"type": "toggle",
+		"img": "images/flippers.png",
+		"codes": "csflippers"
+	},
+	{
+		"name": "This location requires the Hookshot.",
+		"type": "toggle",
+		"img": "images/hookshot.png",
+		"codes": "cshookshot"
+	},
+	{
+		"name": "This location requires the Mirror Shield.",
+		"type": "toggle",
+		"img": "images/shield_2.png",
+		"codes": "csmirror"
+	},
+	{
+		"name": "Southern Shrine",
+		"type": "toggle",
+		"img": "images/csarmos.png",
+		"codes": "csarmos"
+	},
+	{
+		"name": "Kanalet Castle Connector",
+		"type": "toggle",
+		"img": "images/csdarknut.png",
+		"codes": "csdarknut"
+	},
+	{
+		"name": "Ball & Chain Knight",
+		"type": "toggle",
+		"img": "images/csballchainknight.png",
+		"codes": "csballchainknight"
+	},
+	{
+		"name": "This location has the Seashell Mansion.",
+		"type": "toggle",
+		"img": "images/cssword2.png",
+		"codes": "csmansion"
+	},
+	{
+		"name": "Rooster Key Cave.",
+		"type": "toggle",
+		"img": "images/csroosterkeycave.png",
+		"codes": "csroosterkeycave"
+	},
+	{
+		"name": "Inner Rainbow Cave",
+		"type": "toggle",
+		"img": "images/innerrainbow.png",
+		"codes": "csinnerrainbow"
+	},
+	{
+		"name": "Outer Rainbow Cave",
+		"type": "toggle",
+		"img": "images/outerrainbow.png",
+		"codes": "csouterrainbow"
+	},
+	{
+		"name": "5 Chest Game",
+		"type": "toggle",
+		"img": "images/chest5.png",
+		"codes": "cs5chestgame"
+	},
+	{
+		"name": "Log Cave",
+		"type": "toggle",
+		"img": "images/skull.png",
+		"codes": "cslogcave"
+	},
+	{
+		"name": "Raft Minigame/Raft Return",
+		"type": "toggle",
+		"img": "images/raft.png",
+		"codes": "csraft"
+	},
+	{
+		"name": "Sword Crystal",
+		"type": "toggle",
+		"img": "images/crystal.png",
+		"codes": "cscrystal, csswordcrystal"
+	},
+	{
+		"name": "Obstacle",
+		"type": "toggle",
+		"img": "images/obstacle.png",
+		"codes": "csobstacle"
+	},
+	{
+		"name": "Graveyard Connector Cave",
+		"type": "toggle",
+		"img": "images/grave.png",
+		"codes": "csgravestone"
+	},
+	{
+		"name": "Kanalet Secret Entrance",
+		"type": "toggle",
+		"img": "images/goomba.png",
+		"codes": "csgoomba"
+	},
+	{
+		"name": "Cave Shuffle Notification",
+		"type": "toggle",
+		"img": "images/csnotif.png",
+		"codes": "csnotif"
+    }
+]

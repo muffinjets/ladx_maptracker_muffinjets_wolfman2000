@@ -1,0 +1,664 @@
+[
+    {
+		"name": "Shows the locations of all the unchanged shell locations.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/RandomizeHiddenShells.png",  
+				"codes": "ladxr_setting_shellsanity_on",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/DontShowShells.png",
+				"codes": "ladxr_setting_shellsanity_off",
+				"inherit_codes": false
+			}
+		]
+    },
+	{
+		"name": "Turn this setting on if you've turned on 'Randomize Heart Pieces' in the randomizer settings.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/HeartPieceTextOn.png",
+				"codes": "setting_heartPiece_shuffle_on",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/HeartPieceTextOff.png",
+				"codes": "setting_heartPiece_shuffle_off",
+				"inherit_codes": false
+			}
+		]
+	},
+    {
+		"name": "This tracker setting allows you to show which chests in dungeons are available with the number of keys that you have.  This doesn't apply to the Color Dungeon.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 1,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/showKeyLogic.png",
+				"inherit_codes": false,
+				"codes": "showKeyLogic"
+            },
+            {
+				"img": "images/settings/hideKeyLogic.png",
+				"inherit_codes": false,
+				"codes": "hideKeyLogic"
+			}
+		]
+    },
+    {
+		"name": "This is the amount of instruments required to open the egg.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/numInst8.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst8"
+			},
+			{
+				"img": "images/settings/numInst7.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst7"
+			},
+			{
+				"img": "images/settings/numInst6.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst6"
+			},
+			{
+				"img": "images/settings/numInst5.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst5"
+			},
+			{
+				"img": "images/settings/numInst4.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst4"
+			},
+			{
+				"img": "images/settings/numInst3.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst3"
+			},
+			{
+				"img": "images/settings/numInst2.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst2"
+			},
+			{
+				"img": "images/settings/numInst1.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst1"
+			},
+			{
+				"img": "images/settings/numInst0.png",
+				"inherit_codes": false,
+				"codes": "setting_numInst0"
+            },
+            {
+                "img": "images/settings/numInstOpen.png",
+                "inherit_codes": false,
+                "codes": "setting_numInstOpen"
+            },
+			{
+				"img": "images/settings/eggOpenShells.png",
+				"inherit_codes": false,
+				"codes": "setting_eggGoalShells"
+			},
+			{
+				"img": "images/settings/raftgoal.png",
+				"inherit_codes": false,
+				"codes": "setting_RaftGoal"
+			}
+		]
+	},
+    {
+		"name": "This setting allows for checks to be found at the owl statues.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/ItemsOnOwlStatuesOff.png",
+				"inherit_codes": false,
+				"codes": "setting_ItemsOnOwlStatues_off"
+            },
+            {
+				"img": "images/settings/ItemsOnOwlStatuesOverworld.png",
+				"inherit_codes": false,
+				"codes": "setting_ItemsOnOwlStatues_overworld"
+			},
+            {
+				"img": "images/settings/ItemsOnOwlStatuesDungeons.png",
+				"inherit_codes": false,
+				"codes": "setting_ItemsOnOwlStatues_dungeons"
+			},
+            {
+				"img": "images/settings/ItemsOnOwlStatuesAll.png",
+				"inherit_codes": false,
+				"codes": "setting_ItemsOnOwlStatues_all"
+			}
+		]
+	},
+	{
+		"name": "Cycle through this setting to align with your chosen logic set.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 1,
+		"loop": false,
+		"stages": [
+			{
+				"img": "images/settings/CasualLogic.png",
+				"codes": "setting_CasualLogic"
+			},
+			{
+				"img": "images/settings/NormalLogic.png",
+				"inherit_codes": true,
+				"codes": "setting_NormalLogic"
+			},
+			{
+				"img": "images/settings/HardLogic.png",
+				"inherit_codes": true,
+				"codes": "setting_HardLogic"
+			},
+			{
+				"img": "images/settings/GlitchedLogic.png",
+				"inherit_codes": true,
+				"codes": "setting_GlitchedLogic"
+			},
+			{
+				"img": "images/settings/HellLogic.png",
+				"inherit_codes": true,
+				"codes": "setting_HellLogic"
+			}
+		]
+	},
+	{
+		"name": "This setting allows for BowWow to be used as a viable weapon!",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/GoodBoyModeOff.png",
+				"inherit_codes": false,
+				"codes": "setting_GoodBoy_off, setting_GoodBoi_off"
+			},
+			{
+				"img": "images/settings/GoodBoyMode.png",
+				"inherit_codes": false,
+				"codes": "setting_GoodBoy_on, setting_GoodBoi_on"
+			}
+		]
+	},
+	{
+		"name": "This setting disabled logic checks for the entrances to dungeons so that they can be tracked individually.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/DungeonShuffleOff.png",
+				"inherit_codes": false,
+				"codes": "setting_DungeonShuffle_off"
+			},
+			{
+				"img": "images/settings/DungeonShuffle.png",
+				"inherit_codes": false,
+				"codes": "setting_DungeonShuffle_on"
+			}
+		]
+	},
+	{
+		"name": "This setting will add the Witch and Mushroom to the pool of locations.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"inital_stage_idx": 1,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/RandomizeWitchOff.png",
+				"inherit_codes": false,
+				"codes": "setting_RandomizeWitch_off"
+			},
+			{
+				"img": "images/settings/RandomizeWitch.png",
+				"inherit_codes": false,
+				"codes": "setting_RandomizeWitch_on"
+			}
+		]
+	},
+	{
+		"name": "This setting will change what the item the Boomerang Salesman will have and when they will offer it.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"inital_stage_idx": 1,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/BoomerangSalesmanNormal.png",
+				"inherit_codes": false,
+				"codes": "setting_BoomerangSalesman_Normal"
+			},
+			{
+				"img": "images/settings/BoomerangSalesmanTrade.png",
+				"inherit_codes": false,
+				"codes": "setting_BoomerangSalesman_Trade"
+			},
+			{
+				"img": "images/settings/BoomerangSalesmanGift.png",
+				"inherit_codes": false,
+				"codes": "setting_BoomerangSalesman_Gift"
+			}
+		]
+	},
+    {
+        "name": "Select which difficulty of ER you've chosen.",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages":[
+            {
+                "img": "images/settings/ER_simple.png",
+                "inherit_codes": false,
+                "codes": "setting_ER_simple"
+            },
+            {
+                "img": "images/settings/ER_advanced.png",
+                "inherit_codes": true,
+                "codes": "setting_ER_advanced"
+            },
+            {
+                "img": "images/settings/ER_expert.png",
+                "inherit_codes": true,
+                "codes": "setting_ER_expert"
+            },
+            {
+                "img": "images/settings/ER_insanity.png",
+                "inherit_codes": true,
+                "codes": "setting_ER_insanity"
+            }
+        ]
+    },
+	{
+		"name": "This setting will show caves that are either useless or redundant to keeping track.  Turn this setting on if you are the type to keep track of everything, even if not needed.",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/HideRedundantCaves.png",
+				"codes": "setting_hideRedundantCaves",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/ShowRedundantCaves.png",
+				"codes": "setting_showRedundantCaves",
+				"inherit_codes": false
+			}
+		]
+	},
+	
+
+
+
+
+    //LADXR Specific Items
+
+
+
+
+    {
+		"name": "Full Moon Cello",
+		"type": "toggle",
+		"img": "images/1_cello.png",
+		"codes": "cello,tc"
+    },
+    {
+		"name": "Conch Horn",
+		"type": "toggle",
+		"img": "images/2_conch.png",
+		"codes": "conch,bg"
+	}, 
+	{
+		"name": "Sea Lily's Bell",
+		"type": "toggle",
+		"img": "images/3_bell.png",
+		"codes": "bell,kc"
+	}, 
+	{
+		"name": "Surf Harp",
+		"type": "toggle",
+		"img": "images/4_harp.png",
+		"codes": "harp,at"
+	}, 
+	{
+		"name": "Wind Marimba",
+		"type": "toggle",
+		"img": "images/5_marimba.png",
+		"codes": "marimba,cm"
+	}, 
+	{
+		"name": "Coral Triangle",
+		"type": "toggle",
+		"img": "images/6_triangle.png",
+		"codes": "triangle,fs"
+	},
+	{
+		"name": "Organ of Evening Calm",
+		"type": "toggle",
+		"img": "images/7_organ.png",
+		"codes": "organ,et"
+	}, 
+	{
+		"name": "Thunder Drum",
+		"type": "toggle",
+		"img": "images/8_drum.png",
+		"codes": "drum,tr"
+    },
+    {
+        "name": "Golden Leaves",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": false,
+        "stages": [
+            {
+                "img": "images/leaf.png",
+                "codes": "oneleaf, leaf, goldleaf",
+                "inherit_codes": true
+            },
+			{
+				"img": "images/leaf2.png",
+				"codes": "twoleaf",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/leaf3.png",
+				"codes": "threeleaf",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/leaf4.png",
+				"codes": "fourleaf",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/leaf5.png",
+				"codes": "fiveleaf",
+				"inherit_codes": true
+			}
+        ]
+    },
+    {
+        "name": "Slime Key",
+        "type": "toggle",
+        "allow_disabled": true,
+        "loop": true,
+        "codes": "slime"
+	},
+	{
+		"name": "Master Stalfos",
+		"type": "progressive",
+		"allow_disabled": true,
+		"loop": false,
+		"stages": [
+			{
+				"img": "images/masterstalfos.png",
+				"codes": "stalfos1",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/masterstalfos.png",
+				"codes": "stalfos2",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/masterstalfos.png",
+				"codes": "stalfos3",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/masterstalfos.png",
+				"codes": "stalfos4",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "Shovel traded on the Beach",
+		"type": "toggle_badged",
+		"base_item": "shovel",
+		"img": "images/overlay_salesman.png",
+		"codes": "shovelsalesman"
+	},
+	{
+		"name": "Feather traded on the Beach",
+		"type": "toggle_badged",
+		"base_item": "feather",
+		"img": "images/overlay_salesman.png",
+		"codes": "feathersalesman"
+	},
+	{
+		"name": "Boots traded on the Beach",
+		"type": "toggle_badged",
+		"base_item": "boots",
+		"img": "images/overlay_salesman.png",
+		"codes": "bootssalesman"
+	},
+	{
+		"name": "Hookshot traded on the Beach",
+		"type": "toggle_badged",
+		"base_item": "hookshot",
+		"img": "images/overlay_salesman.png",
+		"codes": "hookshotsalesman"
+	},
+	{
+		"name": "Magic Rod traded on the Beach",
+		"type": "toggle_badged",
+		"base_item": "rod",
+		"img": "images/overlay_salesman.png",
+		"codes": "rodsalesman"
+	},
+	{
+		"name": "Boomerang traded on the Beach",
+		"type": "toggle_badged",
+		"base_item": "boomerang",
+		"img": "images/overlay_salesman.png",
+		"codes": "boomerangsalesman"
+	},
+	{
+		"name": "D3 Keys",
+		"type": "consumable",
+		"img": "images/smallKey.png",
+		"codes": "ladxr_D3SK",
+		"max_quantity": 9
+	},
+	{
+		"name": "Shells",
+		"type": "consumable",
+		"img": "images/shell.png",
+		"codes": "shells,shell",
+		"max_quantity": 20
+	},
+	{
+		"name": "Bow w/ Mad Batter",
+		"type": "toggle_badged",
+		"base_item": "bow",
+		"img": "images/overlay_capacity.png",
+		"codes": "bowcapacity"
+	},
+	{
+		"name": "Bombs w/ Mad Batter",
+		"type": "toggle_badged",
+		"base_item": "bombs",
+		"img": "images/overlay_capacity.png",
+		"codes": "bombcapacity, bombscapacity"
+	},
+	{
+		"name": "Stone Beak - D0",
+		"type": "toggle",
+		"img": "images/stonebeak.png",
+		"codes": "D0beak"
+	},
+	{
+		"name": "Stone Beak - D1",
+		"type": "toggle",
+		"img": "images/stonebeak.png",
+		"codes": "D1beak"
+	},
+	{
+		"name": "Stone Beak - D2",
+		"type": "toggle",
+		"img": "images/stonebeak.png",
+		"codes": "D2beak"
+	},
+	{
+		"name": "Stone Beak - D3",
+		"type": "toggle",
+		"img": "images/stonebeak.png",
+		"codes": "D3beak"
+	},
+	{
+		"name": "Stone Beak - D4",
+		"type": "toggle",
+		"img": "images/stonebeak.png",
+		"codes": "D4beak"
+	},
+	{
+		"name": "Stone Beak - D5",
+		"type": "toggle",
+		"img": "images/stonebeak.png",
+		"codes": "D5beak"
+	},
+	{
+		"name": "Stone Beak - D6",
+		"type": "toggle",
+		"img": "images/stonebeak.png",
+		"codes": "D6beak"
+	},
+	{
+		"name": "Stone Beak - D7",
+		"type": "toggle",
+		"img": "images/stonebeak.png",
+		"codes": "D7beak"
+	},
+	{
+		"name": "Stone Beak - D8",
+		"type": "toggle",
+		"img": "images/stonebeak.png",
+		"codes": "D8beak"
+	},
+	{
+		"name": "Red Clothes",
+		"type": "toggle",
+		"img": "images/red_mail.png",
+		"codes": "redclothes"
+	},
+	{
+		"name": "Blue Clothes",
+		"type": "toggle",
+		"img": "images/blue_mail.png",
+		"codes": "blueclothes"
+	},
+	{
+		"name": "Red or Blue Clothes",
+		"type": "composite_toggle",
+		"codes": "bothclothes",
+		"item_right": "redclothes",
+		"item_left": "blueclothes",
+		"images": [
+			{
+				"left": false,
+				"right": false,
+				"img": "images/green_mail.png"
+			},
+			{
+				"left": true,
+				"right": false, 
+				"img": "images/blue_mail.png"	   
+			},
+			{
+				"left": false,
+				"right": true,
+				"img": "images/red_mail.png"
+			},
+			{
+				"left": true,
+				"right": true,
+				"img": "images/redblue_mail.png"
+			}
+		]
+	},
+	{
+		"name": "Mushroom",
+		"type": "toggle",
+		"img": "images/mushroom.png",
+		"codes": "mushroom, shroom",
+		"loop": true
+	},
+	{
+		"name": "Magic Powder",
+		"type": "toggle",
+		"img": "images/powder.png",
+		"codes": "powder",
+		"loop": true
+	},
+	{
+		"name": "Powder w/ Mad Batter",
+		"type": "toggle_badged",
+		"base_item": "powder",
+		"img": "images/overlay_capacity.png",
+		"codes": "powdercapacity"
+	}
+	// {
+	// 	"name": "Mushroom and Powder",
+	// 	"type": "composite_toggle",
+	// 	"codes": "mushroompowder",
+	// 	"item_left": "mushroom",
+	// 	"item_right": "powder",
+	// 	"images": [
+	// 		{
+	// 			"left": false,
+	// 			"right": false,
+	// 			"img": "images/mushroomdpowderd.png"
+	// 		},
+	// 		{
+	// 			"left": true,
+	// 			"right": false,
+	// 			"img": "images/mushroompowderd.png"
+	// 		},
+	// 		{
+	// 			"left": false,
+	// 			"right": true,
+	// 			"img": "images/mushroomdpowder.png"
+	// 		},
+	// 		{
+	// 			"left": true,
+	// 			"right": true,
+	// 			"img": "images/mushroompowder.png"
+	// 		}
+	// 	]
+	// }
+
+
+
+
+
+]

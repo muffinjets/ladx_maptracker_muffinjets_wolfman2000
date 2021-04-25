@@ -1,0 +1,3414 @@
+﻿[
+	{
+		"name": "Feather",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/feather.png",
+		"codes": "feather"
+	},
+	{
+		"name": "Bow",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/bow.png",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/bow.png",
+				"codes": "bow"
+			}
+		]
+	},
+	{
+		"name": "Hookshot",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/hookshot.png",
+		"codes": "hookshot, hs"
+	},
+	{
+		"name": "Magical Rod",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/fire_rod.png",
+		"codes": "firerod, rod"
+	},
+	{
+		"name": "Trade",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/yoshi.png",
+				"codes": "yoshi",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/ribbon.png",
+				"codes": "ribbon",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/food.png",
+				"codes": "food",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/bananas.png",
+				"codes": "bananas",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/stick.png",
+				"codes": "stick",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/honey.png",
+				"codes": "honey,beehive,hive",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/pineapple.png",
+				"codes": "pineapple",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/flower.png",
+				"codes": "flower",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/letter.png",
+				"codes": "letter",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/broom.png",
+				"codes": "broom",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/hook.png",
+				"codes": "hook",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/bra.png",
+				"codes": "bra,necklace",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/scale.png",
+				"codes": "scale",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/lens.png",
+				"codes": "lens",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Shovel",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/shovel.png",
+		"codes": "shovel"
+	},
+	{
+		"name": "Bombs",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/bomb.png",
+		"codes": "bomb, bombs"
+	},
+	{
+		"name": "Ocarina",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/ocarina.png",
+		"codes": "flute,ocarina"
+	},
+	{
+		"name": "Bracelet",
+		"type": "progressive",
+		"loop": true,
+		"stages": [{
+				"img": "images/bracelet_1.png",
+				"codes": "bracelet,lift1"
+			},
+			{
+				"img": "images/bracelet_2.png",
+				"codes": "bracelet2,lift2"
+			}
+		]
+	}, 
+	{
+		"name": "Pegasus Boots",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/boots.png",
+		"codes": "boots"
+	}, 
+	{
+		"name": "Boomerang",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/boomerang.png",
+		"codes": "boomerang"
+	},
+	{
+		"name": "BowWow",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/chomp.png",
+		"codes": "chomp,bowwow"
+	}, 
+	{
+		"name": "Walrus",
+		"type": "toggle",
+		"img": "images/walrus.png",
+		"codes": "walrus"
+	}, 
+	{
+		"name": "Rooster",
+		"type": "toggle",
+		"img": "images/rooster.png",
+		"codes": "rooster"
+	}, 
+	{
+		"name": "Zora's Flippers",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/flippers.png",
+		"codes": "flippers"
+	}, 
+	{
+		"name": "Sword",
+		"type": "progressive",
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/sword_1.png",
+				"codes": "sword, sword1"
+			},
+			{
+				"img": "images/sword_2.png",
+				"codes": "sword2"
+			}
+		]
+	}, 
+	{
+		"name": "Shield",
+		"type": "progressive",
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/shield_1.png",
+				"codes": "shield,shield1"
+			},
+			{
+				"img": "images/shield_2.png",
+				"codes": "shield2,mirrorshield, mirror"
+			}
+		]
+	}, 
+	{
+		"name": "Clothes",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [{
+				"img": "images/green_mail.png",
+				"codes": "armor, armor1,"
+			},
+			{
+				"img": "images/redblue_mail.png",
+				"codes": "armor2,redmail,bluemail",
+				"inherit_codes": false
+			}
+		]
+	}, 
+	{
+		"name": "Ballad of the Wind Fish",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/marin.png",
+		"codes": "marin, ballad"
+	}, 
+	{
+		"name": "Manbo's Mambo",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/manbo.png",
+		"codes": "manbo, mambo"
+	}, 
+	{
+		"name": "Frog's Song of Soul",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/frog.png",
+		"codes": "frog, soul"
+	},
+	{
+		"name": "Ballad + Check",
+		"type": "toggle_badged",
+		"base_item": "marin",
+		"img": "images/overlay_check.png",
+		"codes": "balladcheck, marincheck"
+	},
+	{
+		"name": "Manbo + Check",
+		"type": "toggle_badged",
+		"base_item": "manbo",
+		"img": "images/overlay_check.png",
+		"codes": "manbocheck, mambocheck"
+	},
+	{
+		"name": "Soul + Check",
+		"type": "toggle_badged",
+		"base_item": "soul",
+		"img": "images/overlay_check.png",
+		"codes": "soulcheck, frogcheck"
+	},
+	{
+		"name": "Piece of Heart",
+		"type": "consumable",
+		"img": "images/heartPiece.png",
+		"codes": "poh,heartpiece,heart",
+		"max_quantity": 12
+	},
+	{
+		"name": "Tail Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/tail_key.png",
+		"codes": "tail,tailkey"
+	},
+	{
+		"name": "Generic Small Key",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "GSK"
+	},
+	{
+		"name": "Generic Big Key",
+		"type": "toggle",
+		"img": "images/bigKey.png",
+		"codes": "GBK"
+	},
+	{
+		"name": "Slime Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/slime_key.png",
+		"codes": "slime,slimekey"
+	},
+	{
+		"name": "Angler Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/angler_key.png",
+		"codes": "angler,anglerkey"
+	},
+	{
+		"name": "Face Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/face_key.png",
+		"codes": "face,facekey"
+	},
+	{
+		"name": "Bird Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/eagle_key.png",
+		"codes": "eagle, eaglekey, bird"
+	},
+	{
+		"name": "D1 Chests",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest3green.png",
+				"codes": "D1chests"
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D1 Chests + Keysanity",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest11green.png",
+				"codes": "keys_cello_treasures, tcchestkeys, D1chestskeys"
+			},
+			{
+				"img": "images/chest10.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest9.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest8.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest7.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest6.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest5.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest4.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D2 Chests",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest3green.png",
+				"codes": "D2chests"
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D2 Chests + Keysanity",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest13green.png",
+				"codes": "keys_conch_treasures, bgchestkeys, D2chestskeys"
+			},
+			{
+				"img": "images/chest12.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest11.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest10.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest9.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest8.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest7.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest6.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest5.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest4.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	}, 
+	{
+		"name": "D3 Chests",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest4green.png",
+				"codes": "D3chests"
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D3 Chests + Keysanity",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest18green.png",
+				"codes": "keys_bell_treasures, kcchestkeys, D3chestskeys"
+			},
+			{
+				"img": "images/chest17.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest16.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest15.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest14.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest13.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest12.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest11.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest10.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest9.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest8.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest7.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest6.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest5.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest4.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D4 Chests",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest4green.png",
+				"codes": "D4chests"
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D4 Chests + Keysanity",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest14green.png",
+				"codes": "keys_harp_treasures, atchestkeys, D4chestskeys"
+			},
+			{
+				"img": "images/chest13.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest12.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest11.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest10.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest9.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest8.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest7.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest6.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest5.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest4.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D5 Chests",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest4green.png",
+				"codes": "D5chests"
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D5 Chests + Keysanity",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest12green.png",
+				"codes": "keys_marimba_treasures, keyscmchest, D5chestskeys"
+			},
+			{
+				"img": "images/chest11.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest10.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest9.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest8.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest7.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest6.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest5.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest4.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D6 Chests",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest6green.png",
+				"codes": "D6chests"
+			},
+			{
+				"img": "images/chest5.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest4.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D6 Chests + Keysanity",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest14green.png",
+				"codes": "keys_triangle_treasures, fschestkeys, D6chestskeys"
+			},
+			{
+				"img": "images/chest13.png",
+				"inherit_codes":true
+			},
+			{
+				"img": "images/chest12.png",
+				"inherit_codes":true
+			},
+			{
+				"img": "images/chest11.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest10.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest9.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest8.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest7.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest6.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest5.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest4.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D7 Chests",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest4green.png",
+				"codes": "D7chests"
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D7 Chests + Keysanity",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest12green.png",
+				"codes": "keys_organ_treasures, etchestkeys, D7chestskeys"
+			},
+			{
+				"img": "images/chest11.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest10.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest9.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest8.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest7.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest6.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest5.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest4.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D8 Chests",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest6green.png",
+				"codes": "D8chests"
+			},
+			{
+				"img": "images/chest5.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest4.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D8 Chests + Keysanity",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest18green.png",
+				"codes": "keys_drum_treasures, trchestkeys, D8chestskeys"
+			},
+			{
+				"img": "images/chest17.png",
+				"inherit_codes":true
+			},
+			{
+				"img": "images/chest16.png",
+				"inherit_codes":true
+			},
+			{
+				"img": "images/chest15.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest14.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest13.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest12.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest11.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest10.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest9.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest8.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest7.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest6.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest5.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest4.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "Evil Orb",
+		"type": "toggle",
+		"img": "images/tinyEvilOrb.png",
+		"codes": "color, cd, evilorb"
+	},
+	{
+		"name": "D0 Chests",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest.png",
+				"codes": "D0chests"
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D0 Chests, Keysanity",
+		"type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chest10green.png",
+				"codes": "key_color_treasures, cdchestkeys, D0chestskeys"
+			},
+			{
+				"img": "images/chest9.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest8.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest7.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest6.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest5.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest4.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest3.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest2.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest1.png",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/chest-open.png",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "D1 Keys",
+		"type": "consumable",
+		"img": "images/smallKey.png",
+		"codes": "D1SK",
+		"max_quantity": 3
+	}, 
+	{
+		"name": "D1 Big Key",
+		"type": "toggle",
+		"img": "images/bigKey.png",
+		"codes": "D1BK"
+	}, 
+	{
+		"name": "D2 Keys",
+		"type": "consumable",
+		"img": "images/smallKey.png",
+		"codes": "D2SK",
+		"max_quantity": 5
+	}, 
+	{
+		"name": "D2 Big Key",
+		"type": "toggle",
+		"img": "images/bigKey.png",
+		"codes": "D2BK"
+	}, 
+	{
+		"name": "D3 Big Key",
+		"type": "toggle",
+		"img": "images/bigKey.png",
+		"codes": "D3BK"
+	}, 
+	{
+		"name": "D4 Keys",
+		"type": "consumable",
+		"img": "images/smallKey.png",
+		"codes": "D4SK",
+		"max_quantity": 5
+	}, 
+	{
+		"name": "D4 Big Key",
+		"type": "toggle",
+		"img": "images/bigKey.png",
+		"codes": "D4BK"
+	}, 
+	{
+		"name": "D5 Keys",
+		"type": "consumable",
+		"img": "images/smallKey.png",
+		"codes": "D5SK",
+		"max_quantity": 3
+	}, 
+	{
+		"name": "D5 Big Key",
+		"type": "toggle",
+		"img": "images/bigKey.png",
+		"codes": "D5BK"
+	}, 
+	{
+		"name": "D6 Keys",
+		"type": "consumable",
+		"img": "images/smallKey.png",
+		"codes": "D6SK",
+		"max_quantity": 3
+	}, 
+	{
+		"name": "D6 Big Key",
+		"type": "toggle",
+		"img": "images/bigKey.png",
+		"codes": "D6BK"
+	}, 
+	{
+		"name": "D7 Keys",
+		"type": "consumable",
+		"img": "images/smallKey.png",
+		"codes": "D7SK",
+		"max_quantity": 3
+	}, 
+	{
+		"name": "D7 Big Key",
+		"type": "toggle",
+		"img": "images/bigKey.png",
+		"codes": "D7BK"
+	}, 
+	{
+		"name": "D8 Keys",
+		"type": "consumable",
+		"img": "images/smallKey.png",
+		"codes": "D8SK",
+		"max_quantity": 7
+	}, 
+	{
+		"name": "D8 Big Key",
+		"type": "toggle",
+		"img": "images/bigKey.png",
+		"codes": "D8BK"
+	}, 
+	{
+		"name": "D0 Keys",
+		"type": "consumable",
+		"img": "images/smallKey.png",
+		"codes": "D0SK",
+		"max_quantity": 3
+	},
+	{
+		"name": "D0 Big Key",
+		"type": "toggle",
+		"img": "images/bigKey.png",
+		"codes": "D0BK"
+	},
+	{
+		"name": "Marin Follow Flag",
+		"type": "toggle",
+		"img": "images/marinfollow.png",
+		"codes": "marinfollow"
+	},
+	{
+		"name": "D0 Dungeon Shuffle",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/dungeonshuffle/unknownent.png",
+				"inherit_codes": false,
+				"codes": "D0unknownent"
+			},
+			{
+				"img": "images/dungeonshuffle/D0ent.png",
+				"inherit_codes": false,
+				"codes": "D0@D0"
+			},
+			{
+				"img": "images/dungeonshuffle/D1ent.png",
+				"inherit_codes": false,
+				"codes": "D0@D1"
+			},
+			{
+				"img": "images/dungeonshuffle/D2ent.png",
+				"inherit_codes": false,
+				"codes": "D0@D2"
+			},
+			{
+				"img": "images/dungeonshuffle/D3ent.png",
+				"inherit_codes": false,
+				"codes": "D0@D3"
+			},
+			{
+				"img": "images/dungeonshuffle/D4ent.png",
+				"inherit_codes": false,
+				"codes": "D0@D4"
+			},
+			{
+				"img": "images/dungeonshuffle/D5ent.png",
+				"inherit_codes": false,
+				"codes": "D0@D5"
+			},
+			{
+				"img": "images/dungeonshuffle/D6ent.png",
+				"inherit_codes": false,
+				"codes": "D0@D6"
+			},
+			{
+				"img": "images/dungeonshuffle/D7ent.png",
+				"inherit_codes": false,
+				"codes": "D0@D7"
+			},
+			{
+				"img": "images/dungeonshuffle/D8ent.png",
+				"inherit_codes": false,
+				"codes": "D0@D8"
+			}
+		]
+	},
+	{
+		"name": "D1 Dungeon Shuffle",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/dungeonshuffle/unknownent.png",
+				"inherit_codes": false,
+				"codes": "D1unknownent"
+			},
+			{
+				"img": "images/dungeonshuffle/D0ent.png",
+				"inherit_codes": false,
+				"codes": "D1@D0"
+			},
+			{
+				"img": "images/dungeonshuffle/D1ent.png",
+				"inherit_codes": false,
+				"codes": "D1@D1"
+			},
+			{
+				"img": "images/dungeonshuffle/D2ent.png",
+				"inherit_codes": false,
+				"codes": "D1@D2"
+			},
+			{
+				"img": "images/dungeonshuffle/D3ent.png",
+				"inherit_codes": false,
+				"codes": "D1@D3"
+			},
+			{
+				"img": "images/dungeonshuffle/D4ent.png",
+				"inherit_codes": false,
+				"codes": "D1@D4"
+			},
+			{
+				"img": "images/dungeonshuffle/D5ent.png",
+				"inherit_codes": false,
+				"codes": "D1@D5"
+			},
+			{
+				"img": "images/dungeonshuffle/D6ent.png",
+				"inherit_codes": false,
+				"codes": "D1@D6"
+			},
+			{
+				"img": "images/dungeonshuffle/D7ent.png",
+				"inherit_codes": false,
+				"codes": "D1@D7"
+			},
+			{
+				"img": "images/dungeonshuffle/D8ent.png",
+				"inherit_codes": false,
+				"codes": "D1@D8"
+			}
+		]
+	},
+	{
+		"name": "D2 Dungeon Shuffle",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/dungeonshuffle/unknownent.png",
+				"inherit_codes": false,
+				"codes": "D2unknownent"
+			},
+			{
+				"img": "images/dungeonshuffle/D0ent.png",
+				"inherit_codes": false,
+				"codes": "D2@D0"
+			},
+			{
+				"img": "images/dungeonshuffle/D1ent.png",
+				"inherit_codes": false,
+				"codes": "D2@D1"
+			},
+			{
+				"img": "images/dungeonshuffle/D2ent.png",
+				"inherit_codes": false,
+				"codes": "D2@D2"
+			},
+			{
+				"img": "images/dungeonshuffle/D3ent.png",
+				"inherit_codes": false,
+				"codes": "D2@D3"
+			},
+			{
+				"img": "images/dungeonshuffle/D4ent.png",
+				"inherit_codes": false,
+				"codes": "D2@D4"
+			},
+			{
+				"img": "images/dungeonshuffle/D5ent.png",
+				"inherit_codes": false,
+				"codes": "D2@D5"
+			},
+			{
+				"img": "images/dungeonshuffle/D6ent.png",
+				"inherit_codes": false,
+				"codes": "D2@D6"
+			},
+			{
+				"img": "images/dungeonshuffle/D7ent.png",
+				"inherit_codes": false,
+				"codes": "D2@D7"
+			},
+			{
+				"img": "images/dungeonshuffle/D8ent.png",
+				"inherit_codes": false,
+				"codes": "D2@D8"
+			}
+		]
+	},
+	{
+		"name": "D3 Dungeon Shuffle",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/dungeonshuffle/unknownent.png",
+				"inherit_codes": false,
+				"codes": "D3unknownent"
+			},
+			{
+				"img": "images/dungeonshuffle/D0ent.png",
+				"inherit_codes": false,
+				"codes": "D3@D0"
+			},
+			{
+				"img": "images/dungeonshuffle/D1ent.png",
+				"inherit_codes": false,
+				"codes": "D3@D1"
+			},
+			{
+				"img": "images/dungeonshuffle/D2ent.png",
+				"inherit_codes": false,
+				"codes": "D3@D2"
+			},
+			{
+				"img": "images/dungeonshuffle/D3ent.png",
+				"inherit_codes": false,
+				"codes": "D3@D3"
+			},
+			{
+				"img": "images/dungeonshuffle/D4ent.png",
+				"inherit_codes": false,
+				"codes": "D3@D4"
+			},
+			{
+				"img": "images/dungeonshuffle/D5ent.png",
+				"inherit_codes": false,
+				"codes": "D3@D5"
+			},
+			{
+				"img": "images/dungeonshuffle/D6ent.png",
+				"inherit_codes": false,
+				"codes": "D3@D6"
+			},
+			{
+				"img": "images/dungeonshuffle/D7ent.png",
+				"inherit_codes": false,
+				"codes": "D3@D7"
+			},
+			{
+				"img": "images/dungeonshuffle/D8ent.png",
+				"inherit_codes": false,
+				"codes": "D3@D8"
+			}
+		]
+	},
+	{
+		"name": "D4 Dungeon Shuffle",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/dungeonshuffle/unknownent.png",
+				"inherit_codes": false,
+				"codes": "D4unknownent"
+			},
+			{
+				"img": "images/dungeonshuffle/D0ent.png",
+				"inherit_codes": false,
+				"codes": "D4@D0"
+			},
+			{
+				"img": "images/dungeonshuffle/D1ent.png",
+				"inherit_codes": false,
+				"codes": "D4@D1"
+			},
+			{
+				"img": "images/dungeonshuffle/D2ent.png",
+				"inherit_codes": false,
+				"codes": "D4@D2"
+			},
+			{
+				"img": "images/dungeonshuffle/D3ent.png",
+				"inherit_codes": false,
+				"codes": "D4@D3"
+			},
+			{
+				"img": "images/dungeonshuffle/D4ent.png",
+				"inherit_codes": false,
+				"codes": "D4@D4"
+			},
+			{
+				"img": "images/dungeonshuffle/D5ent.png",
+				"inherit_codes": false,
+				"codes": "D4@D5"
+			},
+			{
+				"img": "images/dungeonshuffle/D6ent.png",
+				"inherit_codes": false,
+				"codes": "D4@D6"
+			},
+			{
+				"img": "images/dungeonshuffle/D7ent.png",
+				"inherit_codes": false,
+				"codes": "D4@D7"
+			},
+			{
+				"img": "images/dungeonshuffle/D8ent.png",
+				"inherit_codes": false,
+				"codes": "D4@D8"
+			}
+		]
+	},
+	{
+		"name": "D5 Dungeon Shuffle",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/dungeonshuffle/unknownent.png",
+				"inherit_codes": false,
+				"codes": "D5unknownent"
+			},
+			{
+				"img": "images/dungeonshuffle/D0ent.png",
+				"inherit_codes": false,
+				"codes": "D5@D0"
+			},
+			{
+				"img": "images/dungeonshuffle/D1ent.png",
+				"inherit_codes": false,
+				"codes": "D5@D1"
+			},
+			{
+				"img": "images/dungeonshuffle/D2ent.png",
+				"inherit_codes": false,
+				"codes": "D5@D2"
+			},
+			{
+				"img": "images/dungeonshuffle/D3ent.png",
+				"inherit_codes": false,
+				"codes": "D5@D3"
+			},
+			{
+				"img": "images/dungeonshuffle/D4ent.png",
+				"inherit_codes": false,
+				"codes": "D5@D4"
+			},
+			{
+				"img": "images/dungeonshuffle/D5ent.png",
+				"inherit_codes": false,
+				"codes": "D5@D5"
+			},
+			{
+				"img": "images/dungeonshuffle/D6ent.png",
+				"inherit_codes": false,
+				"codes": "D5@D6"
+			},
+			{
+				"img": "images/dungeonshuffle/D7ent.png",
+				"inherit_codes": false,
+				"codes": "D5@D7"
+			},
+			{
+				"img": "images/dungeonshuffle/D8ent.png",
+				"inherit_codes": false,
+				"codes": "D5@D8"
+			}
+		]
+	},
+	{
+		"name": "D6 Dungeon Shuffle",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/dungeonshuffle/unknownent.png",
+				"inherit_codes": false,
+				"codes": "D6unknownent"
+			},
+			{
+				"img": "images/dungeonshuffle/D0ent.png",
+				"inherit_codes": false,
+				"codes": "D6@D0"
+			},
+			{
+				"img": "images/dungeonshuffle/D1ent.png",
+				"inherit_codes": false,
+				"codes": "D6@D1"
+			},
+			{
+				"img": "images/dungeonshuffle/D2ent.png",
+				"inherit_codes": false,
+				"codes": "D6@D2"
+			},
+			{
+				"img": "images/dungeonshuffle/D3ent.png",
+				"inherit_codes": false,
+				"codes": "D6@D3"
+			},
+			{
+				"img": "images/dungeonshuffle/D4ent.png",
+				"inherit_codes": false,
+				"codes": "D6@D4"
+			},
+			{
+				"img": "images/dungeonshuffle/D5ent.png",
+				"inherit_codes": false,
+				"codes": "D6@D5"
+			},
+			{
+				"img": "images/dungeonshuffle/D6ent.png",
+				"inherit_codes": false,
+				"codes": "D6@D6"
+			},
+			{
+				"img": "images/dungeonshuffle/D7ent.png",
+				"inherit_codes": false,
+				"codes": "D6@D7"
+			},
+			{
+				"img": "images/dungeonshuffle/D8ent.png",
+				"inherit_codes": false,
+				"codes": "D6@D8"
+			}
+		]
+	},
+	{
+		"name": "D7 Dungeon Shuffle",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/dungeonshuffle/unknownent.png",
+				"inherit_codes": false,
+				"codes": "D7unknownent"
+			},
+			{
+				"img": "images/dungeonshuffle/D0ent.png",
+				"inherit_codes": false,
+				"codes": "D7@D0"
+			},
+			{
+				"img": "images/dungeonshuffle/D1ent.png",
+				"inherit_codes": false,
+				"codes": "D7@D1"
+			},
+			{
+				"img": "images/dungeonshuffle/D2ent.png",
+				"inherit_codes": false,
+				"codes": "D7@D2"
+			},
+			{
+				"img": "images/dungeonshuffle/D3ent.png",
+				"inherit_codes": false,
+				"codes": "D7@D3"
+			},
+			{
+				"img": "images/dungeonshuffle/D4ent.png",
+				"inherit_codes": false,
+				"codes": "D7@D4"
+			},
+			{
+				"img": "images/dungeonshuffle/D5ent.png",
+				"inherit_codes": false,
+				"codes": "D7@D5"
+			},
+			{
+				"img": "images/dungeonshuffle/D6ent.png",
+				"inherit_codes": false,
+				"codes": "D7@D6"
+			},
+			{
+				"img": "images/dungeonshuffle/D7ent.png",
+				"inherit_codes": false,
+				"codes": "D7@D7"
+			},
+			{
+				"img": "images/dungeonshuffle/D8ent.png",
+				"inherit_codes": false,
+				"codes": "D7@D8"
+			}
+		]
+	},
+	{
+		"name": "D8 Dungeon Shuffle",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/dungeonshuffle/unknownent.png",
+				"inherit_codes": false,
+				"codes": "D8unknownent"
+			},
+			{
+				"img": "images/dungeonshuffle/D0ent.png",
+				"inherit_codes": false,
+				"codes": "D8@D0"
+			},
+			{
+				"img": "images/dungeonshuffle/D1ent.png",
+				"inherit_codes": false,
+				"codes": "D8@D1"
+			},
+			{
+				"img": "images/dungeonshuffle/D2ent.png",
+				"inherit_codes": false,
+				"codes": "D8@D2"
+			},
+			{
+				"img": "images/dungeonshuffle/D3ent.png",
+				"inherit_codes": false,
+				"codes": "D8@D3"
+			},
+			{
+				"img": "images/dungeonshuffle/D4ent.png",
+				"inherit_codes": false,
+				"codes": "D8@D4"
+			},
+			{
+				"img": "images/dungeonshuffle/D5ent.png",
+				"inherit_codes": false,
+				"codes": "D8@D5"
+			},
+			{
+				"img": "images/dungeonshuffle/D6ent.png",
+				"inherit_codes": false,
+				"codes": "D8@D6"
+			},
+			{
+				"img": "images/dungeonshuffle/D7ent.png",
+				"inherit_codes": false,
+				"codes": "D8@D7"
+			},
+			{
+				"img": "images/dungeonshuffle/D8ent.png",
+				"inherit_codes": false,
+				"codes": "D8@D8"
+			}
+		]
+	},
+	{
+		"name": "Color Dungeon Finish flag",
+		"type": "toggle",
+		"img": "images/greatfairy.png",
+		"codes": "colorfinish"
+	},
+	{
+		"name": "Debug Flag",
+		"type": "toggle",
+		"img": "images/linkface.png",
+		"codes": "debugFlag"
+	},
+	{
+		"name": "LinkFace",
+		"type": "toggle",
+		"img": "images/linkface.png",
+		"codes": "linkface"
+	},
+	// Autotracking items
+	{
+		"name": "shellD8A3",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD8A3"
+	},
+	{
+		"name": "shellDAB2",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellDAB2"
+	},
+	{
+		"name": "shellD8D2",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD8D2"
+	},
+	{
+		"name": "shellD9E3",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD9E3"
+	},
+	{
+		"name": "shellD874",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD874"
+	},
+	{
+		"name": "shellD8A3",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD8A3"
+	},
+	{
+		"name": "shellD8A4",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD8A4"
+	},
+	{
+		"name": "shellD8A5",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD8A5"
+	},
+	{
+		"name": "shellD8A6",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD8A6"
+	},
+	{
+		"name": "shellD8B9",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD8B9"
+	},
+	{
+		"name": "shellD88B",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD88B"
+	},
+	{
+		"name": "shellD8A8",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD8A8"
+	},
+	{
+		"name": "shellD8F8",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD8F8"
+	},
+	{
+		"name": "shellD8E9",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD8E9"
+	},
+	{
+		"name": "shellD8F8",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD8F8"
+	},
+	{
+		"name": "shellD8DA",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD8DA"
+	},
+	{
+		"name": "shellDAFC",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellDAFC"
+	},
+	{
+		"name": "shellD8FF",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD8FF"
+	},
+	{
+		"name": "shellD80C",
+		"type": "toggle",
+		"img": "images/shell.png",
+		"codes": "shellD80C"
+	},
+	{
+		"name": "heartD800",
+		"type": "toggle",
+		"img": "images/heartPiece.png",
+		"codes": "heartD800"
+	},
+	{
+		"name": "itemD850",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD850"
+	},
+	{
+		"name": "itemD86C",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD86C"
+	},
+	{
+		"name": "itemD8F2",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD8F2"
+	},
+	{
+		"name": "itemD902",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD902"
+	},
+	{
+		"name": "itemD906",
+		"type": "toggle",
+		"img": "images/heartContainer.png",
+		"codes": "itemD906"
+	},
+	{
+		"name": "itemD908",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD908"
+	},
+	{
+		"name": "itemD90A",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD90A"
+	},
+	{
+		"name": "itemD90C",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD90C"
+	},
+	{
+		"name": "itemD90D",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD90D"
+	},
+	{
+		"name": "itemD90D",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD90D"
+	},
+	{
+		"name": "itemD90E",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD90E"
+	},
+	{
+		"name": "itemD913",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD913"
+	},
+	{
+		"name": "itemD914",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD914"
+	},
+	{
+		"name": "itemD915",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD915"
+	},
+	{
+		"name": "itemD916",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD916"
+	},
+	{
+		"name": "itemD91D",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD91D"
+	},
+	{
+		"name": "itemD804",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD804"
+	},
+	{
+		"name": "itemD818",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD818"
+	},
+	{
+		"name": "itemD81D",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD81D"
+	},
+	{
+		"name": "itemD834",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD834"
+	},
+	{
+		"name": "itemD841",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD841"
+	},
+	{
+		"name": "itemD844",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD844"
+	},
+	{
+		"name": "itemD858",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD858"
+	},
+	{
+		"name": "itemD85A",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD85A"
+	},
+	{
+		"name": "itemD85C",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD85C"
+	},
+	{
+		"name": "itemD85D",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD85D"
+	},
+	{
+		"name": "itemD871",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD871"
+	},
+	{
+		"name": "itemD878",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD878"
+	},
+	{
+		"name": "itemD892",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD892"
+	},
+	{
+		"name": "itemD8C6",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD8C6"
+	},
+	{
+		"name": "itemD8CE",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD8CE"
+	},
+	{
+		"name": "itemD8E5",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD8E5"
+	},
+	{
+		"name": "itemD920",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD920"
+	},
+	{
+		"name": "itemD921",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD921"
+	},
+	{
+		"name": "itemD922",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD922"
+	},
+	{
+		"name": "itemD926",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD926"
+	},
+	{
+		"name": "itemD927",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD927"
+	},
+	{
+		"name": "itemD92A",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD92A"
+	},
+	{
+		"name": "itemD92B",
+		"type": "toggle",
+		"img": "images/heartContainer.png",
+		"codes": "itemD92B"
+	},
+	{
+		"name": "itemD92E",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD92E"
+	},
+	{
+		"name": "itemD932",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemD932"
+	},
+	{
+		"name": "itemD933",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemD933"
+	},
+	{
+		"name": "itemD936",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD936"
+	},
+	{
+		"name": "itemD937",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD937"
+	},
+	{
+		"name": "itemD938",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD938"
+	},
+	{
+		"name": "itemD939",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD939"
+	},
+	{
+		"name": "itemD941",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemD941"
+	},
+	{
+		"name": "itemD942",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD942"
+	},
+	{
+		"name": "itemD944",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD944"
+	},
+	{
+		"name": "itemD946",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD946"
+	},
+	{
+		"name": "itemD947",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD947"
+	},
+	{
+		"name": "itemD948",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemD948"
+	},
+	{
+		"name": "itemD94C",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD94C"
+	},
+	{
+		"name": "itemD94D",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemD94D"
+	},
+	{
+		"name": "itemD94E",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD94E"
+	},
+	{
+		"name": "itemD94F",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD94F"
+	},
+	{
+		"name": "itemD950",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD950"
+	},
+	{
+		"name": "itemD951",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD951"
+	},
+	{
+		"name": "itemD953",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD953"
+	},
+	{
+		"name": "itemD954",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemD954"
+	},
+	{
+		"name": "itemD955",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemD955"
+	},
+	{
+		"name": "itemD958",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemD958"
+	},
+	{
+		"name": "itemD959",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD959"
+	},
+	{
+		"name": "itemD95A",
+		"type": "toggle",
+		"img": "images/heartContainer.png",
+		"codes": "itemD95A"
+	},
+	{
+		"name": "itemD95B",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemD95B"
+	},
+	{
+		"name": "itemD960",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD960"
+	},
+	{
+		"name": "itemD962",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD962"
+	},
+	{
+		"name": "itemD965",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD965"
+	},
+	{
+		"name": "itemD966",
+		"type": "toggle",
+		"img": "images/heartContainer.png",
+		"codes": "itemD966"
+	},
+	{
+		"name": "itemD968",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD968"
+	},
+	{
+		"name": "itemD969",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemD969"
+	},
+	{
+		"name": "itemD96A",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD96A"
+	},
+	{
+		"name": "itemD96D",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD96D"
+	},
+	{
+		"name": "itemD96E",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD96E"
+	},
+	{
+		"name": "itemD971",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD971"
+	},
+	{
+		"name": "itemD975",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD975"
+	},
+	{
+		"name": "itemD976",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD976"
+	},
+	{
+		"name": "itemD978",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD978"
+	},
+	{
+		"name": "itemD979",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD979"
+	},
+	{
+		"name": "itemD97B",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD97B"
+	},
+	{
+		"name": "itemD981",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemD981"
+	},
+	{
+		"name": "itemD982",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD982"
+	},
+	{
+		"name": "itemD983",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD983"
+	},
+	{
+		"name": "itemD985",
+		"type": "toggle",
+		"img": "images/heartContainer.png",
+		"codes": "itemD985"
+	},
+	{
+		"name": "itemD986",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD986"
+	},
+	{
+		"name": "itemD988",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD988"
+	},
+	{
+		"name": "itemD98E",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD98E"
+	},
+	{
+		"name": "itemD98F",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD98F"
+	},
+	{
+		"name": "itemD996",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD996"
+	},
+	{
+		"name": "itemD997",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD997"
+	},
+	{
+		"name": "itemD99B",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD99B"
+	},
+	{
+		"name": "itemD99E",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD99E"
+	},
+	{
+		"name": "itemD9A0",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9A0"
+	},
+	{
+		"name": "itemD9B0",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9B0"
+	},
+	{
+		"name": "itemD9B1",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9B1"
+	},
+	{
+		"name": "itemD9B3",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9B3"
+	},
+	{
+		"name": "itemD9B4",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9B4"
+	},
+	{
+		"name": "itemD9B5",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9B5"
+	},
+	{
+		"name": "itemD9B6",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9B6"
+	},
+	{
+		"name": "itemD9B9",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9B9"
+	},
+	{
+		"name": "itemD9BC",
+		"type": "toggle",
+		"img": "images/heartContainer.png",
+		"codes": "itemD9BC"
+	},
+	{
+		"name": "itemD9BE",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9BE"
+	},
+	{
+		"name": "itemD9C0",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9C0"
+	},
+	{
+		"name": "itemD9C3",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9C3"
+	},
+	{
+		"name": "itemD9C9",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9C9"
+	},
+	{
+		"name": "itemD9CE",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9CE"
+	},
+	{
+		"name": "itemD9CF",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9CF"
+	},
+	{
+		"name": "itemD9D1",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9D1"
+	},
+	{
+		"name": "itemD9E0",
+		"type": "toggle",
+		"img": "images/madbatter.png",
+		"codes": "itemD9E0"
+	},
+	{
+		"name": "itemD9E1",
+		"type": "toggle",
+		"img": "images/madbatter.png",
+		"codes": "itemD9E1"
+	},
+	{
+		"name": "itemD9E2",
+		"type": "toggle",
+		"img": "images/madbatter.png",
+		"codes": "itemD9E2"
+	},
+	{
+		"name": "itemD9E8",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9E8"
+	},
+	{
+		"name": "itemD9F2",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9F2"
+	},
+	{
+		"name": "itemD9F5",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9F5"
+	},
+	{
+		"name": "itemD9FD",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemD9FD"
+	},
+	{
+		"name": "itemDA01",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA01"
+	},
+	{
+		"name": "itemDA04",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA04"
+	},
+	{
+		"name": "itemDA09",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA09"
+	},
+	{
+		"name": "itemDA10",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemDA10"
+	},
+	{
+		"name": "itemDA11",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA11"
+	},
+	{
+		"name": "itemDA12",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA12"
+	},
+	{
+		"name": "itemDA1A",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA1A"
+	},
+	{
+		"name": "itemDA1B",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemDA1B"
+	},
+	{
+		"name": "itemDA1C",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA1C"
+	},
+	{
+		"name": "itemDA20",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA20"
+	},
+	{
+		"name": "itemDA23",
+		"type": "toggle",
+		"img": "images/heartContainer.png",
+		"codes": "itemDA23"
+	},
+	{
+		"name": "itemDA24",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA24"
+	},
+	{
+		"name": "itemDA2C",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA2C"
+	},
+	{
+		"name": "itemDA30",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA30"
+	},
+	{
+		"name": "itemDA32",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA32"
+	},
+	{
+		"name": "itemDA34",
+		"type": "toggle",
+		"img": "images/heartContainer.png",
+		"codes": "itemDA34"
+	},
+	{
+		"name": "itemDA35",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA35"
+	},
+	{
+		"name": "itemDA37",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA37"
+	},
+	{
+		"name": "itemDA3A",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA3A"
+	},
+	{
+		"name": "itemDA3D",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA3D"
+	},
+	{
+		"name": "itemDA3E",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemDA3E"
+	},
+	{
+		"name": "itemDA40",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA40"
+	},
+	{
+		"name": "itemDA41",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemDA41"
+	},
+	{
+		"name": "itemDA46",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA46"
+	},
+	{
+		"name": "itemDA4C",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemDA4C"
+	},
+	{
+		"name": "itemDA4D",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA4D"
+	},
+	{
+		"name": "itemDA4F",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA4F"
+	},
+	{
+		"name": "itemDA55",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA55"
+	},
+	{
+		"name": "itemDA59",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA59"
+	},
+	{
+		"name": "itemDA5A",
+		"type": "toggle",
+		"img": "images/smallKey.png",
+		"codes": "itemDA5A"
+	},
+	{
+		"name": "itemDA5C",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA5C"
+	},
+	{
+		"name": "itemDA5F",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA5F"
+	},
+	{
+		"name": "itemDA7A",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA7A"
+	},
+	{
+		"name": "itemDA7F",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA7F"
+	},
+	{
+		"name": "itemDA8A",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDA8A"
+	},
+	{
+		"name": "itemDAA2",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAA2"
+	},
+	{
+		"name": "itemDAA3",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAA3"
+	},
+	{
+		"name": "itemDAA4",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAA4"
+	},
+	{
+		"name": "itemDAAB",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAAB"
+	},
+	{
+		"name": "itemDAAE",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAAE"
+	},
+	{
+		"name": "itemDAAF",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAAF"
+	},
+	{
+		"name": "itemDAB1",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAB1"
+	},
+	{
+		"name": "itemDAB3",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAB3"
+	},
+	{
+		"name": "itemDABA",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDABA"
+	},
+	{
+		"name": "itemDABB",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDABB"
+	},
+	{
+		"name": "itemDABD",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDABD"
+	},
+	{
+		"name": "itemDABE",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDABE"
+	},
+	{
+		"name": "itemDABF",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDABF"
+	},
+	{
+		"name": "itemDAC5",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAC5"
+	},
+	{
+		"name": "itemDAC6",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAC6"
+	},
+	{
+		"name": "itemDAC8",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAC8"
+	},
+	{
+		"name": "itemDACD",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDACD"
+	},
+	{
+		"name": "itemDAD2",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAD2"
+	},
+	{
+		"name": "itemDADF",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDADF"
+	},
+	{
+		"name": "itemDAE2",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAE2"
+	},
+	{
+		"name": "itemDAE6",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAE6"
+	},
+	{
+		"name": "itemDAE9",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAE9"
+	},
+	{
+		"name": "itemDAF2",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAF2"
+	},
+	{
+		"name": "itemDAF4",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAF4"
+	},
+	{
+		"name": "itemDAF5",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAF5"
+	},
+	{
+		"name": "itemDAFB",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAFB"
+	},
+	{
+		"name": "itemDAFD",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDAFD"
+	},
+	{
+		"name": "itemDDE1",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDDE1"
+	},
+	{
+		"name": "itemDDE2",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDDE2"
+	},
+	{
+		"name": "itemDDE6",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDDE6"
+	},
+	{
+		"name": "itemDDE7",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDDE7"
+	},
+	{
+		"name": "itemDDE8",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDDE8"
+	},
+	{
+		"name": "itemDDEF",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDDEF"
+	},
+	{
+		"name": "itemDDF1",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDDF1"
+	},
+	{
+		"name": "itemDDF4",
+		"type": "toggle",
+		"img": "images/chest-open.png",
+		"disabled_img": "images/chest.png",
+		"codes": "itemDDF4"
+	},
+	{
+		"name": "owlD811",
+		"type": "toggle",
+		"img": "images/owlstatue.png",
+		"codes": "owlD811"
+	},
+	{
+		"name": "owlD81E",
+		"type": "toggle",
+		"img": "images/owlstatue.png",
+		"codes": "owlD81E"
+	},
+	{
+		"name": "owlD835",
+		"type": "toggle",
+		"img": "images/owlstatue.png",
+		"codes": "owlD835"
+	},
+	{
+		"name": "owlD85D",
+		"type": "toggle",
+		"img": "images/owlstatue.png",
+		"codes": "owlD85D"
+	},
+	{
+		"name": "owlD88F",
+		"type": "toggle",
+		"img": "images/owlstatue.png",
+		"codes": "owlD88F"
+	},
+	{
+		"name": "owlD8A8",
+		"type": "toggle",
+		"img": "images/owlstatue.png",
+		"codes": "owlD8A8"
+	},
+	{
+		"name": "owlD8C6",
+		"type": "toggle",
+		"img": "images/owlstatue.png",
+		"codes": "owlD8C6"
+	},
+	{
+		"name": "owlD8CF",
+		"type": "toggle",
+		"img": "images/owlstatue.png",
+		"codes": "owlD8CF"
+	},
+	{
+		"name": "owlD8DA",
+		"type": "toggle",
+		"img": "images/owlstatue.png",
+		"codes": "owlD8DA"
+	},
+	{
+		"name": "owlD903",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD903"
+	},
+	{
+		"name": "owlD904",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD904"
+	},
+	{
+		"name": "owlD90A",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD90A"
+	},
+	{
+		"name": "owlD929",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD929"
+	},
+	{
+		"name": "owlD92F",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD92F"
+	},
+	{
+		"name": "owlD933",
+		"type": "toggle",
+		"img": "images/owlstatue.png",
+		"codes": "owlD933"
+	},
+	{
+		"name": "owlD940",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD940"
+	},
+	{
+		"name": "owlD947",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD947"
+	},
+	{
+		"name": "owlD954",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD954"
+	},
+	{
+		"name": "owlD96F",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD96F"
+	},
+	{
+		"name": "owlD98A",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD98A"
+	},
+	{
+		"name": "owlD99A",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD99A"
+	},
+	{
+		"name": "owlD9B6",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD9B6"
+	},
+	{
+		"name": "owlD9BB",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD9BB"
+	},
+	{
+		"name": "owlD9D7",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlD9D7"
+	},
+	{
+		"name": "owlDA04",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlDA04"
+	},
+	{
+		"name": "owlDA16",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlDA16"
+	},
+	{
+		"name": "owlDA1C",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlDA1C"
+	},
+	{
+		"name": "owlDA41",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlDA41"
+	},
+	{
+		"name": "owlDA45",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlDA45"
+	},
+	{
+		"name": "owlDA53",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlDA53"
+	},
+	{
+		"name": "owlDDE8",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlDDE8"
+	},
+	{
+		"name": "owlDDEA",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlDDEA"
+	},
+	{
+		"name": "owlDDEF",
+		"type": "toggle",
+		"img": "images/dungeonowlstatue.png",
+		"codes": "owlDDEF"
+	}
+]

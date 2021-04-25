@@ -1,0 +1,3918 @@
+[
+    {
+        "name": "Dungeons",
+        "chest_unopened_img": "images/chest.png",
+        "chest_opened_img": "images/chest-open.png",
+        "children": [
+            {
+                "name": "D0",
+                "access_rules": [
+                    "lift1",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        
+                        "name": "Owl Statue in First Color Puzzle Room",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 408,
+                                "y": 393 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "D0beak"
+                                ],
+                                "hosted_item": "owlDDEF",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "First Color Puzzle",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 456,
+                                "y": 426 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "shield",
+                                    "$can_attack"
+                                ],
+                                "hosted_item": "itemDDEF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Red-Green Orb Enemy Chest",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 775,
+                                "y": 425 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$can_attack"
+                                ],
+                                "hosted_item": "itemDDF1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "South-East One-Way Loop Chest",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 519,
+                                "y": 603 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$can_attack",
+
+                                    "setting_HardLogic, lift1"
+                                ],
+                                "hosted_item": "itemDDF4"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Red-Blue-Yellow 2x2 Color Puzzle",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 727,
+                                "y": 182 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$can_attack",
+                                    "shield"
+                                ],
+                                "hosted_item": "itemDDE8",
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue in 2x2 Color Puzzle Room",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 711,
+                                "y": 136 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "D0beak"
+                                ],
+                                "hosted_item": "owlDDE8",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Giant Zol",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 711,
+                                "y": 26 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "hideKeyLogic, powder, $can_attack",
+                                    "showKeyLogic, [D0SK:3], D0SK:1, powder, $can_attack"
+                                ],
+                                "hosted_item": "itemDDE2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kill all the Zols in the Pot Room",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 455,
+                                "y": 170 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "hideKeyLogic, lift1, $can_attack",
+                                    "showKeyLogic, [D0SK:2], D0SK:1, lift1, $can_attack"
+                                ],
+                                "hosted_item": "itemDDE6"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Red-Blue-Green-Green Orb Enemy Room",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 551,
+                                "y": 184 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "hideKeyLogic, lift1, $can_attack",
+                                    "showKeyLogic, [D0SK:2], D0SK:1, lift1, $can_attack"
+                                ],
+                                "hosted_item": "itemDDE7",
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Red/Blue Clothes",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 239,
+                                "y": 75
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "hideKeyLogic, lift1, sword1",
+                                    "hideKeyLogic, lift1, setting_GoodBoy_on, chomp",
+                                    "hideKeyLogic, lift1, bow",
+                                    "hideKeyLogic, lift1, hookshot",
+                                    "hideKeyLogic, lift1, rod",
+                                    "showKeyLogic, D0BK, [D0SK:3], D0SK:2, lift1, sword1",
+                                    "showKeyLogic, D0BK, [D0SK:3], D0SK:2, lift1, setting_GoodBoy_on, chomp",
+                                    "showKeyLogic, D0BK, [D0SK:3], D0SK:2, lift1, bow",
+                                    "showKeyLogic, D0BK, [D0SK:3], D0SK:2, lift1, hookshot",
+                                    "showKeyLogic, D0BK, [D0SK:3], D0SK:2, lift1, rod"
+                                ],
+                                "hosted_item": "colorfinish"
+                                // "item_count": 2,
+                                // "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue in 3x3 Color Puzzle Room",
+                        "map_locations": [
+                            {
+                                "map": "D0",
+                                "x": 215,
+                                "y": 265 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "lift1, hideKeyLogic, lift1, $can_attack, D0beak",
+                                    "lift1, showKeyLogic, [D0SK:2], D0SK:1, lift1, $can_attack, D0beak"
+                                ],
+                                "hosted_item": "owlDDEA",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D1",
+                "access_rules": [
+                    "tail",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        "name": "Hardhat Beetle Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 359,
+                                "y": 698 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD916",
+                                "access_rules": [
+                                    "sword1",
+                                    "setting_GoodBoy_on, chomp",
+                                    "shield",
+                                    "hookshot",
+                                    "bombs",
+                                    "boomerang"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 216,
+                                "y": 698 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD915",
+                                "access_rules": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Button",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 615,
+                                "y": 555 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD913"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map Chest",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 774,
+                                "y": 555 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD914",
+                                "access_rules": [
+                                    "[$can_attack]",
+                                    "setting_HardLogic, powder"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chest Guarded by Spark",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 550,
+                                "y": 426 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD90E"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kill Mini-Moldorm",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 455,
+                                "y": 426 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD90D",
+                                "access_rules": ["$can_attack"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bombable Wall",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 231,
+                                "y": 440 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD90C",
+                                "access_rules": [
+                                    "bombs"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue before Spike Beetles",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 376,
+                                "y": 136 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "[D1SK:3], D1SK:1, D1beak",
+                                    "hideKeyLogic, D1beak"
+                                ],
+                                "hosted_item": "owlD904",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue near Roc's Feather",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 247,
+                                "y": 136 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "[D1SK:3], D1SK:1, D1beak",
+                                    "hideKeyLogic, D1beak"
+                                ],
+                                "hosted_item": "owlD903",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Roc's Feather",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 71,
+                                "y": 299 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD91D",
+                                "access_rules": [
+                                    "[D1SK:3], D1SK:1, shield",
+                                    "hideKeyLogic, shield"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Nightmare's Key",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 551,
+                                "y": 293 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "On the Ledge",
+                                "hosted_item": "itemD908",
+                                "access_rules": [
+                                    "[D1SK:3], D1SK:1, feather",
+                                    "hideKeyLogic, feather",
+
+                                    "setting_GlitchedLogic, feather", //super jump over key block
+                                    "setting_HellLogic" //damage boost across pit
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Three-of-a-Kind",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 935,
+                                "y": 299 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD90A",
+                                "access_rules": [
+                                    "[D1SK:3], D1SK:1, $can_attack",
+                                    "hideKeyLogic, $can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue near Three-of-a-Kind",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 888,
+                                "y": 264 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "[D1SK:3], D1SK:1, D1beak",
+                                    "hideKeyLogic, D1beak"
+                                ],
+                                "hosted_item": "owlD90A",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Moldorm",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 1039,
+                                "y": 192
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD906",
+                                "access_rules": [
+                                    "[D1SK:3], D1SK:1, D1BK, feather, sword1",
+                                    "[D1SK:3], D1SK:1, D1BK, feather, setting_GoodBoy_on, chomp",
+                                    "hideKeyLogic, feather, sword1",
+                                    "hideKeyLogic, feather, setting_GoodBoy_on, chomp",
+
+                                    "[D1SK:3], D1SK:1, D1BK, setting_GlitchedLogic, sword1",
+                                    "[D1SK:3], D1SK:1, D1BK, setting_GlitchedLogic, setting_GoodBoy_on, chomp",
+                                    "hideKeyLogic, setting_GlitchedLogic, sword1",
+                                    "hideKeyLogic, setting_GlitchedLogic, setting_GoodBoy_on, chomp"
+                                ],
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Full Moon Cello",
+                        "map_locations": [
+                            {
+                                "map": "D1",
+                                "x": 1037,
+                                "y": 41
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD902",
+                                "access_rules": [
+                                    "[D1SK:3], D1SK:1, D1BK, feather, sword1",
+                                    "[D1SK:3], D1SK:1, D1BK, feather, setting_GoodBoy_on, chomp",
+                                    "hideKeyLogic, feather, sword1",
+                                    "hideKeyLogic, feather, setting_GoodBoy_on, chomp"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D2",
+                "access_rules": [
+                    "$can_break_swamp_flowers, $can_break_grass, powder", //Tarin
+                    "$can_break_swamp_flowers, feather", //Log Cave
+                    "$can_break_swamp_flowers, lift1", //Just about every other way
+
+                    "setting_HardLogic, $can_break_grass, powder",
+                    "setting_HardLogic, lift1",
+
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        "name": "Intro Chest",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 184,
+                                "y": 811
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Surrounded by Pots",
+                                "hosted_item": "itemD936",
+                                "access_rules": [
+                                    "lift1"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Across the Gap",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 70,
+                                "y": 551
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD92E",
+                                "access_rules": [
+                                    "[D2SK:5], D2SK:1, feather",
+                                    "[D2SK:5], D2SK:1, hookshot",
+                                    "hideKeyLogic, feather",
+                                    "hideKeyLogic, hookshot"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stalfos Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 358,
+                                "y": 695
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD932",
+                                "access_rules": [
+                                    "$fire_source, sword",
+                                    "$fire_source, hookshot",
+                                    "$fire_source, bombs",
+                                    "$fire_source, bow"
+                                ],
+                                "chest_unopened_img": "images/smallKeyD.png",
+                                "chest_opened_img": "images/smallKey.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 455,
+                                "y": 810
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD937",
+                                "access_rules": [
+                                    "$fire_source, [D2SK:5], D2SK:1, $can_attack",
+                                    "$fire_source, hideKeyLogic, $can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Surrounded by Blocks",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 536,
+                                "y": 841
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD938",
+                                "access_rules": [
+                                    "$fire_source, $can_attack, rod",
+                                    "$fire_source, $can_attack, sword1",
+                                    "$fire_source, $can_attack, bow",
+                                    "$fire_source, $can_attack, bombs"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue near first Crystal Switch",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 551,
+                                "y": 649 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "$fire_source, D2Beak"
+                                ],
+                                "hosted_item": "owlD933",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shy Guy Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 679,
+                                "y": 696
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD933",
+                                "access_rules": [
+                                    "$fire_source, sword",
+                                    "$fire_source, bombs",
+
+                                    "setting_CasualLogic, feather, $can_attack"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Flying Powder",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 728,
+                                "y": 825
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[debugFlag], $fire_source, feather, sword",
+                                    "[debugFlag], $fire_source, feather, rod",
+                                    "[debugFlag], $fire_source, feather, bow",
+                                    "[debugFlag], $fire_source, feather, bombs"
+                                ],
+                                "hosted_item": "powder"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Button Across the Gaps",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 773,
+                                "y": 812
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD939",
+                                "access_rules": [
+                                    "$fire_source, [feather], boots, $can_attack",
+                                    "$fire_source, feather, $can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue before first Staircase",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 839,
+                                "y": 520 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "[D2SK:3], D2SK:1, $fire_source, feather, $can_attack, D2beak",
+                                    "hideKeyLogic, $fire_source, feather, $can_attack, D2beak"
+                                ],
+                                "hosted_item": "owlD92F",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue after Hinox",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 247,
+                                "y": 264 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "[D2SK:3], D2SK:1, $fire_source, feather, $can_attack, D2beak",
+                                    "hideKeyLogic, $fire_source, feather, $can_attack, D2beak"
+                                ],
+                                "hosted_item": "owlD929",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map Chest",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 198,
+                                "y": 170
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD926",
+                                "access_rules": [
+                                    "$fire_source, $can_attack, feather, [D2SK:3], D2SK:1",
+                                    "$fire_source, $can_attack, hideKeyLogic, feather",
+                                    
+                                    "$fire_source, $can_attack, boots, setting_HellLogic, [D2SK:3], D2SK:1", //boots-bonk across the pits to remove the feather requirement
+                                    "$fire_source, $can_attack, boots, setting_HellLogic, hideKeyLogic " //boots-bonk across the pits to remove the feather requirement
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "The Forgotten Chest",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 279,
+                                "y": 43
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD921",
+                                "access_rules": [
+                                    "$fire_source, $can_attack, feather, [D2SK:3], D2SK:1",
+                                    "$fire_source, $can_attack, hideKeyLogic, feather",
+                                    
+                                    "$fire_source, $can_attack, boots, setting_HellLogic, [D2SK:3], D2SK:1", //boots-bonk across the pits to remove the feather requirement
+                                    "$fire_source, $can_attack, boots, setting_HellLogic, hideKeyLogic " //boots-bonk across the pits to remove the feather requirement
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Boo Buddies",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 136,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD920",
+                                "access_rules": [
+                                    "$fire_source, $can_attack, feather, [D2SK:4], D2SK:2",
+                                    "$fire_source, $can_attack, feather, hideKeyLogic",
+
+                                    "$fire_source, $can_attack, boots, setting_HellLogic, [D2SK:3], D2SK:1", //boots-bonk across the pits to remove the feather requirement
+                                    "$fire_source, $can_attack, boots, setting_HellLogic, hideKeyLogic " //boots-bonk across the pits to remove the feather requirement
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Surrounded by Blocks Again",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 439,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD922",
+                                "access_rules": [
+                                    "$fire_source, $can_attack, feather, lift1, [D2SK:3], D2SK:1",
+                                    "$fire_source, $can_attack, feather, lift1, hideKeyLogic",
+                                    
+                                    "$fire_source, $can_attack, feather, setting_GlitchedLogic, [D2SK:3], D2SK:1", //super-jump over pots after hinox
+                                    "$fire_source, $can_attack, feather, setting_GlitchedLogic, hideKeyLogic", //super-jump over pots after hinox,
+
+                                    "$fire_source, $can_attack, boots, setting_HellLogic, [D2SK:3], D2SK:1", //boots-bonk across the pits to remove the feather requirement
+                                    "$fire_source, $can_attack, boots, setting_HellLogic, hideKeyLogic" //boots-bonk across the pits to remove the feather requirement
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pols Voice, Keese, then Hooded Stalfos",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 775,
+                                "y": 168
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD927",
+                                "access_rules": [
+                                    "$fire_source, $can_attack, [D2SK:3], D2SK:1, lift1, feather",
+                                    "$fire_source, $can_attack, hideKeyLogic, lift1, feather",
+
+                                    "$fire_source, $can_attack, [D2SK:3], D2SK:1, setting_GlitchedLogic, ocarina, feather",
+                                    "$fire_source, $can_attack, hideKeyLogic, setting_GlitchedLogic, ocarina, feather",
+
+                                    "$fire_source, $can_attack, boots, setting_HellLogic, [D2SK:3], D2SK:1", //boots-bonk across the pits to remove the feather requirement
+                                    "$fire_source, $can_attack, boots, setting_HellLogic, hideKeyLogic " //boots-bonk across the pits to remove the feather requirement
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mad Genie",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 878,
+                                "y": 321
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD92B",
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png",
+                                "access_rules": [
+                                    "$fire_source, [D2SK:5], D2SK:3, D2BK, lift1, $can_attack, feather",
+                                    "$fire_source, hideKeyLogic, lift1, $can_attack, feather",
+
+                                    "$fire_source, [D2SK:5], D2SK:3, D2BK, lift1, $can_attack, boots, setting_HellLogic",
+                                    "$fire_source, hideKeyLogic, lift1, $can_attack, boots, setting_HellLogic"
+
+                                    // Technically there are glitched/hell logic options for getting to this location without lift1 but I'm not accounting for boss shuffle (yet)
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Conch Horn",
+                        "map_locations": [
+                            {
+                                "map": "D2",
+                                "x": 720,
+                                "y": 296
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$fire_source, [D2SK:5], D2SK:3, D2BK, lift1, $can_attack, feather",
+                                    "$fire_source, hideKeyLogic, lift1, $can_attack, feather"
+                                ],
+                                "hosted_item": "itemD92A"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D3",
+                "access_rules": [
+                    "slime, feather",
+                    "slime, flippers",
+                    "setting_HellLogic, slime, boots",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        "name": "East of Entrance",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 456,
+                                "y": 939
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "boots",
+                                    "hookshot, [boots]",
+                                    "setting_HardLogic, hookshot"
+                                ],
+                                "hosted_item": "itemD953"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "North of Entrance",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 297,
+                                "y": 826
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD951",
+                                "access_rules": ["lift1, $can_attack"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Zol Chest",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 281,
+                                "y": 684
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD94F",
+                                "access_rules": ["lift1, $can_attack"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map Chest",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 409,
+                                "y": 699
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD950",
+                                "access_rules": [
+                                    "lift1, $can_attack, [ladxr_D3SK:8], ladxr_D3SK:1",
+                                    "lift1, $can_attack, hideKeyLogic",
+                                    "lift1, $can_attack, feather, [ladxr_D3SK:8], [ladxr_D3SK:1]",
+
+                                    "lift1, $can_attack, feather, setting_GlitchedLogic"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Seperated Enemies Chest",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 297,
+                                "y": 555
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Kill the Stalfos and the Small Zol",
+                                "hosted_item": "itemD94E",
+                                "access_rules": [
+                                    "lift1, $can_attack, boots",
+
+                                    "lift1, $can_attack, feather, setting_HellLogic"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stone Beak Chest",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 213,
+                                "y": 443
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD94C",
+                                "access_rules": [
+                                    "lift1, $can_attack, [ladxr_D3SK:8], ladxr_D3SK:1",
+                                    "lift1, $can_attack, hideKeyLogic",
+
+                                    "lift1, $can_attack, setting_GlitchedLogic, boots, feather",
+                                    "lift1, $can_attack, setting_HellLogic, boots, bow" //yo wtf is this Daid
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "North Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 839,
+                                "y": 312
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD954",
+                                "access_rules": [
+                                    "lift1, $can_attack, [ladxr_D3SK:8], ladxr_D3SK:1",
+                                    "lift1, $can_attack, hideKeyLogic",
+                                    
+                                    "lift1, setting_HardLogic, [ladxr_D3SK:8], ladxr_D3SK:1", //Use the pots to kill the enemies
+                                    "lift1, setting_HardLogic, hideKeyLogic" //Use the pots to kill the enemies
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue in Northern Room",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 864,
+                                "y": 312 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "lift1, $can_attack, [ladxr_D3SK:8], ladxr_D3SK:1, D3beak",
+                                    "lift1, $can_attack, hideKeyLogic, D3beak"
+                                ],
+                                "hosted_item": "owlD954",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "West Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 680,
+                                "y": 434
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD955",
+                                "access_rules": [
+                                    "lift1, $can_attack, [ladxr_D3SK:8], ladxr_D3SK:1",
+                                    "lift1, $can_attack, hideKeyLogic"
+                                    //technically in hell logic you can bump the enemies into the pits, but this is logicallly irrelevant because you need an attack method to enter
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "South Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 839,
+                                "y": 567
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD958",
+                                "access_rules": [
+                                    "lift1, $can_attack, [ladxr_D3SK:8], ladxr_D3SK:1",
+                                    "lift1, $can_attack, hideKeyLogic",
+
+                                    "lift1, setting_HardLogic, [ladxr_D3SK:8], ladxr_D3SK:1", //use the pots to kill the enemies
+                                    "lift1, setting_HardLogic, hideKeyLogic" //use the pots to kill the enemies
+                                    //technically in hell logic you can bump the enemies into the pits, but this is logicallly irrelevant because you need an attack method to enter
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kill Zols",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 362,
+                                "y": 440
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD94D",
+                                "access_rules": [
+                                    "lift1, [ladxr_D3SK:4], ladxr_D3SK:1, $can_attack",
+                                    "lift1, hideKeyLogic, $can_attack"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pairodd Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 39,
+                                "y": 314
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD948",
+                                "access_rules": [
+                                    "lift1, [ladxr_D3SK:4], ladxr_D3SK:1, $can_attack",
+                                    "lift1, hideKeyLogic, $can_attack"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue in Top-Left Corner",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 72,
+                                "y": 8 
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "lift1, [ladxr_D3SK:4], ladxr_D3SK:1, $can_attack, D3beak",
+                                    "lift1, hideKeyLogic, $can_attack, D3beak"
+                                ],
+                                "hosted_item": "owlD940",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "West Ledge",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 137,
+                                "y": 170
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD944",
+                                "access_rules": [
+                                    "lift1, [ladxr_D3SK:4], ladxr_D3SK:1, $can_attack",
+                                    "lift1, hideKeyLogic, $can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dodongo Snakes",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 391,
+                                "y": 172
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Feed them Bombs",
+                                "hosted_item": "itemD946",
+                                "access_rules": [
+                                    "lift1, $can_attack, [ladxr_D3SK:4], ladxr_D3SK:1, bombs",
+                                    "lift1, $can_attack, hideKeyLogic, bombs",
+                                    
+                                    "lift1, $can_attack, feather, sword, [ladxr_D3SK:5], ladxr_D3SK:2, setting_GlitchedLogic" //Dong skip for the chest
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "East Ledge",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 613,
+                                "y": 158
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "East Ledge",
+                                "hosted_item": "itemD947",
+                                "access_rules": [
+                                    "lift1, [ladxr_D3SK:4], ladxr_D3SK:1, boots, feather, bombs",
+                                    "lift1, hideKeyLogic, boots, feather, bombs",
+
+                                    "lift1, [ladxr_D3SK:4], ladxr_D3SK:1, setting_GlitchedLogic, feather, bombs",
+                                    "lift1, hideKeyLogic, setting_GlitchedLogic, feather, bombs",
+                                    
+                                    "lift1, [ladxr_D3SK:4], ladxr_D3SK:1, setting_HellLogic, feather, shield", //clip into the wall with the stalfos somehow, shrug
+                                    "lift1, hideKeyLogic, setting_HellLogic, feather, shield",
+                                    
+                                    "lift1, [ladxr_D3SK:4], ladxr_D3SK:1, setting_GlitchedLogic, boots, hookshot, bombs", // boots into the pit, hookshot buffer
+                                    "lift1, hideKeyLogic, setting_GlitchedLogic, boots, hookshot, bombs"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue before Bombites",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 535,
+                                "y": 136
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "lift1, [ladxr_D3SK:4], ladxr_D3SK:1, $can_attack, D3beak",
+                                    "lift1, hideKeyLogic, $can_attack, D3beak"
+                                ],
+                                "hosted_item": "owlD947",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Green Bombites",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 391,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD942",
+                                "access_rules": [
+                                    "lift1, [ladxr_D3SK:4], ladxr_D3SK:1, $can_attack",
+                                    "lift1, hideKeyLogic, $can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Red Bombites Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 200,
+                                "y": 57
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD941",
+                                "access_rules": [
+                                    "lift1, [ladxr_D3SK:4], ladxr_D3SK:1, bombs, $can_attack",
+                                    "lift1, hideKeyLogic, bombs, $can_attack",
+
+                                    "lift1, setting_HardLogic, [ladxr_D3SK:4], ladxr_D3SK:1, boomerang, $can_attack",
+                                    "lift1, setting_HardLogic, hideKeyLogic, boomerang, $can_attack"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Conveyor Keese Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 838,
+                                "y": 950
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD95B",
+                                "access_rules": [
+                                    "lift1, [ladxr_D3SK:8], ladxr_D3SK:5, boots, feather, $can_attack",
+                                    "lift1, hideKeyLogic, boots, feather, $can_attack",
+                                    
+                                    "lift1, [ladxr_D3SK:5], ladxr_D3SK:2, setting_GlitchedLogic, boots, feather, sword", //dong skip
+                                    "lift1, hideKeyLogic, setting_GlitchedLogic, boots, feather, sword" //dong skip
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Slime Eye",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 881,
+                                "y": 827
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD95A",
+                                "access_rules": [
+                                    "lift1, [ladxr_D3SK:8], ladxr_D3SK:5, D3BK, boots, feather, sword1",
+                                    "lift1, hideKeyLogic, boots, feather, sword1",
+                                    
+                                    "lift1, [ladxr_D3SK:5], ladxr_D3SK:2, D3BK, setting_GlitchedLogic, boots, feather, sword", //dong skip
+                                    "lift1, hideKeyLogic, setting_GlitchedLogic, boots, feather, sword" //dong skip
+                                ],
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sea Lily's Bell",
+                        "map_locations": [
+                            {
+                                "map": "D3",
+                                "x": 879,
+                                "y": 681
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "lift1, [ladxr_D3SK:8], ladxr_D3SK:5, D3BK, boots, feather, sword1",
+                                    "lift1, hideKeyLogic, boots, feather, sword1",
+                                    
+                                    "lift1, [ladxr_D3SK:5], ladxr_D3SK:2, D3BK, setting_GlitchedLogic, boots, feather, sword", //dong skip
+                                    "lift1, hideKeyLogic, setting_GlitchedLogic, boots, feather, sword" //dong skip
+                                ],
+                                "hosted_item": "itemD959"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D4",
+                "access_rules": [
+                    "angler, lift1, boots",
+                    "angler, flippers, lift1",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        "name": "East, then South of Entrance",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 551,
+                                "y": 841
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Kill the Tektites to leave",
+                                "access_rules": [
+                                    "shield, sword1",   //You don't need to track hard/glitch logic here, shield/sword is required there too
+                                    "shield, setting_GoodBoy_on"
+                                ],
+                                "hosted_item": "itemD97B"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "East of Entrance",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 582,
+                                "y": 713
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD978",
+                                "access_rules": [
+                                    "shield, $can_attack",
+                                    "shield, setting_GoodBoy_on, chomp",
+                                    "setting_HardLogic, D4SK:5, feather",
+                                    "setting_HardLogic, hideKeyLogic, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stone Beak Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 711,
+                                "y": 679
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD979"
+                            }
+                        ]
+                    },    //These two checks are Sphere 0 of this dungeon
+                    {
+                        "name": "Map Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 665,
+                                "y": 346
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD96A"
+                            }
+                        ]
+                    },  //These two checks are Sphere 0 of this dungeon
+                    {
+                        "name": "First Watery Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 919,
+                                "y": 438
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD971",
+                                "access_rules": [
+                                    "[boots], feather, bombs",
+                                    "setting_HardLogic, feather, bombs",  //Approaching from the southeast has the same requirements,
+                                    "setting_GlitchedLogic, flippers, feather", //sideways block push can save you a bomb,
+                                    "setting_HellLogic, boots, hookshot", //Another sideways block push, but I've got no clue
+                                    "setting_HellLogic, boots, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Second Watery Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 888,
+                                "y": 168
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD965",
+                                "access_rules": [
+                                    "[boots], feather, bombs",
+                                    "[boots], feather, flippers",
+                                    "setting_HardLogic, feather", //jumping around the bombable block + bootsless 4-way,
+                                    "setting_HellLogic, boots, hookshot, bombs"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Eastern Lonely Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 678,
+                                "y": 567
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Missing its partner.",
+                                "hosted_item": "itemD975",
+                                "access_rules": [
+                                    "shield, $can_attack, D4SK:2, flippers",
+                                    "[shield], [$can_attack], [D4SK:2], feather, [flippers]",
+                                    "shield, $can_attack, hideKeyLogic, flippers",
+                                    "setting_HardLogic, feather", //Bootsless 4-way + Pixel perfect jump in that room
+                                    "setting_GlitchedLogic, feather", //Jesus Jump (Redundant, but here in case it needs to be changed later),
+                                    "setting_HellLogic, boots, hookshot" //boots bonk across the water bottom wall to the bottom left corner, then hookshot up
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue between the Lonely Chests",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 535,
+                                "y": 456
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "D4SK:3, [boots], feather, D4beak", //vanilla
+                                    "[D4SK:3], D4SK:1, [boots], feather, D4beak", //wrong way jump
+                                    "hideKeyLogic, [boots], feather, D4beak",
+
+                                    "setting_HardLogic, feather, D4SK:1, D4beak",
+                                    "setting_HardLogic, feather, hideKeyLogic, D4beak",
+                                    
+                                    "setting_HellLogic, boots, hookshot, D4SK:1, D4beak",
+                                    "setting_HellLogic, boots, hookshot, hideKeyLogic, D4beak"
+                                ],
+                                "hosted_item": "owlD96F",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Western Lonely Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 423,
+                                "y": 443
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Missing its partner.",
+                                "hosted_item": "itemD96E",
+                                "access_rules": [
+                                    "shield, $can_attack, flippers, D4SK:3, [boots], feather",
+                                    "shield, $can_attack, flippers, hideKeyLogic, [boots], feather",
+                                    "setting_HardLogic, feather, D4SK:1",
+                                    "setting_HardLogic, feather, hideKeyLogic", //Bootsless 4-way + Pixel perfect jump in that room
+                                    "setting_GlitchedLogic, feather, D4SK:1", 
+                                    "setting_GlitchedLogic, feather, hideKeyLogic" //Jesus Jump (Redundant, but here in case it needs to be changed later)
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Small Key in the Hole",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 520,
+                                "y": 312
+                            },
+                            {
+                                "map": "D4",
+                                "x": 759,
+                                "y": 295
+                            }
+                        ],
+                        "sections": [
+                            {
+                                // "hosted_item": "itemD97C",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "shield, $can_attack, D4SK:3, [boots], feather, flippers",
+                                    "shield, $can_attack, hideKeyLogic, [boots], feather, flippers",
+
+                                    "setting_HardLogic, lift1, feather, D4SK:1, flippers", //kill enemies with pots
+                                    "setting_HardLogic, $can_attack, feather, D4SK:1, flippers",
+
+                                    "setting_HardLogic, lift1, feather, hideKeyLogic, flippers", //Bootsless 4-way
+                                    "setting_HardLogic, $can_attack, feather, hideKeyLogic, flippers", 
+
+                                    "setting_HardLogic, lift1, feather, D4SK:1, boomerang", //Bootsless 4-way + catching the key as it falls
+                                    "setting_HardLogic, $can_attack, feather, D4SK:1, boomerang",
+
+                                    "setting_HardLogic, lift1, feather, hideKeyLogic, boomerang", 
+                                    "setting_HardLogic, $can_attack, feather, hideKeyLogic, boomerang", 
+
+                                    "setting_GlitchedLogic, lift1, feather, D4SK:1", //superjump into the pit
+                                    "setting_GlitchedLogic, lift1, feather, hideKeyLogic",
+                                    
+                                    
+                                    //BLUE REQUIREMENTS
+                                    "{shield, $can_attack, D4SK:3, feather}",
+                                    "{shield, $can_attack, hideKeyLogic, feather}",
+                                    "{setting_HardLogic, lift1, feather, D4SK:1}",
+                                    "{setting_HardLogic, lift1, feather, hideKeyLogic}"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png",
+                                "capture_item": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "South of the Sparkly Tiles",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 358,
+                                "y": 298
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD968",
+                                "access_rules": [
+                                    //CUE BALL PATH, sword required for cue ball
+                                    "shield, sword1, D4SK:4, [boots], feather",
+                                    "shield, setting_GoodBoy_on, chomp, D4SK:4, [boots], feather",
+                                    "shield, sword1, hideKeyLogic, [boots], feather",
+                                    "shield, setting_GoodBoy_on, chomp, hideKeyLogic, [boots], feather",
+                                    "setting_HardLogic, sword1, feather, D4SK:2",
+                                    "setting_HardLogic, sword1, feather, hideKeyLogic",
+                                    "setting_HellLogic, sword1, boots, hookshot, D4SK:2",
+                                    "setting_HellLogic, sword1, boots, hookshot, hideKeyLogic",
+
+                                    //SOUTH WRAPAROUND PATH (WATER TRANSISTION WOULD ALREADY BE IN LOGIC WITH THIS)
+                                    "shield, $can_attack, D4SK:3, [boots], feather",
+                                    "shield, $can_attack, hideKeyLogic, [boots], feather",
+                                    "setting_HardLogic, feather, D4SK:1",
+                                    "setting_HardLogic, feather, hideKeyLogic",
+                                    "setting_HellLogic, boots, hookshot, D4SK:1",
+                                    "setting_HellLogic, boots, hookshot, hideKeyLogic"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Zora's Flippers",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 391,
+                                "y": 41
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD960",
+                                "access_rules": [
+                                    //IDENTICAL LOGIC TO "CUE BALL PATH" ABOVE + GOING BACKWARDS FROM CUE BALL
+                                    "shield, sword1, D4SK:4, [boots], feather",
+                                    "shield, setting_GoodBoy_on, chomp, D4SK:4, [boots], feather",
+                                    "shield, sword1, hideKeyLogic, [boots], feather",
+                                    "shield, setting_GoodBoy_on, chomp, hideKeyLogic, [boots], feather",
+                                    "shield, D4SK:3, [boots], feather, flippers",
+
+                                    "shield, hideKeyLogic, [boots], feather, flippers",
+
+                                    "setting_HardLogic, feather, D4SK:2",
+                                    "setting_HardLogic, feather, hideKeyLogic",
+
+                                    "setting_GlitchedLogic, feather, D4SK:1",
+                                    "setting_GlitchedLogic, feather, hideKeyLogic"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Guarded by Hooded Stalfos",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 263,
+                                "y": 440
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD96D",
+                                "access_rules": [
+                                    //CUE BALL PATH, sword required for cue ball
+                                    "shield, sword1, D4SK:4, [boots], feather",
+                                    "shield, setting_GoodBoy_on, chomp, D4SK:4, [boots], feather",
+                                    "shield, sword1, hideKeyLogic, [boots], feather",
+                                    "shield, setting_GoodBoy_on, chomp, hideKeyLogic, [boots], feather",
+                                    "setting_HardLogic, sword1, feather, D4SK:2",
+                                    "setting_HardLogic, sword1, feather, hideKeyLogic",
+                                    "setting_HellLogic, sword1, boots, hookshot, D4SK:2",
+                                    "setting_HellLogic, sword1, boots, hookshot, hideKeyLogic",
+
+                                    //SOUTH WRAPAROUND PATH (WATER TRANSISTION WOULD ALREADY BE IN LOGIC WITH THIS)
+                                    "shield, $can_attack, D4SK:3, [boots], feather",
+                                    "shield, $can_attack, hideKeyLogic, [boots], feather",
+                                    "setting_HardLogic, feather, D4SK:1",
+                                    "setting_HardLogic, feather, hideKeyLogic",
+                                    "setting_HellLogic, boots, hookshot, D4SK:1",
+                                    "setting_HellLogic, boots, hookshot, hideKeyLogic"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ledge Chest",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 200,
+                                "y": 664
+                            },
+                            {
+                                "map": "D4",
+                                "x": 296,
+                                "y": 278
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Through the Tunnel",
+                                "hosted_item": "itemD976",
+                                "access_rules": [
+                                    "shield, $can_attack, D4SK:3, [boots], feather",
+                                    "shield, $can_attack, hideKeyLogic, [boots], feather",
+
+                                    "setting_HardLogic, feather, D4SK:1", // tight bootsless jump
+                                    "setting_HardLogic, feather, hideKeyLogic",
+                                    "setting_GlitchedLogic, feather, D4SK:1",
+                                    "setting_GlitchedLogic, feather, hideKeyLogic" // Jesus Jump (Redundant, but here in case it needs to be changed later)
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Angler Fish",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 73,
+                                "y": 327
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD966",
+                                "access_rules": [
+                                    "D4SK:5, [D4SK:1], D4BK, shield, $can_attack, feather, [boots], flippers", //pure vanilla
+                                    "hideKeyLogic, shield, $can_attack, feather, [boots], flippers",
+
+                                    "setting_HardLogic, [D4SK:3], D4SK:1, D4BK, feather, $can_attack, flippers", //bootsless 4-way
+                                    "setting_HardLogic, hideKeyLogic, feather, $can_attack, flippers",
+
+                                    "setting_HellLogic, [D4SK:3], D4SK:1, D4BK, boots, hookshot, $can_attack, flippers", //hell 4-way
+                                    "setting_HellLogic, hideKeyLogic, boots, hookshot, $can_attack, flippers"
+                                    
+                                ],
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Surf Harp",
+                        "map_locations": [
+                            {
+                                "map": "D4",
+                                "x": 81,
+                                "y": 169
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D4SK:5, [D4SK:1], D4BK, shield, $can_attack, feather, [boots], flippers", //pure vanilla
+                                    "hideKeyLogic, shield, $can_attack, feather, [boots], flippers",
+
+                                    "setting_HardLogic, [D4SK:3], D4SK:1, D4BK, feather, $can_attack, flippers", //bootsless 4-way
+                                    "setting_HardLogic, hideKeyLogic, feather, $can_attack, flippers",
+
+                                    "setting_HellLogic, [D4SK:3], D4SK:1, D4BK, boots, hookshot, $can_attack, flippers", //hell 4-way
+                                    "setting_HellLogic, hideKeyLogic, boots, hookshot, $can_attack, flippers"
+                                ],
+                                "hosted_item": "itemD962"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D5",
+                "access_rules": [
+                    "flippers, lift1",
+                    "setting_HellLogic, lift1, feather",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        "name": "First Chest",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 920,
+                                "y": 920
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Hookshottable Chest",
+                                "access_rules": [
+                                    "hookshot",
+                                    "setting_GlitchedLogic, feather",
+                                    "setting_HellLogic, boots"
+                                ],
+                                "hosted_item": "itemD9A0"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 599,
+                                "y": 936
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD99E",
+                                "access_rules": [
+                                    "$can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ceiling Key Near Round 4",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 199,
+                                "y": 58
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD981",
+                                "access_rules": [
+                                    "feather, sword1",
+                                    "feather, setting_GoodBoy_on",
+
+                                    "setting_HellLogic, boots, sword1",
+                                    "setting_HellLogic, boots, setting_GoodBoy_on"
+                                ],
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stone Beak",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 456,
+                                "y": 809
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD99B",
+                                "access_rules": [
+                                    "D5SK:1, $can_attack",
+                                    "hideKeyLogic, $can_attack"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue before Master Stalfos",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 760,
+                                "y": 648
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "D5SK:1, D5beak",
+                                    "hideKeyLogic, D5beak"
+                                ],
+                                "hosted_item": "owlD99A",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hookshot Over the Gaps",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 215,
+                                "y": 684
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "hosted_item": "itemD997",
+                                "access_rules": [
+                                    "D5SK:1, hookshot",
+                                    "hideKeyLogic, hookshot",
+                                    "setting_HardLogic, $can_attack, D5SK:1, feather", //jump down
+                                    "setting_HardLogic, $can_attack, hideKeyLogic, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Master Stalfos Round 1",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 719,
+                                "y": 576
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "stalfos1",
+                                "access_rules": [
+                                    "D5SK:1, sword1, bombs",
+                                    "D5SK:1, setting_GoodBoy_on, chomp, bombs",
+                                    "hideKeyLogic, sword1, bombs",
+                                    "hideKeyLogic, setting_GoodBoy_on, chomp, bombs"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Round 1",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 839,
+                                "y": 551
+                            }
+                        ],
+                        "sections": [
+                            {
+                                // "hosted_item": "itemD996",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "D5SK:1, sword1, bombs",
+                                    "D5SK:1, setting_GoodBoy_on, chomp, bombs",
+                                    "hideKeyLogic, sword1, bombs",
+                                    "hideKeyLogic, setting_GoodBoy_on, chomp, bombs"
+
+                                    // "setting_HardLogic, D5SK:3, feather, $gohma",
+                                    // "setting_HardLogic, hideKeyLogic, feather, $gohma",
+                                    
+                                    // "setting_GlitchedLogic, D5SK:2, feather, $gohma",
+                                    // "setting_GlitchedLogic, hideKeyLoigc, feather, $gohma"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Master Stalfos Round 2",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 1039,
+                                "y": 448
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "stalfos2",
+                                "access_rules": [
+                                    "D5SK:1, sword1, bombs, stalfos1",
+                                    "D5SK:1, setting_GoodBoy_on, chomp, bombs, stalfos1",
+                                    "hideKeyLogic, sword1, bombs, stalfos1",
+                                    "hideKeyLogic, setting_GoodBoy_on, chomp, bombs, stalfos1"
+
+                                    // "setting_HardLogic, D5SK:3, feather, $gohma, stalfos1",
+                                    // "setting_HardLogic, hideKeyLogic, feather, $gohma, stalfos1",
+
+                                    // "setting_GlitchedLogic, D5SK:2, feather, $gohma, stalfos1",
+                                    // "setting_GlitchedLogic, hideKeyLogic, feather, $gohma, stalfos1"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hookshot Chest 1",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 920,
+                                "y": 284
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "capture_item": true,
+                                "hosted_item": "itemD98E",
+                                "access_rules": [
+                                    "D5SK:1, hookshot, feather, bombs, sword1",
+                                    "D5SK:1, [hookshot], boots, feather, bombs, sword1",
+                                    "D5SK:1, hookshot, feather, bombs, setting_GoodBoy_on, chomp",
+                                    "D5SK:1, [hookshot], boots, feather, bombs, setting_GoodBoy_on, chomp",
+                                    "hideKeyLogic, hookshot, feather, bombs, sword1",
+                                    "hideKeyLogic, [hookshot], boots, feather, bombs, sword1",
+                                    "hideKeyLogic, hookshot, feather, bombs, setting_GoodBoy_on, chomp",
+                                    "hideKeyLogic, [hookshot], boots, feather, bombs, setting_GoodBoy_on, chomp",
+
+                                    // "D5SK:3, setting_HardLogic, feather, boots, $gohma",
+                                    // "D5SK:1, setting_HardLogic, hookshot",
+                                    // "hideKeyLogic, setting_HardLogic, feather, boots, $gohma",
+                                    // "hideKeyLogic, setting_HardLogic, hookshot",
+
+                                    // "D5SK:2, setting_GlitchedLogic, feather, boots, $gohma",
+
+                                    "hideKeyLogic, setting_GlitchedLogic, feather, boots",
+
+                                    "D5SK:1, setting_HellLogic, boots, sword, feather, bombs"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hookshot Chest 2",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 936,
+                                "y": 153
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "capture_item": true,
+                                "hosted_item": "itemD988",
+                                "access_rules": [
+                                    "D5SK:1, hookshot, feather, bombs, sword1",
+                                    "D5SK:1, hookshot, feather, bombs, setting_GoodBoy_on, chomp",
+                                    "hideKeyLogic, hookshot, feather, bombs, sword1",
+                                    "hideKeyLogic, hookshot, feather, bombs, setting_GoodBoy_on, chomp",
+
+                                    // "D5SK:3, setting_HardLogic, feather, boots, $gohma",
+                                    // "D5SK:2, setting_GlitchedLogic, feather, boots, $gohma",
+                                    // "D5SK:1, setting_HardLogic, feather",
+                                    // "hideKeyLogic, setting_GlitchedLogic, feather, $gohma",
+
+                                    // "D5SK:2, setting_GlitchedLogic, feather, boots, $gohma",
+                                    
+                                    "D5SK:1, setting_GlitchedLogic, feather, bombs, sword1",
+                                    "hideKeyLogic, setting_GlitchedLogic, feather, bombs, sword1",
+
+                                    "D5SK:1, setting_HellLogic, boots, sword, feather, bombs"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hookshot Chest 3",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 1096,
+                                "y": 314
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "capture_item": true,
+                                "hosted_item": "itemD98F",
+                                "access_rules": [
+                                    "D5SK:1, hookshot, feather, bombs, sword1",
+                                    "D5SK:1, hookshot, feather, bombs, setting_GoodBoy_on, chomp",
+                                    "hideKeyLogic, hookshot, feather, bombs, sword1",
+                                    "hideKeyLogic, hookshot, feather, bombs, setting_GoodBoy_on, chomp",
+
+                                    // "D5SK:3, setting_HardLogic, feather, boots, $gohma",
+                                    // "D5SK:1, setting_HardLogic, feather, hookshot",
+                                    // "hideKeyLogic, setting_HardLogic, feather, boots, $gohma",
+                                    // "hideKeyLogic, setting_HardLogic, feather, hookshot",
+                                    
+                                    // "D5SK:2, setting_GlitchedLogic, feather, boots, $gohma",
+                                    // "hideKeyLogic, setting_GlitchedLogic, feather, boots, $gohma",
+
+                                    "D5SK:1, setting_HellLogic, boots, sword, feather, bombs"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Master Stalfos Round 3",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 720,
+                                "y": 63
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "stalfos3",
+                                "access_rules": [
+                                    "D5SK:1, feather, lift1, sword1, bombs, stalfos2",
+                                    "D5SK:1, feather, lift1, setting_GoodBoy_on, chomp, bombs, stalfos2",
+                                    "hideKeyLogic, feather, lift1, sword1, bombs, stalfos2",
+                                    "hideKeyLogic, feather, lift1, setting_GoodBoy_on, chomp, bombs, stalfos2"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Round 3",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 551,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD983",
+                                "access_rules": [
+                                    "D5SK:1, feather, bombs, sword1, lift1",
+                                    "D5SK:1, feather, bombs, setting_GoodBoy_on, chomp, lift1",
+                                    "hideKeyLogic, feather, bombs, sword1, lift1",
+                                    "hideKeyLogic, feather, bombs, setting_GoodBoy_on, chomp, lift1"
+
+                                    // "D5SK:3, setting_HardLogic, feather, boots, $gohma, lift1",
+                                    // "D5SK:3, setting_HardLogic, feather, hookshot, lift1",
+                                    // "hideKeyLogic, setting_HardLogic, feather, boots, $gohma, lift1",
+                                    // "hideKeyLogic, setting_HardLogic, feather, hookshot, lift1",
+                                    
+                                    // "D5SK:2, setting_GlitchedLogic, feather, boots, $gohma, lift1"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Master Stalfos Round 4",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 80,
+                                "y": 62
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "stalfos4",
+                                "access_rules": [
+                                    "D5SK:1, feather, sword1, bombs, stalfos3",
+                                    "D5SK:1, feather, setting_GoodBoy_on, chomp, bombs, stalfos3",
+                                    "hideKeyLogic, feather, sword1, bombs, stalfos3",
+                                    "hideKeyLogic, feather, setting_GoodBoy_on, chomp, bombs, stalfos3",
+
+                                    "setting_HellLogic, D5SK:1, boots, sword1, stalfos3",
+                                    "setting_HellLogic, hideKeyLogic, boots, sword1, stalfos3"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Nightmare's Key",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 728,
+                                "y": 326
+                            },
+                            {
+                                "map": "D5",
+                                "x": 520,
+                                "y": 166
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD986",
+                                "access_rules": [
+                                    "D5SK:1, flippers, hookshot, bombs, sword1",
+                                    "D5SK:1, flippers, hookshot, bombs, setting_GoodBoy_on, chomp",
+                                    "hideKeyLogic, flippers, hookshot, bombs, sword1",
+                                    "hideKeyLogic, flippers, hookshot, bombs, setting_GoodBoy_on, chomp",
+                                    "setting_HardLogic, D5SK:1, flippers, boots, feather, bombs, sword1", // boots-jump down
+                                    "setting_HardLogic, D5SK:1, flippers, boots, feather, bombs, setting_GoodBoy_on, chomp",
+                                    "setting_HardLogic, hideKeyLogic, flippers, boots, feather, bombs, sword1",
+                                    "setting_HardLogic, hideKeyLogic, flippers, boots, feather, bombs, setting_GoodBoy_on, chomp",
+                                    // "setting_HardLogic, D5SK:3, flippers, feather, boots, $gohma",
+                                    
+                                    // "setting_GlitchedLogic, D5SK:2, flippers, feather, boots, $gohma",
+                                    "setting_HellLogic, D5SK:1, flippers" //pit buffer across (?)
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Butterfly Owl",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 247,
+                                "y": 264
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "D5SK:1, sword1, bombs, feather, D5beak",
+                                    "D5SK:1, setting_GoodBoy_on, chomp, bombs, feather, D5beak",
+                                    "hideKeyLogic, sword1, bombs, feather, D5beak",
+                                    "hideKeyLogic, setting_GoodBoy_on, chomp, bombs, feather, D5beak"
+                                    // "setting_HardLogic, D5SK:3, boots, $gohma, D5beak",
+
+                                    // "setting_GlitchedLogic, D5SK:2, boots, $gohma, D5beak",
+
+                                    // "setting_HellLogic, D5SK:2, $gohma, D5beak" //more pit buffers
+        
+                                ],
+                                "hosted_item": "owlD98A",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Slime Eel",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 400,
+                                "y": 192
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "itemD985",
+                                "access_rules": [
+                                    "D5SK:3, D5BK, feather, hookshot, sword1",
+                                    "[D5SK:3], D5SK:1, D5BK, feather, hookshot, sword1",
+                                    "hideKeyLogic, feather, hookshot, sword1",
+
+                                    "setting_HardLogic, D5SK:1, D5BK, feather, hookshot, sword1",
+                                    "setting_HardLogic, D5SK:1, D5BK, feather, boots, sword1"
+                                ],
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wind Marimba",
+                        "map_locations": [
+                            {
+                                "map": "D5",
+                                "x": 400,
+                                "y": 38
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D5SK:3, D5BK, feather, hookshot, sword1",
+                                    "[D5SK:3], D5SK:1, D5BK, feather, hookshot, sword1",
+                                    "hideKeyLogic, feather, hookshot, sword1",
+                                    
+                                    "setting_HardLogic, D5SK:1, D5BK, feather, hookshot, sword1",
+                                    "setting_HardLogic, D5SK:1, D5BK, feather, boots, sword1"
+                                ],
+                                "hosted_item": "itemD982"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D6",
+                "access_rules": [
+                    "face, lift1, flippers, hookshot",
+                    "face, lift1, setting_HardLogic, flippers, feather",
+                    "face, lift1, setting_HardLogic, flippers, boots, feather",
+                    "face, lift1, setting_GlitchedLogic, feather",
+                    "face, lift1, setting_HellLogic, boots",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        
+                        "name": "Owl Statue on the Balcony",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 567,
+                                "y": 344
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "D6beak"
+                                ],
+                                "hosted_item": "owlD9BB",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kill the Wizzrobes",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 440,
+                                "y": 698
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$kill_wizz"
+                                ],
+                                "hosted_item": "itemD9CF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lift the Elephant",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 439,
+                                "y": 555
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "access_rules": [
+                                    "$kill_wizz, lift2"
+                                ],
+                                "hosted_item": "itemD9C9"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map Chest",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 135,
+                                "y": 426
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$kill_wizz, lift1, bombs"
+                                ],
+                                "hosted_item": "itemD9C0"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stone Beak",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 216,
+                                "y": 283
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$kill_wizz, lift1, bombs",
+
+                                    "setting_GlitchedLogic, lift1, feather"
+                                ],
+                                "hosted_item": "itemD9B9"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 215,
+                                "y": 202
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$kill_wizz, lift1, bombs",
+
+                                    "setting_GlitchedLogic, lift1, feather"
+                                ],
+                                "hosted_item": "itemD9B3"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "West Horsehead",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 120,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$kill_wizz, lift2, bombs",
+
+                                    "setting_GlitchedLogic, lift2, feather"
+                                ],
+                                "hosted_item": "itemD9B0"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "D6 Raft Minigame Island",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 119,
+                                "y": 10
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 2001,
+                                "y": 840
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "hosted_item": "itemD86C",
+                                "access_rules": [
+                                    "$kill_wizz, lift2, bombs",
+
+                                    "setting_GlitchedLogic, lift2, feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "L-2 Power Bracelet",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 184,
+                                "y": 666
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$can_attack, bombs, $kill_wizz, feather",
+                                    "$can_attack, bombs, $kill_wizz, [feather], boots",
+                                    "setting_HardLogic, bombs, $kill_wizz, boots"
+                                ],
+                                "hosted_item": "itemD9CE"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "North Ledge Crystal Blocks Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 520,
+                                "y": 183
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$kill_wizz, lift1"
+                                ],
+                                "hosted_item": "itemD9B4",
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl Statue in South-East Corner",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 984,
+                                "y": 776
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "lift2, D6beak"
+                                ],
+                                "hosted_item": "owlD9D7", 
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Blade Trap Ledge",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 1096,
+                                "y": 730
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "lift2, feather",
+                                    "setting_HellLogic, lift2, boots", //Don't ask me, I have no clue how to do this. "can boots superhop off the top wall with bow or magic rod"
+                                    "setting_HellLogic, lift2, bow"
+                                    
+                                ],
+                                "hosted_item": "itemD9D1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Moist Chest",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 1064,
+                                "y": 283
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "lift2, $kill_wizz"
+                                ],
+                                "hosted_item": "itemD9BE"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tile Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 519,
+                                "y": 437
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D6SK:1, bombs, lift2, feather",
+                                    "hideKeyLogic, bombs, lift2, feather",
+                                    
+                                    "setting_HardLogic, D6SK:1, lift2, boots",
+                                    "setting_HardLogic, hideKeyLogic, lift2, boots",
+
+                                    "setting_GlitchedLogic, lift2, feather"
+                                ],
+                                "hosted_item": "itemD9C3",
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "East Horsehead",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 1159,
+                                "y": 39
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D6SK:2, bombs, lift2, feather, $kill_wizz",
+                                    "D6SK:2, bombs, lift2, feather, ocarina, ballad",
+                                    "hideKeyLogic, bombs, lift2, feather, $kill_wizz",
+                                    "hideKeyLogic, bombs, lift2, feather, ocarina, ballad",
+                                    
+                                    "setting_HardLogic, D6SK:1, bombs, lift2, boots, $kill_wizz",
+                                    "setting_HardLogic, D6SK:1, bombs, lift2, boots, ocarina, ballad",
+                                    "setting_HardLogic, hideKeyLogic, bombs, lift2, boots, $kill_wizz",
+                                    "setting_HardLogic, hideKeyLogic, bombs, lift2, boots, ocarina, ballad",
+
+                                    "setting_GlitchedLogic, lift2, feather, $kill_wizz",
+                                    "setting_GlitchedLogic, lift2, feather, ocarina, ballad"
+                                ],
+                                "hosted_item": "itemD9B1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pot Chest",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 1015,
+                                "y": 168
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[D6SK:3], D6SK:1, bombs, lift2, feather, hookshot",
+                                    "hideKeyLogic, bombs, lift2, feather, hookshot",
+
+                                    "[D6SK:3], D6SK:1, setting_HardLogic, boots, lift2",
+                                    "hideKeyLogic, setting_HardLogic, boots, lift2",
+                                    
+                                    "setting_GlitchedLogic, feather, lift1"
+                                ],
+                                "hosted_item": "itemD9B6"
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue near Boss Key",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 1031,
+                                "y": 136
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "[D6SK:3], D6SK:1, bombs, lift2, feather, hookshot, D6beak",
+                                    "hideKeyLogic, bombs, lift2, feather, hookshot, D6beak",
+
+                                    "setting_HardLogic, boots, lift2, D6beak",
+                                    
+                                    "setting_GlitchedLogic, feather, lift1, D6beak"
+                                ],
+                                "hosted_item": "owlD9B6",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Facade",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 719,
+                                "y": 318
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[D6SK:2], D6SK:1, D6BK, bombs, lift2, feather, $kill_wizz",
+                                    "hideKeyLogic, bombs, lift2, feather, $kill_wizz",
+
+                                    "setting_HardLogic, [D6SK:2], D6SK:1, D6BK, bombs, lift2, boots, $kill_wizz",
+                                    "setting_HardLogic, hideKeyLogic, bombs, lift2, boots, $kill_wizz",
+                                    
+                                    "setting_GlitchedLogic, D6BK, bombs, lift2, feather",
+                                    "setting_GlitchedLogic, hideKeyLogic, bombs, lift2, feather"
+                                ],
+                                "hosted_item": "itemD9BC",
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coral Triangle",
+                        "map_locations": [
+                            {
+                                "map": "D6",
+                                "x": 719,
+                                "y": 169
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[D6SK:2], D6SK:1, D6BK, bombs, lift2, feather, $kill_wizz",
+                                    "hideKeyLogic, bombs, lift2, feather, $kill_wizz",
+
+                                    "setting_HardLogic, [D6SK:2], D6SK:1, D6BK, bombs, lift2, boots, $kill_wizz",
+                                    "setting_HardLogic, hideKeyLogic, bombs, lift2, boots, $kill_wizz",
+                                    
+                                    "setting_GlitchedLogic, D6BK, bombs, lift2, feather",
+                                    "setting_GlitchedLogic, hideKeyLogic, bombs, lift2, feather"
+                                ],
+                                "hosted_item": "itemD9B5"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D7",
+                "access_rules": [
+                    "$east_tal, eagle, hookshot, feather",
+                    "$east_tal, eagle, feather, setting_GlitchedLogic",
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        "name": "Like Like Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 520,
+                                "y": 951
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": ["$can_attack"],
+                                "hosted_item": "itemDA10",
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue in the Ball Room",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 503,
+                                "y": 137
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "D7SK:1, D7beak",
+                                    "feather, setting_GlitchedLogic, D7beak",
+                                    "hideKeyLogic, D7beak"
+                                ],
+                                "hosted_item": "owlDA16",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue on the Ground Floor",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 552,
+                                "y": 552
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "D7SK:1, D7beak",
+                                    "feather, setting_GlitchedLogic, D7beak",
+                                    "hideKeyLogic, D7beak"
+                                ],
+                                "hosted_item": "owlDA04",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Horseheads",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 455,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1, lift1",
+                                    "hideKeyLogic, lift1",
+                                    "setting_GlitchedLogic, feather, lift1"
+                                ],
+                                "hosted_item": "itemDA12"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stone Beak",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 88,
+                                "y": 809
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1, lift1, $can_attack",
+                                    "D7SK:1, [lift1], boomerang, $can_attack",
+                                    "hideKeyLogic, lift1, $can_attack",
+                                    "hideKeyLogic, [lift1], boomerang, $can_attack",
+                                    "setting_GlitchedLogic, feather"
+                                ],
+                                "hosted_item": "itemDA09"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mirror Shield",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 536,
+                                "y": 299
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1, lift1, $can_attack",
+                                    "D7SK:1, [lift1], boomerang, $can_attack",
+                                    "hideKeyLogic, lift1, $can_attack",
+                                    "hideKeyLogic, [lift1], boomerang, $can_attack",
+                                    "setting_GlitchedLogic, feather"
+                                ],
+                                "hosted_item": "itemDA1A"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Top-Left Corner",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 22,
+                                "y": 534
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1, lift1, $can_attack",
+                                    "D7SK:1, [lift1], boomerang, $can_attack",
+                                    "hideKeyLogic, lift1, $can_attack",
+                                    "hideKeyLogic, [lift1], boomerang, $can_attack",
+                                    "setting_GlitchedLogic, feather"
+                                ],
+                                "hosted_item": "itemDA01"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Top-Right Corner",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 616,
+                                "y": 534
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1, lift1, $can_attack",
+                                    "D7SK:1, [lift1], boomerang, $can_attack",
+                                    "hideKeyLogic, lift1, $can_attack",
+                                    "hideKeyLogic, [lift1], boomerang, $can_attack",
+                                    "setting_GlitchedLogic, feather"
+                                ],
+                                "hosted_item": "itemDA04"
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Hard-to-Access Owl Statue",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 184,
+                                "y": 392
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "lift1, [bombs], D7SK:1, D7beak",
+                                    "[lift1], boomerang, [bombs], D7SK:1, D7beak",
+                                    "lift1, bombs, D7SK:1, D7beak",
+                                    "[lift1], boomerang, bombs, D7SK:1, D7beak",
+
+                                    "lift1, [bombs], hideKeyLogic, D7beak",
+                                    "[lift1], boomerang, [bombs], hideKeyLogic, D7beak",
+                                    "lift1, bombs, hideKeyLogic, D7beak",
+                                    "[lift1], boomerang, bombs, hideKeyLogic, D7beak",
+                                    "lift1, [bombs], setting_GlitchedLogic, D7beak",
+                                    "[lift1], boomerang, [bombs], setting_GlitchedLogic, D7beak",
+                                    "lift1, bombs, setting_GlitchedLogic, D7beak",
+                                    "[lift1], boomerang, bombs, setting_GlitchedLogic, D7beak"
+                                ],
+                                "hosted_item": "owlDA1C",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hookshottable Chest",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 296,
+                                "y": 426
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Kill the Three-of-a-Kind first",
+                                "access_rules": [
+                                    "lift1, D7SK:1, $can_attack, hookshot, bombs",
+                                    "[lift1], boomerang, D7SK:1, $can_attack, hookshot, bombs",
+                                    "lift1, D7SK:1, setting_GoodBoy_on, chomp, hookshot, bombs",
+                                    "[lift1], boomerang, D7SK:1, setting_GoodBoy_on, chomp, hookshot, bombs",
+
+                                    "lift1, hideKeyLogic, $can_attack, hookshot, bombs",
+                                    "[lift1], boomerang, hideKeyLogic, $can_attack, hookshot, bombs",
+                                    "lift1, hideKeyLogic, setting_GoodBoy_on, chomp, hookshot, bombs",
+                                    "[lift1], boomerang, hideKeyLogic, setting_GoodBoy_on, chomp, hookshot, bombs",
+                                    
+                                    "lift1, setting_GlitchedLogic, feather, $can_attack, hookshot, bombs",
+                                    "[lift1], boomerang, setting_GlitchedLogic, feather, $can_attack, hookshot, bombs",
+                                    "lift1, setting_GlitchedLogic, feather, setting_GoodBoy_on, chomp, hookshot, bombs",
+                                    "[lift1], boomerang, setting_GlitchedLogic, feather, setting_GoodBoy_on, chomp, hookshot, bombs"
+                                ],
+                                "hosted_item": "itemDA1C"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hinox Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 38,
+                                "y": 439
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1, lift1, $can_attack",
+                                    "D7SK:1, [lift1], boomerang, $can_attack",
+                                    "hideKeyLogic, lift1, $can_attack",
+                                    "hideKeyLogic, [lift1], boomerang, $can_attack",
+                                    "setting_GlitchedLogic, feather"
+                                ],
+                                "hosted_item": "itemDA1B",
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grim Creeper",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 1255,
+                                "y": 169
+                            },
+                            {
+                                "map": "D7",
+                                "x": 1255,
+                                "y": 681
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1, lift1, $can_attack",
+                                    "D7SK:1, [lift1], boomerang, $can_attack",
+                                    "hideKeyLogic, lift1, $can_attack",
+                                    "hideKeyLogic, [lift1], boomerang, $can_attack",
+                                    "setting_GlitchedLogic, feather"
+                                ],
+                                // "hosted_item": "itemDA23",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Three-of-a-Kind",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 296,
+                                "y": 43
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "lift1, D7SK:1, feather, $can_attack",
+                                    "[lift1], boomerang, D7SK:1, feather, $can_attack",
+                                    "lift1, D7SK:1, feather, setting_GoodBoy_on, chomp",
+                                    "[lift1], boomerang, D7SK:1, feather, setting_GoodBoy_on, chomp",
+                                    "lift1, hideKeyLogic, feather, $can_attack",
+                                    "[lift1], boomerang, hideKeyLogic, feather, $can_attack",
+                                    "lift1, hideKeyLogic, feather, setting_GoodBoy_on, chomp",
+                                    "[lift1], boomerang, hideKeyLogic, feather, setting_GoodBoy_on, chomp",
+                                    
+                                    "lift1, setting_GlitchedLogic, feather, $can_attack",
+                                    "[lift1], boomerang, setting_GlitchedLogic, feather, $can_attack",
+                                    "lift1, setting_GlitchedLogic, feather, setting_GoodBoy_on, chomp",
+                                    "[lift1], boomerang, setting_GlitchedLogic, feather, setting_GoodBoy_on, chomp"
+                                ],
+                                "hosted_item": "itemDA11"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Conveyor Horseheads",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 1095,
+                                "y": 41
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7SK:1, lift1, D7BK",
+                                    "hideKeyLogic, lift1",
+                                    
+                                    "setting_GlitchedLogic, feather, lift1"
+                                ],
+                                "hosted_item": "itemDA20"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Evil Eagle",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 984,
+                                "y": 265
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7BK, D7SK:1, lift1, sword1",
+                                    "D7BK, D7SK:1, [lift1], boomerang, sword1",
+                                    "D7BK, D7SK:1, lift1, setting_GoodBoy_on, chomp",
+                                    "D7BK, D7SK:1, [lift1], boomerang, setting_GoodBoy_on, chomp",
+                                    "D7BK, D7SK:1, lift1, rod",
+                                    "D7BK, D7SK:1, [lift1], boomerang, rod",
+                                    "hideKeyLogic, lift1, sword1",
+                                    "hideKeyLogic, [lift1], boomerang, sword1",
+                                    "hideKeyLogic, lift1, setting_GoodBoy_on, chomp",
+                                    "hideKeyLogic, [lift1], boomerang, setting_GoodBoy_on, chomp",
+                                    "hideKeyLogic, lift1, rod",
+                                    "hideKeyLogic, [lift1], boomerang, rod",
+
+                                    "D7BK, D7SK:1, lift1, setting_HardLogic, rod",
+                                    "D7BK, D7SK:1, lift1, setting_HardLogic, bombs, bow",
+                                    "D7BK, D7SK:1, lift1, setting_HardLogic, shield, bow",
+                                    "hideKeyLogic, lift1, setting_HardLogic, rod",
+                                    "hideKeyLogic, lift1, setting_HardLogic, bombs, bow",
+                                    "hideKeyLogic, lift1, setting_HardLogic, shield, bow",
+                                    
+                                    "setting_GlitchedLogic, lift1, feather, sword1",
+                                    "setting_GlitchedLogic, [lift1], boomerang, feather, sword1",
+                                    "setting_GlitchedLogic, lift1, feather, setting_GoodBoy_on, chomp",
+                                    "setting_GlitchedLogic, [lift1], boomerang, feather, setting_GoodBoy_on, chomp",
+                                    "setting_GlitchedLogic, lift1, feather, rod",
+                                    "setting_GlitchedLogic, [lift1], boomerang, feather, rod"
+                                ],
+                                // "hosted_item": "itemDA23",
+                                "item_count": 1,
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Organ of Evening Calm",
+                        "map_locations": [
+                            {
+                                "map": "D7",
+                                "x": 1039,
+                                "y": 167
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D7BK, D7SK:1, lift1, sword1",
+                                    "D7BK, D7SK:1, [lift1], boomerang, sword1",
+                                    "D7BK, D7SK:1, lift1, setting_GoodBoy_on, chomp",
+                                    "D7BK, D7SK:1, [lift1], boomerang, setting_GoodBoy_on, chomp",
+                                    "D7BK, D7SK:1, lift1, rod",
+                                    "D7BK, D7SK:1, [lift1], boomerang, rod",
+                                    "hideKeyLogic, lift1, sword1",
+                                    "hideKeyLogic, [lift1], boomerang, sword1",
+                                    "hideKeyLogic, lift1, setting_GoodBoy_on, chomp",
+                                    "hideKeyLogic, [lift1], boomerang, setting_GoodBoy_on, chomp",
+                                    "hideKeyLogic, lift1, rod",
+                                    "hideKeyLogic, [lift1], boomerang, rod",
+
+                                    "D7BK, D7SK:1, lift1, setting_HardLogic, rod",
+                                    "D7BK, D7SK:1, lift1, setting_HardLogic, bombs, bow",
+                                    "D7BK, D7SK:1, lift1, setting_HardLogic, shield, bow",
+                                    "hideKeyLogic, lift1, setting_HardLogic, rod",
+                                    "hideKeyLogic, lift1, setting_HardLogic, bombs, bow",
+                                    "hideKeyLogic, lift1, setting_HardLogic, shield, bow",
+                                    
+                                    "setting_GlitchedLogic, lift1, feather, sword1",
+                                    "setting_GlitchedLogic, [lift1], boomerang, feather, sword1",
+                                    "setting_GlitchedLogic, lift1, feather, setting_GoodBoy_on, chomp",
+                                    "setting_GlitchedLogic, [lift1], boomerang, feather, setting_GoodBoy_on, chomp",
+                                    "setting_GlitchedLogic, lift1, feather, rod",
+                                    "setting_GlitchedLogic, [lift1], boomerang, feather, rod"
+                                ],
+                                "hosted_item": "itemDA2C"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D8",
+                "access_rules": [
+                    "$ladxr_west_tal, shield2, ocarina, soul, bombs",
+                    "$ladxr_west_tal, [ocarina], [soul], bombs, mirror",
+                    "$ladxr_west_tal, [shield2], boots, ocarina, soul, bombs",
+                    "$ladxr_west_tal, [shield2], [ocarina], [soul], bombs",
+
+                    "$ladxr_west_tal, bombs, setting_HardLogic, boots, ocarina, soul", //flame skip (no tunic!)
+                    
+                    "setting_DungeonShuffle_on"
+                ],
+                "children": [
+                    {
+                        "name": "West Directional Block",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 295,
+                                "y": 682
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Fill the Room",
+                                "access_rules": [
+                                    "$left_D8"
+                                ],
+                                "hosted_item": "itemDA4D"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Light Torches",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 296,
+                                "y": 554
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$left_D8, rod"
+                                ],
+                                "hosted_item": "itemDA46"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Guarded by Sparks",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 264,
+                                "y": 809
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$left_D8, hookshot",
+                                    "$left_D8, feather",
+                                    "$left_D8, setting_GlitchedLogic, boots"
+                                ],
+                                "hosted_item": "itemDA55"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vire Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 39,
+                                "y": 693
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$left_D8, $kill_vire"
+                                ],
+                                "hosted_item": "itemdA4C",
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "South of Rolling Bones",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 71,
+                                "y": 954
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$left_D8, sword",
+                                    "$left_D8, bow",
+                                    "$left_D8, hookshot",
+                                    "$left_D8, rod"
+                                    
+                                ],
+                                "hosted_item": "itemDA5C"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "East of Pot Room",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 872,
+                                "y": 841
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "feather",
+                                    "lift1"
+                                ],
+                                "hosted_item": "itemDA59"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Southwestern Directional Block Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 1000,
+                                "y": 821
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Fill the Room",
+                                "access_rules": [
+                                    "$kill_vire, $can_attack, feather"
+                                ],
+                                "hosted_item": "itemDA5A",
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Guarded by Ropes",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 1256,
+                                "y": 937
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "$kill_vire, $can_attack, feather, lift1",
+                                    "$kill_vire, $can_attack, boots, feather, [lift1]"
+                                ],
+                                "hosted_item": "itemDA5F"
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue in Bottom-Right",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 1143,
+                                "y": 727
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "D8beak, $kill_vire, $can_attack, feather, lift1",
+                                    "D8beak, $kill_vire, $can_attack, boots, feather, [lift1]"
+                                ],
+                                "hosted_item": "owlDA53",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map Chest",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 536,
+                                "y": 682
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "feather"
+                                ],
+                                "hosted_item": "itemDA4F"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shoot the Eye Statue Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 360,
+                                "y": 440
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Shoot the Statue with your Bow",
+                                "access_rules": [
+                                    "[D8SK:2], D8SK:1, bow, feather",
+                                    "bow, rod, feather",
+                                    "hideKeyLogic, bow, feather",
+                                    
+                                    "setting_HardLogic, bow, bombs, feather",
+                                    "setting_GlitchedLogic, bow, feather"
+                                ],
+                                "hosted_item": "itemDA41",
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue near Bow Statue",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 423,
+                                "y": 391
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "D8beak, D8SK:1, rod, feather",
+                                    "D8beak, hideKeyLogic, rod, feather",
+                                    
+                                    "D8beak, setting_HardLogic, bombs, feather",
+                                    "D8beak, setting_GlitchedLogic, feather"
+                                ],
+                                "hosted_item": "owlDA41",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "West of Eye Statue",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 265,
+                                "y": 440
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[D8SK:2], D8SK:1, feather",
+                                    "rod, feather",
+                                    "hideKeyLogic, feather",
+                                    
+                                    "setting_HardLogic, bombs, feather",
+                                    "setting_GlitchedLogic, feather"
+                                ],
+                                "hosted_item": "itemDA40"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chest on Ledge",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 456,
+                                "y": 282
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[D8SK:2], D8SK:1, feather, hookshot",
+                                    "rod, feather, hookshot",
+                                    "hideKeyLogic, feather, hookshot",
+
+                                    "setting_HardLogic, bombs, feather, hookshot"
+                                ],
+                                "hosted_item": "itemDA3A"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Northwest of Dodongo Snakes",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 696,
+                                "y": 154
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[D8SK:2], D8SK:1, feather, hookshot",
+                                    "rod, feather, hookshot",
+                                    "hideKeyLogic, feather, hookshot",
+
+                                    "setting_GlitchedLogic, [D8SK:1], feather, hookshot",
+                                    "setting_GlitchedLogic, rod, feather, hookshot",
+                                    "setting_GlitchedLogic, hideKeyLogic, feather, hookshot"
+                                ],
+                                "hosted_item": "itemDA35"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dodongo Snakes",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 936,
+                                "y": 298
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[D8SK:2], D8SK:1, feather, bombs",
+                                    "rod, feather, bombs",
+                                    "hideKeyLogic, feather, bombs"
+                                ],
+                                "hosted_item": "itemDA3D"
+                            }
+                        ]
+                    },
+                    {
+                        
+                        "name": "Owl Statue in Cracked Block Room",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 1079,
+                                "y": 392
+                        }
+                    ],
+                        "sections": [
+                            {
+                                "name": "You must have the Stone Beak for this dungeon for this check.",
+                                "access_rules": [
+                                    "D8beak, [D8SK:2], D8SK:1, feather, $can_attack",
+                                    "D8beak, rod, feather, $can_attack",
+                                    "D8beak, hideKeyLogic, feather, $can_attack"
+                                ],
+                                "hosted_item": "owlDA45",
+                                "chest_opened_img": "images/dungeonowlstatue_d.png",
+                                "chest_unopened_img": "images/dungeonowlstatue.png",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_dungeons",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Gibdo Ceiling Key",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 1000,
+                                "y": 309
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[D8SK:2], D8SK:1, feather, $can_attack",
+                                    "rod, feather, $can_attack",
+                                    "hideKeyLogic, feather, $can_attack"
+                                ],
+                                "hosted_item": "itemDA3E",
+                                "chest_opened_img": "images/smallKey.png",
+                                "chest_unopened_img": "images/smallKeyD.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Flying Powder",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 1049,
+                                "y": 279
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "[debugFlag], [D8SK:2], D8SK:1, feather",
+                                    "[debugFlag], rod, feather",
+                                    "[debugFlag], hideKeyLogic, feather"
+                                ],
+                                "hosted_item": "powder"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "D8 - Mountain Summit",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 407,
+                                "y": 264
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 79,
+                                "y": 41
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"],
+                                "hosted_item": "heartD800",
+                                "name": "",
+                                "access_rules": [
+                                    "[D8SK:2], D8SK:1, feather",
+                                    "rod, feather",
+                                    "hideKeyLogic, feather"
+                                ],
+                                "chest_opened_img": "images/heartPieceGrey.png",
+                                "chest_unopened_img": "images/heartPiece.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "North of Cue Ball Directional Block",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 136,
+                                "y": 169
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Fill the Room",
+                                "access_rules": [
+                                    "[D8SK:3], D8SK:2, sword1, feather",
+                                    "D8SK:1, rod, sword1, feather",
+                                    "D8SK:1, [rod], sword1, feather",
+                                    "D8SK:1, [rod], setting_GoodBoy_on, chomp, feather",
+                                    "hideKeyLogic, sword1, feather",
+                                    "hideKeyLogic, rod, sword1, feather",
+                                    "hideKeyLogic, [rod], sword1, feather",
+                                    "hideKeyLogic, [rod], setting_GoodBoy_on, chomp, feather"
+                                ],
+                                "hosted_item": "itemDA32"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Blaino",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 1176,
+                                "y": 154
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "rod, hookshot, bombs, sword, D8SK:1, [D8SK:3]",
+                                    "bombs, hookshot, sword, D8SK:3, [D8SK:7]",
+                                    "hideKeyLogic, rod, hookshot, bombs, sword",
+                                    "hideKeyLogic, hookshot, bombs, sword",
+
+                                    "setting_GlitchedLogic, rod, bombs, sword, feather, hookshot"
+                                ],
+                                "hosted_item": "itemDA37"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hot Head",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 560,
+                                "y": 181
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D8BK, rod, feather",
+                                    "hideKeyLogic, rod, feather"
+                                ],
+                                "hosted_item": "itemDA34",
+                                "chest_opened_img": "images/heartContainerd.png",
+                                "chest_unopened_img": "images/heartContainer.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Thunder Drum",
+                        "map_locations": [
+                            {
+                                "map": "D8",
+                                "x": 560,
+                                "y": 40
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "access_rules": [
+                                    "D8BK, rod, feather",
+                                    "hideKeyLogic, rod, feather"
+                                ],
+                                "hosted_item": "itemDA30"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,1281 @@
+﻿[
+    {
+        "name": "Koholint Island",
+        "chest_unopened_img": "images/chest.png",
+        "chest_opened_img": "images/chest-open.png",
+        "color": "#00CC00",
+        "access_rules": ["csnotif"],
+        "children": [
+            {
+                "name": "Mabe Village",
+                "children": [
+                    {
+                        "name": "Marin",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 355,
+                                "y": 1269
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 2031,
+                                "y": 1736
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Learn the Ballad of the Wind Fish",
+                                "hosted_item": "itemD892",
+                                "access_rules": ["ocarina"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quadruplet's House",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 440,
+                                "y": 1098
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Give Yoshi Doll to Mother with Child",
+                                "access_rules": ["yoshi"],
+                                "hosted_item": "ribbon",
+                                "visibility_rules": ["yoshi"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Old Lady Wahoo",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 280, 
+                                "y": 1495
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 2184,
+                                "y": 1623
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "WAHOO!",
+                                "hosted_item": "hook",
+                                "visibility_rules": ["broom"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fishing Minigame",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 267,
+                                "y": 1094
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Alcove Directly Underneath Link",
+                                "capture_item": false,
+                                "hosted_item": "itemDAB1",
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shell in Grass",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 568,
+                                "y": 1355
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "hosted_item": "shellD8A3",
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "access_rules": ["$can_break_grass"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Toronbo Shores",
+                "children": [
+                    {
+                        "name": "Sword on the Beach",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 407,
+                                "y": 2010
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "hosted_item": "itemD8F2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "West of Ghost House",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 930, 
+                                "y": 1852
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Lift up the Rocks",
+                                "hosted_item": "itemD8E5",
+                                "access_rules": ["lift1"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tree Near D1",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 383,
+                                "y": 1743
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dash into the Tree for this Shell",
+                                "hosted_item": "shellD8D2",
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "access_rules": ["boots"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Mysterious Woods",
+                "children": [
+                    {
+                        "name": "Right of Entrance",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 231,
+                                "y": 986
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "hosted_item": "itemD871",
+                                "access_rules": ["lift1"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "North of Racoon",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 231, 
+                                "y": 570
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "hosted_item": "itemD841",
+                                "access_rules": ["$can_break_grass"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mysterious Woods Tunnel Front",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 439, 
+                                "y": 825
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest Near Keese",
+                                "access_rules": [
+                                    "sword1",
+                                    "setting_GoodBoy_on"
+                                ],
+                                "hosted_item": "itemDABD",
+                                "visibility_rules": ["$view_connector_logic"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mysterious Woods Tunnel Back",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 135,
+                                "y": 680
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Lift the Skulls",
+                                "access_rules": [
+                                    "lift1",
+                                    "[lift1], feather",
+                                    "[lift1], bombs"
+                                ],
+                                "hosted_item": "itemDAAB",
+                                "capture_item": true,
+                                "visibility_rules": ["setting_heartPiece_shuffle_on, $view_connector_logic"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mushroom Spot",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 42,
+                                "y": 707
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "hosted_item": "itemD850",
+                                "visibility_rules": [
+                                    "setting_RandomizeWitch_on"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Goponga Swamp",
+                "children": [
+                    {
+                        "name": "Owl Statue Near D8",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 187,
+                                "y": 220
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Owl Statue",
+                                "chest_opened_img": "images/owlstatue_d.png",
+                                "chest_unopened_img": "images/owlstatue.png",
+                                "hosted_item": "owlD811",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_overworld",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl Statue Near Moblin Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 866,
+                                "y": 479
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "The Wind Fish in Name Only, for it is Neither.",
+                                "chest_opened_img": "images/owlstatue_d.png",
+                                "chest_unopened_img": "images/owlstatue.png",
+                                "hosted_item": "owlD835",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_overworld",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Swamp Chest",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 663,
+                                "y": 409
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Swamp Chest",
+                                "hosted_item": "itemD834",
+                                "access_rules": ["[$can_break_swamp_flowers]"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Remote Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 135,
+                                "y": 297
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Left Chest",
+                                "hosted_item": "itemDAAE",
+                                "access_rules": [
+                                    "feather",
+                                    "hookshot"
+                                ],
+                                "visibility_rules": ["$view_connector_logic"]
+                            },
+                            {
+                                "name": "Right Chest",
+                                "hosted_item": "itemDAAF",
+                                "access_rules": [
+                                    "lift1"
+                                ],
+                                "visibility_rules": ["$view_connector_logic"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Koholint Prairie",
+                "children": [
+                    {
+                        "name": "Surrounded by Holes",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 721,
+                                "y": 590
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Heart Piece of Shame",
+                                "hosted_item": "itemD844",
+                                "capture_item": true,
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"],
+                                "access_rules":[
+                                    "feather, [boots]",
+                                    "feather",
+                                    "boomerang",
+                                    "hookshot"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shell in Zombie Field",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 743,
+                                "y": 951
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dig Under Bush",
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "hosted_item": "shellD874",
+                                "access_rules": [
+                                    "shovel, $can_break_grass, lift1"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Graveyard Connector Cave",
+                        "map_locations": [
+                            {
+                                "map": "worldmap", 
+                                "x": 855,
+                                "y": 950
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 1064,
+                                "y": 950
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Across the Pits",
+                                "access_rules": [
+                                    "[hookshot], feather, [bombs]",
+
+                                    "setting_HardLogic, feather",
+                                    "setting_HardLogic, hookshot",
+                                    "setting_HardLogic, boomerang"
+                                ],
+                                "hosted_item": "itemDADF",
+                                "visibility_rules": ["setting_heartPiece_shuffle_on, $view_connector_logic"],
+                                "capture_item": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Beehive",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1200, 
+                                "y": 1075
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Give Tarin the Stick",
+                                "hosted_item": "beehive",
+                                "visibility_rules": ["stick"]
+                                
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tree Between Phone House and Town Warp",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 752,
+                                "y": 1327
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bump into it",
+                                // "hosted_item": "shellD8A4",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "access_rules": ["boots"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Signpost Maze",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 775, 
+                                "y": 1705
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "300 Rupees for the Worst Song",
+                                "access_rules": ["$can_break_grass,lift1,boots,[feather],hookshot, ocarina"],
+                                "hosted_item": "itemDAFB",
+                                "visibility_rules": ["$view_connector_logic"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cross-Shape North of Key Cavern",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 895,
+                                "y": 1372
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dig in the Middle of the Cross",
+                                "hosted_item": "shellD8A5",
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "access_rules": ["shovel"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Island with Bush",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1064,
+                                "y": 1352
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Shell under the Bush",
+                                "hosted_item": "shellD8A6",
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "access_rules": [
+                                    "$can_break_grass, flippers",
+                                    "$can_break_grass, [flipppers], feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Underneath Richard's Villa",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1031,
+                                "y": 1739
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "In the Cave",
+                                "access_rules": [
+                                    "feather, fiveleaf",
+                                    "hookshot, fiveleaf"
+                                ],
+                                "hosted_item": "itemDAC8",
+                                "visibility_rules": ["$view_connector_logic"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pothole Maze",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1085,
+                                "y": 1600
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dig in front of Owl Statue",
+                                "hosted_item": "itemD8C6",
+                                "access_rules":[
+                                    "$can_break_grass, shovel"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl Statue in the Villa",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1085,
+                                "y": 1550
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Owl Statue",
+                                "chest_opened_img": "images/owlstatue_d.png",
+                                "chest_unopened_img": "images/owlstatue.png",
+                                "hosted_item": "owlD8C6",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_overworld",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Donut Plains",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1530,
+                                "y": 1488
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Rock Shell",
+                                "hosted_item": "shellD8B9",
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "access_rules": ["lift1"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "East of Seashell Mansion",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1832,
+                                "y": 1095
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Shell in the Top-Right Bush",
+                                "hosted_item": "shellD88B",
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "access_rules": ["$can_break_grass"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Kanalet Castle",
+                "children": [
+                    {
+                        "name": "Give the Bananas to the Monkey",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1850,
+                                "y": 981
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bohnan",
+                                "visibility_rules": ["bananas"],
+                                "hosted_item": "stick"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Leaves in the Castle",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1525,
+                                "y": 820
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Kill Zols and Darknuts",
+                                "hosted_item": "itemDAD2",
+                                "access_rules": [
+                                    "$can_attack"
+                                ],
+                                "visibility_rules": ["$view_connector_logic"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Leaves in the Castle",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1565,
+                                "y": 820
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bomb the Left Wall Darknut",
+                                "hosted_item": "itemDAC5",
+                                "access_rules": [
+                                    "bombs"
+                                ],
+                                "visibility_rules": ["$view_connector_logic"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "The Bomber's Leaf",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1687,
+                                "y": 712
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "BomberMan Meets Whack-a-Mole",
+                                "hosted_item": "itemD85A",
+                                "access_rules": [
+                                    "sword1",
+                                    "rod",
+                                    "bow"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "The Crow's Leaf",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1350,
+                                "y": 661
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Throw a Rock at the Tree to Start the Crow",
+                                "hosted_item": "itemD858",
+                                "access_rules": ["lift1"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Martha's Bay",
+                "children": [
+                    {
+                        "name": "Small Island with Bush",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1369,
+                                "y": 2022
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bush of Destiny",
+                                "hosted_item": "shellD8F8",
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "access_rules": [
+                                    "$can_break_grass, flippers",
+                                    "$can_break_grass, [flipppers], feather"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Heart Piece in the Moat",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1378,
+                                "y": 968
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dive North of Second Hole from the Left",
+                                "chest_unopened_img": "images/heartPiece.png",
+                                "chest_opened_img": "images/heartPieceGrey.png",
+                                "visibility_rules": ["setting_heartPiece_shuffle_on"],
+                                "hosted_item": "itemD878",
+                                "access_rules": ["flippers"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Give the Mermaid her clothing back",
+                        "map_locations":[
+                            {
+                                "map": "worldmap",
+                                "x": 1547,
+                                "y": 1664
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Pervert",
+                                "hosted_item": "scale",
+                                "visibility_rules": ["bra"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lone Bush Shell",
+                        "map_locations":[
+                            {
+                                "map": "worldmap",
+                                "x": 1498,
+                                "y": 1924
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Shell in the Bush",
+                                "hosted_item": "shellD8E9",
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "access_rules": ["$can_break_grass"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Give the Hook for the Bra/Necklace",
+                        "map_locations": [
+                            {
+                                "map":"worldmap",
+                                "x": 1724,
+                                "y": 1862
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Hook a Big One",
+                                "hosted_item": "bra",
+                                "visibility_rules": ["hook"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Peninsula Shell",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1677,
+                                "y": 1747
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dig near the Owl Statue",
+                                "hosted_item": "shellD8DA",
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png",
+                                "access_rules": ["shovel"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl Statue On the Peninsula",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1725,
+                                "y": 1747
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Owl Statue",
+                                "chest_opened_img": "images/owlstatue_d.png",
+                                "chest_unopened_img": "images/owlstatue.png",
+                                "hosted_item": "owlD8DA",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_overworld",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shell on the Cliff",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1350,
+                                "y": 1370
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dig",
+                                "hosted_item": "shellD8A8",
+                                "access_rules": [
+                                    "shovel"
+                                ],
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "chest_opened_img": "images/shelld.png",
+                                "chest_unopened_img": "images/shell.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl Statue On the Cliff",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1385,
+                                "y": 1370
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Owl Statue",
+                                "chest_opened_img": "images/owlstatue_d.png",
+                                "chest_unopened_img": "images/owlstatue.png",
+                                "hosted_item": "owlD8A8",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_overworld",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Rapids Ride",
+                "children": [
+                    {
+                        "name": "Rapids 1",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2021,
+                                "y": 682
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "First Chest",
+                                "hosted_item": "itemD85C"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rapids 2",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2211,
+                                "y": 677
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Second Chest",
+                                "hosted_item": "itemD85D"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl Statue in the Rapids",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2168,
+                                "y": 677
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Owl Statue",
+                                "chest_opened_img": "images/owlstatue_d.png",
+                                "chest_unopened_img": "images/owlstatue.png",
+                                "hosted_item": "owlD85D",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_overworld",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl Statue after the Rapids",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2551,
+                                "y": 1113
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Owl Statue",
+                                "chest_opened_img": "images/owlstatue_d.png",
+                                "chest_unopened_img": "images/owlstatue.png",
+                                "hosted_item": "owlD88F",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_overworld",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Yarna Desert",
+                "children": [
+                    {
+                        "name": "Lanmola",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2348,
+                                "y": 1625
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "hosted_item": "itemD8CE",
+                                "access_rules": [
+                                    "sword1",
+                                    "hookshot",
+                                    "rod",
+                                    "bow"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl Statue in the Desert",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2480,
+                                "y": 1585
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Owl Statue",
+                                "chest_opened_img": "images/owlstatue_d.png",
+                                "chest_unopened_img": "images/owlstatue.png",
+                                // "item_count": "owlD8CF",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_overworld",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desert Shell",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2519,
+                                "y": 2023
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Under the Lower Rock",
+                                "hosted_item": "shellD8FF",
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "access_rules": ["lift1"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Central Tal Tal Heights",
+                "children": [
+                    {
+                        "name": "North-East Bridge",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2081,
+                                "y": 42
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Shell under the Top-Right Rock",
+                                "hosted_item": "shellD80C",
+                                "chest_unopened_img": "images/shell.png",
+                                "chest_opened_img": "images/shelld.png",
+                                "visibility_rules": ["ladxr_setting_shellsanity_on"],
+                                "access_rules": [
+                                    "[feather], boots, lift1",
+                                    "feather, lift1"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Path to Paphl",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1595,
+                                "y": 190
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest",
+                                "hosted_item": "itemDA8A",
+                                "visibility_rules": ["$view_connector_logic"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mountain Access",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1190,
+                                "y": 175
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 1368,
+                                "y": 158
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Interior",  //hookshot to the skull
+                                "hosted_item": "itemDABB",
+                                "access_rules": ["hookshot"],
+                                "visibility_rules": ["$view_connector_logic"]
+                            },
+                            {
+                                "name": "Exterior",  //before the boots obstacles
+                                "hosted_item": "itemD818",
+                                "visibility_rules": ["$view_connector_logic"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Behind the Wall",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 1190,
+                                "y": 74
+                            },
+                            {
+                                "map": "worldmap",
+                                "x": 947,
+                                "y": 190
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bomb the Alcove on the South Wall",
+                                "access_rules": [
+                                    "bombs",
+
+                                    "itemD804, hookshot, bombs" //assuming you can come from the other side because of connectors
+                                ],
+                                "visibility_rules": ["setting_heartPiece_shuffle_on, $view_connector_logic"],
+                                "capture_item": true,
+                                "hosted_item": "itemDABA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Eastern Tal Tal Heights",
+                "children": [
+                    {
+                        "name": "5 Chest Game",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2131,
+                                "y": 173
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bomb the Dry Spot. You only have to open one.",
+                                "access_rules": [
+                                    "bombs"
+                                ],
+                                "hosted_item": "itemDAF2",
+                                "visibility_rules": ["$view_connector_logic"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Chest Game",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2195,
+                                "y": 158
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chest on Ledge",
+                                "access_rules": [
+                                    "bombs"
+                                ],
+                                "hosted_item": "itemD81D",
+                                "visibility_rules": ["$view_connector_logic"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl Statue near D7",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 2292,
+                                "y": 202
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Owl Statue",
+                                "chest_opened_img": "images/owlstatue_d.png",
+                                "chest_unopened_img": "images/owlstatue.png",
+                                "hosted_item": "owlD81E",
+                                "visibility_rules": [
+                                    "setting_ItemsOnOwlStatues_overworld",
+                                    "setting_ItemsOnOwlStatues_all"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Western Tal Tal Heights",
+                "children": [
+                    {
+                        "name": "West Tal Tal - Top of Mountain",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": 736,
+                                "y": 55
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Summit",
+                                "hosted_item": "itemD804"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
