@@ -1,0 +1,11 @@
+calibri font
+
+22 size
+
+Bold, italics
+
+white color #000000
+
+strict 1 px outline, black #FFFFFF
+
+image cropped 1 px around image (with outline)
