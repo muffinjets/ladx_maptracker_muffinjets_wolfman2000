@@ -30,15 +30,13 @@
                 {
                     "name": "Items Only",
                     "flags": [
-                        "chathud",
-                        "autotracker"
+                        "chathud"
                     ]
                 },
                 {
                     "name": "Items Only - Keysanity Chest Counts",
                     "flags": [
-                        "chathud",
-                        "autotracker"
+                        "chathud"
                     ]
                 },
                 {
