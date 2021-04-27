@@ -1674,7 +1674,7 @@
                                     "[D4SK:3], D4SK:1, [boots], feather, D4beak", //wrong way jump
                                     "hideKeyLogic, [boots], feather, D4beak",
 
-                                    "setting_HardLogic, feather, D4SK:1, D4beak",
+                                    "setting_HardLogic, feather, [D4SK:3], D4SK:1, D4beak",
                                     "setting_HardLogic, feather, hideKeyLogic, D4beak",
                                     
                                     "setting_HellLogic, boots, hookshot, D4SK:1, D4beak",
@@ -1706,9 +1706,9 @@
                                 "access_rules": [
                                     "shield, $can_attack, flippers, D4SK:3, [boots], feather",
                                     "shield, $can_attack, flippers, hideKeyLogic, [boots], feather",
-                                    "setting_HardLogic, feather, D4SK:1",
+                                    "setting_HardLogic, feather, [D4SK:3], D4SK:1",
                                     "setting_HardLogic, feather, hideKeyLogic", //Bootsless 4-way + Pixel perfect jump in that room
-                                    "setting_GlitchedLogic, feather, D4SK:1", 
+                                    "setting_GlitchedLogic, feather, [D4SK:3], D4SK:1", 
                                     "setting_GlitchedLogic, feather, hideKeyLogic" //Jesus Jump (Redundant, but here in case it needs to be changed later)
                                 ]
                             }
@@ -1736,19 +1736,19 @@
                                     "shield, $can_attack, D4SK:3, [boots], feather, flippers",
                                     "shield, $can_attack, hideKeyLogic, [boots], feather, flippers",
 
-                                    "setting_HardLogic, lift1, feather, D4SK:1, flippers", //kill enemies with pots
-                                    "setting_HardLogic, $can_attack, feather, D4SK:1, flippers",
+                                    "setting_HardLogic, lift1, feather, [D4SK:3], D4SK:1, flippers", //kill enemies with pots
+                                    "setting_HardLogic, $can_attack, feather, [D4SK:3], D4SK:1, flippers",
 
                                     "setting_HardLogic, lift1, feather, hideKeyLogic, flippers", //Bootsless 4-way
                                     "setting_HardLogic, $can_attack, feather, hideKeyLogic, flippers", 
 
-                                    "setting_HardLogic, lift1, feather, D4SK:1, boomerang", //Bootsless 4-way + catching the key as it falls
-                                    "setting_HardLogic, $can_attack, feather, D4SK:1, boomerang",
+                                    "setting_HardLogic, lift1, feather, [D4SK:3], D4SK:1, boomerang", //Bootsless 4-way + catching the key as it falls
+                                    "setting_HardLogic, $can_attack, feather, [D4SK:3], D4SK:1, boomerang",
 
                                     "setting_HardLogic, lift1, feather, hideKeyLogic, boomerang", 
                                     "setting_HardLogic, $can_attack, feather, hideKeyLogic, boomerang", 
 
-                                    "setting_GlitchedLogic, lift1, feather, D4SK:1", //superjump into the pit
+                                    "setting_GlitchedLogic, lift1, feather, [D4SK:3], D4SK:1,", //superjump into the pit
                                     "setting_GlitchedLogic, lift1, feather, hideKeyLogic",
                                     
                                     
@@ -1778,22 +1778,28 @@
                                 "hosted_item": "itemD968",
                                 "access_rules": [
                                     //CUE BALL PATH, sword required for cue ball
-                                    "shield, sword1, D4SK:4, [boots], feather",
-                                    "shield, setting_GoodBoy_on, chomp, D4SK:4, [boots], feather",
+                                    "shield, sword1, [D4SK:5], D4SK:2, [boots], feather",
+                                    "shield, setting_GoodBoy_on, chomp, [D4SK:4], D4SK:2, [boots], feather",
                                     "shield, sword1, hideKeyLogic, [boots], feather",
                                     "shield, setting_GoodBoy_on, chomp, hideKeyLogic, [boots], feather",
-                                    "setting_HardLogic, sword1, feather, D4SK:2",
+                                    "setting_HardLogic, sword1, feather, [D4SK:5], D4SK:2",
                                     "setting_HardLogic, sword1, feather, hideKeyLogic",
-                                    "setting_HellLogic, sword1, boots, hookshot, D4SK:2",
+                                    "setting_HellLogic, sword1, boots, hookshot, [D4SK:5], D4SK:2",
                                     "setting_HellLogic, sword1, boots, hookshot, hideKeyLogic",
 
-                                    //SOUTH WRAPAROUND PATH (WATER TRANSISTION WOULD ALREADY BE IN LOGIC WITH THIS)
+                                    //SOUTH WRAPAROUND PATH
                                     "shield, $can_attack, D4SK:3, [boots], feather",
                                     "shield, $can_attack, hideKeyLogic, [boots], feather",
-                                    "setting_HardLogic, feather, D4SK:1",
+                                    "setting_HardLogic, feather, [D4SK:3], D4SK:1",
                                     "setting_HardLogic, feather, hideKeyLogic",
-                                    "setting_HellLogic, boots, hookshot, D4SK:1",
-                                    "setting_HellLogic, boots, hookshot, hideKeyLogic"
+                                    "setting_HellLogic, boots, hookshot, [D4SK:3], D4SK:1",
+                                    "setting_HellLogic, boots, hookshot, hideKeyLogic",
+
+                                    //Water transition
+                                    "shield, D4SK:3, [boots], feather",
+                                    "shield, hideKeyLogic, [boots], feather",
+                                    "setting_HardLogic, feather, flippers, [D4SK:3], D4SK:1",
+                                    "setting_HardLogic, feather, flippers, hideKeyLogic"
                                 ]
                             }
                         ]
@@ -1811,20 +1817,29 @@
                             {
                                 "hosted_item": "itemD960",
                                 "access_rules": [
-                                    //IDENTICAL LOGIC TO "CUE BALL PATH" ABOVE + GOING BACKWARDS FROM CUE BALL
-                                    "shield, sword1, D4SK:4, [boots], feather",
-                                    "shield, setting_GoodBoy_on, chomp, D4SK:4, [boots], feather",
+                                    //CUE BALL PATH, sword required for cue ball
+                                    "shield, sword1, [D4SK:5], D4SK:2, [boots], feather",
+                                    "shield, setting_GoodBoy_on, chomp, [D4SK:4], D4SK:2, [boots], feather",
                                     "shield, sword1, hideKeyLogic, [boots], feather",
                                     "shield, setting_GoodBoy_on, chomp, hideKeyLogic, [boots], feather",
-                                    "shield, D4SK:3, [boots], feather, flippers",
+                                    "setting_HardLogic, sword1, feather, [D4SK:5], D4SK:2",
+                                    "setting_HardLogic, sword1, feather, hideKeyLogic",
+                                    "setting_HellLogic, sword1, boots, hookshot, [D4SK:5], D4SK:2",
+                                    "setting_HellLogic, sword1, boots, hookshot, hideKeyLogic",
 
-                                    "shield, hideKeyLogic, [boots], feather, flippers",
-
-                                    "setting_HardLogic, feather, D4SK:2",
+                                    //SOUTH WRAPAROUND PATH
+                                    "shield, $can_attack, D4SK:3, [boots], feather",
+                                    "shield, $can_attack, hideKeyLogic, [boots], feather",
+                                    "setting_HardLogic, feather, [D4SK:3], D4SK:1",
                                     "setting_HardLogic, feather, hideKeyLogic",
+                                    "setting_HellLogic, boots, hookshot, [D4SK:3], D4SK:1",
+                                    "setting_HellLogic, boots, hookshot, hideKeyLogic",
 
-                                    "setting_GlitchedLogic, feather, D4SK:1",
-                                    "setting_GlitchedLogic, feather, hideKeyLogic"
+                                    //Water transition
+                                    "shield, D4SK:3, [boots], feather",
+                                    "shield, hideKeyLogic, [boots], feather",
+                                    "setting_HardLogic, feather, flippers, [D4SK:3], D4SK:1",
+                                    "setting_HardLogic, feather, flippers, hideKeyLogic"
                                 ]
                             }
                         ]
