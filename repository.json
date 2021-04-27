@@ -57,7 +57,7 @@
             "version": "1.3.3",
             "uid": "gato_roboto_tracker_muffinjets",
             "link": "https://github.com/muffinjets/GatoRobotoMapTracker/releases/download/1.3.3/gato_roboto_tracker_muffinjets.zip",
-            "documentation_url": "https://github.com/muffinjets/ladx_maptracker_muffinjets_wolfman2000/blob/master/README.md",
+            "documentation_url": "https://github.com/muffinjets/gato_roboto_tracker_muffinjets/blob/master/README.md",
             "flags": [
                 "map",
                 "pins",
