@@ -587,7 +587,7 @@
                                     "lift1, hookshot",
 
                                     "setting_HardLogic, lift1, boots, feather",
-                                    "setting_HardLogic, hookshot"
+                                    "setting_HardLogic, $can_break_grass, hookshot"
                                 ]
                             }
                         ]
@@ -914,9 +914,9 @@
                                     "feather, $can_break_grass, [bombs]",
                                     "{lift1}",
 
-                                    "setting_HardLogic, feather",
-                                    "setting_HardLogic, hookshot",
-                                    "setting_HardLogic, boomerang"
+                                    "setting_HardLogic, lift1, feather",
+                                    "setting_HardLogic, lift1, hookshot",
+                                    "setting_HardLogic, lift1, boomerang"
                                 ],
                                 "hosted_item": "itemDADF",
                                 "visibility_rules": ["setting_heartPiece_shuffle_on"],
@@ -2333,7 +2333,7 @@
                             "{sword1, lift1}",
                             "{setting_GoodBoy_on, lift1}",
 
-                            "setting_GlitchedLogic, bombs"
+                            "setting_GlitchedLogic, lift1, bombs"
 
                         ],
                         "visibility_rules": ["setting_heartPiece_shuffle_on"],

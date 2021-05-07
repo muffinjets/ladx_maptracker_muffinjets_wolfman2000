@@ -497,7 +497,9 @@
                                 "name": "300 Rupees for the Worst Song",
                                 "access_rules": ["$can_break_grass,lift1,boots,[feather],hookshot, ocarina"],
                                 "hosted_item": "itemDAFB",
-                                "visibility_rules": ["$view_connector_logic"]
+                                "visibility_rules": [
+                                    "$not_insanity"
+                                ]
                             }
                         ]
                     },

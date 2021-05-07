@@ -143,6 +143,11 @@ Order of operations:
     Do test runs
 
 
+$can_break_grass added to Hookshot Cave in Hard Logic and above
+Added lift1 to Graveyard Connector Cave in Hard Logic and above
+Added lift1 to Next to Mountain Access in Glitched Logic and Above
+Fixed Signpost Maze visibility in ER
+
 
 
 
