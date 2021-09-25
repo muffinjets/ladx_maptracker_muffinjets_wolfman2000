@@ -70,7 +70,7 @@
             "author": "MuffinJets",
             "version": "1.0",
             "uid": "las_maptracker_muffinjets",
-            "link": "https://github.com/muffinjets/las_maptracker_muffinjets/releases/download/1.0/las_maptracker_muffinjets.zip",
+            "link": "https://github.com/muffinjets/las_maptracker_muffinjets/releases/download/1.0.1/las_maptracker_muffinjets.zip",
             "documentation_url": "https://github.com/muffinjets/las_maptracker_muffinjets/blob/main/README.md",
             "flags": [
                 "chathud"
