@@ -142,12 +142,9 @@ Redo ER variant, rename it to account for LADXR
 Order of operations:
     Do test runs
 
-
-$can_break_grass added to Hookshot Cave in Hard Logic and above
-Added lift1 to Graveyard Connector Cave in Hard Logic and above
-Added lift1 to Next to Mountain Access in Glitched Logic and Above
-Fixed Signpost Maze visibility in ER
-
+D6 Blade trap SW chest needs $kill_wizz
+Swamp Chest in Hard Logic needs to expect clipping into the flower
+Redo D5 hookshottable chests
 
 
 
