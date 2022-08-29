@@ -435,7 +435,13 @@ function view_connector_logic()
   end
 end
 
-
+function not_insanity()
+  if has("setting_ER_insanity") then
+    return 0
+  else
+    return 1
+  end
+end
 
 function one_instrument()
   if has("cello")
