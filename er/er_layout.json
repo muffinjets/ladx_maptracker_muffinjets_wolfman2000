@@ -7,7 +7,9 @@
             ["shield", "sword", "mushroom", "powdercapacity", "shovelsalesman", "bombscapacity", "bowcapacity"],
             ["feathersalesman", "bracelet", "bootssalesman", "flippers", "hookshotsalesman", "rodsalesman", "bothclothes"],
             ["ocarina", "marincheck", "manbocheck", "frogcheck", "chomp", "boomerangsalesman", "shells"],
-            ["tailkey", "anglerkey", "facekey", "eaglekey", "slime", "oneleaf"]
+            ["rooster", "tailkey", "anglerkey", "facekey", "eaglekey", "slime", "oneleaf"],
+            ["yoshi", "ribbon", "food", "bananas", "stick", "honey", "pineapple"],
+            ["flower", "letter", "broom", "hook", "necklace", "scale", "lens"]
         ]
     },
     "settings_grid": {
@@ -22,11 +24,11 @@
                         "type": "item",
                         "item": "setting_ER_simple"
                     },
-                    {
-                        "type": "item",
-                        "item": "setting_DungeonShuffle_on",
-                        "margin":"0, 30, 0, 0"
-                    },
+                    // {
+                    //     "type": "item",
+                    //     "item": "setting_DungeonShuffle_on",
+                    //     "margin":"0, 30, 0, 0"
+                    // },
                     {
                         "type": "item",
                         "item": "setting_hideRedundantCaves",
@@ -47,11 +49,11 @@
                         "item": "setting_ItemsOnOwlStatues_off",
                         "margin": "0, 150, 0, 0"
                     },
-                    {
-                        "type": "item",
-                        "item": "setting_RandomizeWitch_off",
-                        "margin":"0, 180, 0, 0"
-                    },
+                    // {
+                    //     "type": "item",
+                    //     "item": "setting_RandomizeWitch_off",
+                    //     "margin":"0, 180, 0, 0"
+                    // },
                     {
                         "type": "item",
                         "item": "setting_BoomerangSalesman_Normal",
@@ -72,11 +74,11 @@
                         "item": "setting_NormalLogic",
                         "margin": "0, 300, 0, 0"
                     },
-                    {
-                        "type": "item",
-                        "item": "setting_numinst8",
-                        "margin": "0, 330, 0, 0"
-                    }
+                    // {
+                    //     "type": "item",
+                    //     "item": "setting_numinst8",
+                    //     "margin": "0, 330, 0, 0"
+                    // }
                 ]
             }
         ]
@@ -449,78 +451,78 @@
                                         "maps": ["worldmap"]
                                     }
                                 },
-                                {
-                                    "title": "D1",
-                                    "icon": "images/cello.png",
-                                    "content": {
-                                        "type": "map",
-                                        "maps": ["D1"]
-                                    }
-                                },
-                                {
-                                    "title": "D2",
-                                    "icon": "images/conch.png",
-                                    "content": {
-                                        "type": "map",
-                                        "maps": ["D2"]
-                                    }
-                                },
-                                {
-                                    "title": "D3",
-                                    "icon": "images/bell.png",
-                                    "content": {
-                                        "type": "map",
-                                        "maps": ["D3"]
-                                    }
-                                },
-                                {
-                                    "title": "D4",
-                                    "icon": "images/harp.png",
-                                    "content": {
-                                        "type": "map",
-                                        "maps": ["D4"]
-                                    }
-                                },
-                                {
-                                    "title": "D5",
-                                    "icon": "images/marimba.png",
-                                    "content": {
-                                        "type": "map",
-                                        "maps": ["D5"]
-                                    }
-                                },
-                                {
-                                    "title": "D6",
-                                    "icon": "images/triangle.png",
-                                    "content": {
-                                        "type": "map",
-                                        "maps": ["D6"]
-                                    }
-                                },
-                                {
-                                    "title": "D7",
-                                    "icon": "images/organ.png",
-                                    "content": {
-                                        "type": "map",
-                                        "maps": ["D7"]
-                                    }
-                                },
-                                {
-                                    "title": "D8",
-                                    "icon": "images/drum.png",
-                                    "content": {
-                                        "type": "map",
-                                        "maps": ["D8"]
-                                    }
-                                },
-                                {
-                                    "title": "D0",
-                                    "icon": "images/redblue_mail.png",
-                                    "content": {
-                                        "type": "map",
-                                        "maps": ["D0"]
-                                    }
-                                }
+                                // {
+                                //     "title": "D1",
+                                //     "icon": "images/cello.png",
+                                //     "content": {
+                                //         "type": "map",
+                                //         "maps": ["D1"]
+                                //     }
+                                // },
+                                // {
+                                //     "title": "D2",
+                                //     "icon": "images/conch.png",
+                                //     "content": {
+                                //         "type": "map",
+                                //         "maps": ["D2"]
+                                //     }
+                                // },
+                                // {
+                                //     "title": "D3",
+                                //     "icon": "images/bell.png",
+                                //     "content": {
+                                //         "type": "map",
+                                //         "maps": ["D3"]
+                                //     }
+                                // },
+                                // {
+                                //     "title": "D4",
+                                //     "icon": "images/harp.png",
+                                //     "content": {
+                                //         "type": "map",
+                                //         "maps": ["D4"]
+                                //     }
+                                // },
+                                // {
+                                //     "title": "D5",
+                                //     "icon": "images/marimba.png",
+                                //     "content": {
+                                //         "type": "map",
+                                //         "maps": ["D5"]
+                                //     }
+                                // },
+                                // {
+                                //     "title": "D6",
+                                //     "icon": "images/triangle.png",
+                                //     "content": {
+                                //         "type": "map",
+                                //         "maps": ["D6"]
+                                //     }
+                                // },
+                                // {
+                                //     "title": "D7",
+                                //     "icon": "images/organ.png",
+                                //     "content": {
+                                //         "type": "map",
+                                //         "maps": ["D7"]
+                                //     }
+                                // },
+                                // {
+                                //     "title": "D8",
+                                //     "icon": "images/drum.png",
+                                //     "content": {
+                                //         "type": "map",
+                                //         "maps": ["D8"]
+                                //     }
+                                // },
+                                // {
+                                //     "title": "D0",
+                                //     "icon": "images/redblue_mail.png",
+                                //     "content": {
+                                //         "type": "map",
+                                //         "maps": ["D0"]
+                                //     }
+                                // }
                             ]
                         }
                     ]

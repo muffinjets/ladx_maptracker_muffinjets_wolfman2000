@@ -442,5 +442,29 @@
 		"type": "toggle",
 		"img": "images/csnotif.png",
 		"codes": "csnotif"
-    }
+    },
+	{
+		"name": "Sale the Crocodile",
+		"type": "toggle",
+		"img": "images/cssale.png",
+		"codes": "cssale"
+	},
+	{
+		"name": "Animal Village Bear",
+		"type": "toggle",
+		"img": "images/csbear.png",
+		"codes": "csbear"
+	},
+	{
+		"name": "Animal Village Goat",
+		"type": "toggle",
+		"img": "images/csgoat.png",
+		"codes": "csgoat"
+	},
+	{
+		"name": "Mr. Write",
+		"type": "toggle",
+		"img": "images/cswrite.png",
+		"codes": "cswrite"
+	}
 ]

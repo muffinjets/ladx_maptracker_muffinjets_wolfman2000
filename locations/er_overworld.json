@@ -31,32 +31,32 @@
                             }
                         ]
                     },
-                    {
-                        "name": "Quadruplet's House",
-                        "map_locations": [
-                            {
-                                "map": "worldmap",
-                                "x": 440,
-                                "y": 1098
-                            }
-                        ],
-                        "sections": [
-                            {
-                                "name": "Give Yoshi Doll to Mother with Child",
-                                "access_rules": ["yoshi"],
-                                "hosted_item": "ribbon",
-                                "visibility_rules": ["yoshi"]
-                            }
-                        ]
-                    },
+                    // {
+                    //     "name": "Quadruplet's House",
+                    //     "map_locations": [
+                    //         {
+                    //             "map": "worldmap",
+                    //             "x": 440,
+                    //             "y": 1098
+                    //         }
+                    //     ],
+                    //     "sections": [
+                    //         {
+                    //             "name": "Give Yoshi Doll to Mother with Child",
+                    //             "access_rules": ["yoshi"],
+                    //             "hosted_item": "ribbon",
+                    //             "visibility_rules": ["yoshi"]
+                    //         }
+                    //     ]
+                    // },
                     {
                         "name": "Old Lady Wahoo",
                         "map_locations": [
-                            {
-                                "map": "worldmap",
-                                "x": 280, 
-                                "y": 1495
-                            },
+                            // {
+                            //     "map": "worldmap",
+                            //     "x": 280, 
+                            //     "y": 1495
+                            // },
                             {
                                 "map": "worldmap",
                                 "x": 2184,
@@ -66,8 +66,8 @@
                         "sections": [
                             {
                                 "name": "WAHOO!",
-                                "hosted_item": "hook",
-                                "visibility_rules": ["broom"]
+                                "visibility_rules": ["broom"],
+                                "item_count": 1
                             }
                         ]
                     },
@@ -456,7 +456,7 @@
                         "sections": [
                             {
                                 "name": "Give Tarin the Stick",
-                                "hosted_item": "beehive",
+                                "item_count": 1,
                                 "visibility_rules": ["stick"]
                                 
                             }
@@ -664,7 +664,7 @@
                             {
                                 "name": "Bohnan",
                                 "visibility_rules": ["bananas"],
-                                "hosted_item": "stick"
+                                "item_count": 1
                             }
                         ]
                     },
@@ -795,7 +795,7 @@
                         ]
                     },
                     {
-                        "name": "Give the Mermaid her clothing back",
+                        "name": "Give the Mermaid her Necklace back",
                         "map_locations":[
                             {
                                 "map": "worldmap",
@@ -806,7 +806,7 @@
                         "sections": [
                             {
                                 "name": "Pervert",
-                                "hosted_item": "scale",
+                                "item_count": 1,
                                 "visibility_rules": ["bra"]
                             }
                         ]
@@ -832,7 +832,7 @@
                         ]
                     },
                     {
-                        "name": "Give the Hook for the Bra/Necklace",
+                        "name": "Give the Hook for the Necklace",
                         "map_locations": [
                             {
                                 "map":"worldmap",
@@ -843,8 +843,8 @@
                         "sections": [
                             {
                                 "name": "Hook a Big One",
-                                "hosted_item": "bra",
-                                "visibility_rules": ["hook"]
+                                "visibility_rules": ["hook"],
+                                "item_count": 1
                             }
                         ]
                     },
@@ -887,6 +887,23 @@
                                     "setting_ItemsOnOwlStatues_overworld",
                                     "setting_ItemsOnOwlStatues_all"
                                 ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mermaid Statue",
+                        "map_locations": [
+                            {
+                                "map": "worldmap",
+                                "x": "1562",
+                                "y": "1862"
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Inside the Statue",
+                                "item_count": 1,
+                                "visibility_rules": ["scale"]
                             }
                         ]
                     },

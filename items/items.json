@@ -36,81 +36,165 @@
 		"img": "images/fire_rod.png",
 		"codes": "firerod, rod"
 	},
+	// {
+	// 	"name": "Trade",
+	// 	"type": "progressive",
+	// 	"stages": [
+	// 		{
+	// 			"img": "images/yoshi.png",
+	// 			"codes": "yoshi",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/ribbon.png",
+	// 			"codes": "ribbon",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/food.png",
+	// 			"codes": "food",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/bananas.png",
+	// 			"codes": "bananas",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/stick.png",
+	// 			"codes": "stick",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/honey.png",
+	// 			"codes": "honey,beehive,hive",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/pineapple.png",
+	// 			"codes": "pineapple",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/flower.png",
+	// 			"codes": "flower",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/letter.png",
+	// 			"codes": "letter",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/broom.png",
+	// 			"codes": "broom",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/hook.png",
+	// 			"codes": "hook",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/bra.png",
+	// 			"codes": "bra,necklace",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/scale.png",
+	// 			"codes": "scale",
+	// 			"inherit_codes": false
+	// 		},
+	// 		{
+	// 			"img": "images/lens.png",
+	// 			"codes": "lens",
+	// 			"inherit_codes": false
+	// 		}
+	// 	]
+	// },
 	{
-		"name": "Trade",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/yoshi.png",
-				"codes": "yoshi",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/ribbon.png",
-				"codes": "ribbon",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/food.png",
-				"codes": "food",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/bananas.png",
-				"codes": "bananas",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/stick.png",
-				"codes": "stick",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/honey.png",
-				"codes": "honey,beehive,hive",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/pineapple.png",
-				"codes": "pineapple",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/flower.png",
-				"codes": "flower",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/letter.png",
-				"codes": "letter",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/broom.png",
-				"codes": "broom",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/hook.png",
-				"codes": "hook",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/bra.png",
-				"codes": "bra,necklace",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/scale.png",
-				"codes": "scale",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/lens.png",
-				"codes": "lens",
-				"inherit_codes": false
-			}
-		]
+		"name": "Yoshi Doll",
+		"type": "toggle",
+		"img": "images/yoshi.png",
+		"codes": "yoshi"
+	},
+	{
+		"name": "Ribbon",
+		"type": "toggle",
+		"img": "images/ribbon.png",
+		"codes": "ribbon"
+	},
+	{
+		"name": "Dog Food",
+		"type": "toggle",
+		"img": "images/food.png",
+		"codes": "food"
+	},
+	{
+		"name": "Banana",
+		"type": "toggle",
+		"img": "images/bananas.png",
+		"codes": "bananas"
+	},
+	{
+		"name": "Stick",
+		"type": "toggle",
+		"img": "images/stick.png",
+		"codes": "stick"
+	},
+	{
+		"name": "Honeycomb",
+		"type": "toggle",
+		"img": "images/honey.png",
+		"codes": "honey, beehive, hive"
+	},
+	{
+		"name": "Pineapple",
+		"type": "toggle",
+		"img": "images/pineapple.png",
+		"codes": "pineapple"
+	},
+	{
+		"name": "Hibiscus",
+		"type": "toggle",
+		"img": "images/flower.png",
+		"codes": "flower"
+	},
+	{
+		"name": "Love Letter",
+		"type": "toggle",
+		"img": "images/letter.png",
+		"codes": "letter"
+	},
+	{
+		"name": "Broom",
+		"type": "toggle",
+		"img": "images/broom.png",
+		"codes": "broom"
+	},
+	{
+		"name": "Fishing Hook",
+		"type": "toggle",
+		"img": "images/hook.png",
+		"codes": "hook"
+	},
+	{
+		"name": "Necklace",
+		"type": "toggle",
+		"img": "images/bra.png",
+		"codes": "necklace, bra"
+	},
+	{
+		"name": "Mermaid Scale",
+		"type": "toggle",
+		"img": "images/scale.png",
+		"codes": "scale"
+	},
+	{
+		"name": "Magnifying Lens",
+		"type": "toggle",
+		"img": "images/lens.png",
+		"codes": "lens"
 	},
 	{
 		"name": "Shovel",

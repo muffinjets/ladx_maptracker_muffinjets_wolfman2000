@@ -14,8 +14,9 @@ print("Hi! If you see any error text at all, screenshot it and send it to Muffin
 if (string.find(Tracker.ActiveVariantUID, "items_only")) then
     Tracker:AddItems("items/ladxr_settings.json")
     Tracker:AddLayouts("items_only/itemsOnly.json")
-    Tracker:AddLayouts("layouts/items_only_broadcast.json")
+    -- Tracker:AddLayouts("layouts/items_only_broadcast.json")
     Tracker:AddLayouts("layouts/capture.json")
+    ScriptHost:LoadScript("scripts/autotracking.lua")
 else if (string.find(Tracker.ActiveVariantUID, "keys_only")) then
     Tracker:AddItems("items/ladxr_settings.json")
     Tracker:AddLayouts("keys_only/keysOnly.json")
@@ -54,7 +55,7 @@ else if (string.find(Tracker.ActiveVariantUID, "cave_shuffle")) then
     Tracker:AddLayouts("layouts/ladxr_broadcast.json")
     Tracker:AddLayouts("layouts/ercapture.json")
     ScriptHost:LoadScript("scripts/capturebadgeer.lua")
-    -- ScriptHost:LoadScript("scripts/autotracking.lua")
+    ScriptHost:LoadScript("scripts/autotracking.lua")
 end
 end
 end

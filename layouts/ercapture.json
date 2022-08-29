@@ -8,11 +8,13 @@
             "item_margin": "1,2",
             "rows": [
                 //simple entrances
-                ["csshop","csbed","cstrendy","cssyrup","csmanbo","csfrog","csmoblin","csballchainknight"],
-                ["csbatter","csciao","csarmos","csroosterkeycave","csmansion","csobstacle","csoneway","cstriangle"],
+                ["csshop","csbed","cstrendy","cssyrup","csmanbo","csfrog","csmoblin"],
+                ["csbatter","csarmos","csroosterkeycave","csmansion","csobstacle","csoneway","cstriangle"],
 
-                ["csrichard","cstracy","csmama","cspapa","csboomerang","csdarknut", "csraft"],
+                ["csrichard","cstracy","csboomerang","csdarknut", "csballchainknight", "csraft"],
                 ["cscrystal", "cslogcave", "csgravestone", "csinnerrainbow", "csouterrainbow", "cs5chestgame", "csgoomba"],
+
+                ["csmama", "csciao", "cssale", "csbear", "cspapa", "csgoat", "cswrite"],
 
                 
                 ["csd0", "csd1","csd2","csd3","csd4","csd5","csd6","csd7","csd8"],

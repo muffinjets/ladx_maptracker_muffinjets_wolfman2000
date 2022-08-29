@@ -2,23 +2,23 @@
     "name": "MuffinJets' Link's Awakening Randomizer Package",
     "packages": [
         {
-            "name": "LADX Randomizer - Map and Item Tracker",
+            "name": "LADX Randomizer - Entrance Map and Item Tracker",
             "game_name": "Link's Awakening Randomizer",
             "author": "MuffinJets, wolfman2000",
-            "version": "2.0.4",
+            "version": "3.0.0",
             "uid": "ladx_maptracker_muffinjets_wolfman2000",
-            "link": "https://github.com/muffinjets/ladx_maptracker_muffinjets_wolfman2000/releases/download/2.0.4-b/ladx_maptracker_muffinjets_wolfman2000.zip",
+            "link": "https://github.com/muffinjets/ladx_maptracker_muffinjets_wolfman2000/releases/download/3.0.0/ladx_maptracker_muffinjets_wolfman2000.zip",
             "documentation_url": "https://github.com/muffinjets/ladx_maptracker_muffinjets_wolfman2000/blob/master/README.md",
             "variants": [
-                {
-                    "name": "LADXR Tracker",
-                    "flags": [
-                        "map",
-                        "pins",
-                        "chathud",
-                        "autotracker"
-                    ]
-                },
+                // {
+                //     "name": "LADXR Tracker",
+                //     "flags": [
+                //         "map",
+                //         "pins",
+                //         "chathud",
+                //         "autotracker"
+                //     ]
+                // },
                 {
                     "name": "Entrance Randomizer Tracker",
                     "flags": [
@@ -30,24 +30,25 @@
                 {
                     "name": "Items Only",
                     "flags": [
-                        "chathud"
-                    ]
-                },
-                {
-                    "name": "Items Only - Keysanity Chest Counts",
-                    "flags": [
-                        "chathud"
-                    ]
-                },
-                {
-                    "name": "Z4R Map Tracker (Old)",
-                    "flags": [
-                        "map",
-                        "pins",
                         "chathud",
                         "autotracker"
                     ]
-                }
+                },
+                // {
+                //     "name": "Items Only - Keysanity Chest Counts",
+                //     "flags": [
+                //         "chathud"
+                //     ]
+                // },
+                // {
+                //     "name": "Z4R Map Tracker (Old)",
+                //     "flags": [
+                //         "map",
+                //         "pins",
+                //         "chathud",
+                //         "autotracker"
+                //     ]
+                // }
             ]
         },
         {

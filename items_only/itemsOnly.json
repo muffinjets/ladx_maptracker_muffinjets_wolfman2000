@@ -8,11 +8,14 @@
           ["shield", "sword", "mushroom", "powdercapacity", "shovelsalesman", "bombscapacity", "bowcapacity"],
           ["feathersalesman", "bracelet", "bootssalesman", "flippers", "hookshotsalesman", "rodsalesman", "bothclothes"],
           ["ocarina", "marincheck", "manbocheck", "frogcheck", "chomp", "boomerangsalesman", "shells"],
-          ["tailkey", "anglerkey", "facekey", "eaglekey", "slime", "oneleaf"],
+          ["rooster", "tailkey", "anglerkey", "facekey", "eaglekey", "slime", "oneleaf"],
+          ["yoshi", "ribbon", "food", "bananas", "stick", "honey", "pineapple"],
+          ["flower", "letter", "broom", "hook", "necklace", "scale", "lens"],
 
-          ["cello", "D1chests", "conch", "D2chests", "bell", "D3chests"],
-          ["harp", "D4chests", "marimba", "D5chests", "triangle", "D6chests"],
-          ["organ", "D7chests", "drum", "D8chests", "colorfinish", "D0chests"]
+          ["", "drum", "cello", "colorfinish"],
+          ["organ", "", "", "conch"],
+          ["triangle", "", "", "bell"],
+          ["", "marimba", "harp", ""]
 
 
           // ["shield", "sword", "mushroompowder", "shovel"],
